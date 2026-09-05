@@ -1,0 +1,73 @@
+services:
+  db:
+    image: postgres:16-alpine
+    env_file:
+      - .env.production
+    volumes:
+      - pidb_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+    env_file:
+      - .env.production
+    depends_on:
+      db:
+        condition: service_healthy
+    command: ["sh", "-c", "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000"]
+    expose:
+      - "8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health/live')"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  admin-init:
+    build:
+      context: ./backend
+    env_file:
+      - .env.production
+    depends_on:
+      backend:
+        condition: service_healthy
+    command:
+      - sh
+      - -c
+      - >-
+        python -m app.cli ensure-admin
+        --email "$PIDB_ADMIN_EMAIL"
+        --name "$PIDB_ADMIN_NAME"
+        --password "$PIDB_ADMIN_PASSWORD"
+    restart: "no"
+
+  shopify-worker:
+    build:
+      context: ./backend
+    env_file:
+      - .env.production
+    depends_on:
+      backend:
+        condition: service_healthy
+    command: ["sh", "-c", "while true; do python -m app.cli process-shopify-jobs --limit 10 || true; sleep 60; done"]
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:19623:80"
+    restart: unless-stopped
+
+volumes:
+  pidb_postgres_data:
