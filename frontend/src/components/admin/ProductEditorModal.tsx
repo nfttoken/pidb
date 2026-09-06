@@ -20,7 +20,7 @@ import {
 import { DeleteOutlined, PlusOutlined, SaveOutlined, StopOutlined } from "@ant-design/icons";
 
 import { listBrands, listIngredients, listProductTypes, listSkinConcerns, listSkinTypes } from "../../api/catalog";
-import { addProductImage, deactivateProductImage, getProduct, getProductReadiness, updateProductCompliance, updateProductImage } from "../../api/products";
+import { addProductImage, deactivateProductImage, getProduct, getProductReadiness, reviewPriceSuggestion, updateProductCompliance, updateProductImage } from "../../api/products";
 import type { Brand, Ingredient, ProductType, Taxonomy } from "../../types/catalog";
 import type { Product, ProductCreatePayload, ProductUpdatePayload } from "../../types/product";
 
@@ -62,6 +62,8 @@ const preferenceOptions = [
 ];
 
 const complianceStatuses = ["pending", "reviewing", "approved", "blocked"];
+const priceSuggestionStatuses = ["pending", "reviewing", "approved", "blocked"] as const;
+const priceStatusColors: Record<string, string> = { pending: "processing", reviewing: "warning", approved: "success", blocked: "error" };
 const lifecycleStatuses = ["draft", "imported", "processing", "review", "ready", "published", "active", "inactive", "discontinued"];
 const statusTransitions: Record<string, string[]> = {
   draft: ["imported"], imported: ["processing"], processing: ["review"], review: ["ready", "processing"],
@@ -106,7 +108,7 @@ function productToForm(product: Product): ProductFormValues {
     warnings_zh: product.warnings_zh ?? "",
     country_of_origin: product.country_of_origin ?? "",
     source_inci: product.source_inci ?? "",
-    skus: product.skus.map((sku) => ({ sku: sku.sku, barcode: sku.barcode ?? "", variant_name_en: sku.variant_name_en ?? "", variant_name_zh: sku.variant_name_zh ?? "", net_quantity: sku.net_quantity ?? undefined, quantity_unit: sku.quantity_unit ?? "" })),
+    skus: product.skus.map((sku) => ({ sku: sku.sku, barcode: sku.barcode ?? "", variant_name_en: sku.variant_name_en ?? "", variant_name_zh: sku.variant_name_zh ?? "", net_quantity: sku.net_quantity ?? undefined, quantity_unit: sku.quantity_unit ?? "", suggested_price: sku.suggested_price ?? undefined, suggested_price_currency: sku.suggested_price_currency, suggested_price_note: sku.suggested_price_note ?? "" })),
     skin_type_ids: product.skin_types.map((item) => item.id),
     skin_concern_ids: product.skin_concerns.map((item) => item.id),
     ingredients: product.ingredients.map((item) => ({ ingredient_id: item.ingredient.id, position: item.position ?? undefined, is_key_ingredient: item.is_key_ingredient })),
@@ -136,6 +138,7 @@ export function ProductEditorModal({ open, productId, canReview, canEdit, onClos
   const canComplianceEdit = canEdit || canReview;
   const [imageDraft, setImageDraft] = useState<ImageDraft>(emptyImageDraft());
   const [imageEdits, setImageEdits] = useState<Record<string, ImageDraft>>({});
+  const [priceNotes, setPriceNotes] = useState<Record<string, string>>({});
   const productQuery = useQuery({ queryKey: ["product", productId], queryFn: () => getProduct(productId as string), enabled: open && editing });
   const readinessQuery = useQuery({ queryKey: ["product-readiness", productId], queryFn: () => getProductReadiness(productId as string), enabled: open && editing });
   const brandsQuery = useQuery({ queryKey: ["catalog", "brands"], queryFn: listBrands, enabled: open });
@@ -163,6 +166,11 @@ export function ProductEditorModal({ open, productId, canReview, canEdit, onClos
     onSuccess: () => { message.success("Image deactivated"); onSaved(); },
     onError: () => message.error("Image could not be deactivated"),
   });
+  const priceReviewMutation = useMutation({
+    mutationFn: ({ skuId, status, note }: { skuId: string; status: "pending" | "reviewing" | "approved" | "blocked"; note: string | null }) => reviewPriceSuggestion(productId as string, skuId, { status, note }),
+    onSuccess: () => { message.success("Price suggestion review saved"); onSaved(); },
+    onError: () => message.error("Price suggestion review could not be saved"),
+  });
   const catalogLoading = brandsQuery.isLoading || typesQuery.isLoading || skinTypesQuery.isLoading || concernsQuery.isLoading || ingredientsQuery.isLoading;
   const catalogError = brandsQuery.isError || typesQuery.isError || skinTypesQuery.isError || concernsQuery.isError || ingredientsQuery.isError;
 
@@ -172,6 +180,7 @@ export function ProductEditorModal({ open, productId, canReview, canEdit, onClos
       complianceForm.resetFields();
       setImageDraft(emptyImageDraft());
       setImageEdits({});
+      setPriceNotes({});
     } else if (productQuery.data) {
       const values = productToForm(productQuery.data);
       form.setFieldsValue(values);
@@ -246,7 +255,7 @@ export function ProductEditorModal({ open, productId, canReview, canEdit, onClos
                   <div className="admin-form-grid"><Form.Item label="Description (English)" name="description_en" rules={[{ required: true }]}><Input.TextArea rows={5} /></Form.Item><Form.Item label="Description (中文)" name="description_zh" rules={[{ required: true }]}><Input.TextArea rows={5} /></Form.Item><Form.Item label="How to use (English)" name="how_to_use_en" rules={[{ required: true }]}><Input.TextArea rows={4} /></Form.Item><Form.Item label="How to use (中文)" name="how_to_use_zh" rules={[{ required: true }]}><Input.TextArea rows={4} /></Form.Item><Form.Item label="Warnings (English)" name="warnings_en"><Input.TextArea rows={4} /></Form.Item><Form.Item label="Warnings (中文)" name="warnings_zh"><Input.TextArea rows={4} /></Form.Item></div>
                 </> },
                 { key: "skus", label: "SKUs", children: <Form.List name="skus">{(fields, { add, remove }) => <Space direction="vertical" style={{ display: "flex" }}>
-                  {fields.map((field) => <div key={field.key} className="admin-sku-row"><Form.Item {...field} label="SKU" name={[field.name, "sku"]} rules={[{ required: true }]}><Input /></Form.Item><Form.Item {...field} label="Barcode" name={[field.name, "barcode"]}><Input /></Form.Item><Form.Item {...field} label="Variant (EN)" name={[field.name, "variant_name_en"]}><Input /></Form.Item><Form.Item {...field} label="Variant (中文)" name={[field.name, "variant_name_zh"]}><Input /></Form.Item><Form.Item {...field} label="Quantity" name={[field.name, "net_quantity"]}><InputNumber min={0} style={{ width: "100%" }} /></Form.Item><Button aria-label="Remove SKU" icon={<DeleteOutlined />} onClick={() => remove(field.name)} /></div>)}
+                  {fields.map((field) => <div key={field.key} className="admin-sku-row"><Form.Item {...field} label="SKU" name={[field.name, "sku"]} rules={[{ required: true }]}><Input /></Form.Item><Form.Item {...field} label="Barcode" name={[field.name, "barcode"]}><Input /></Form.Item><Form.Item {...field} label="Variant (EN)" name={[field.name, "variant_name_en"]}><Input /></Form.Item><Form.Item {...field} label="Variant (中文)" name={[field.name, "variant_name_zh"]}><Input /></Form.Item><Form.Item {...field} label="Quantity" name={[field.name, "net_quantity"]}><InputNumber min={0} style={{ width: "100%" }} /></Form.Item><Form.Item {...field} label="Suggested price" name={[field.name, "suggested_price"]}><InputNumber min={0.01} precision={2} style={{ width: "100%" }} /></Form.Item><Form.Item {...field} label="Currency" name={[field.name, "suggested_price_currency"]}><Input maxLength={3} /></Form.Item><Button aria-label="Remove SKU" icon={<DeleteOutlined />} onClick={() => remove(field.name)} /></div>)}
                   <Button icon={<PlusOutlined />} onClick={() => add({ variant_name_en: "Default" })}>Add SKU</Button>
                 </Space>}</Form.List> },
               ]} />
@@ -261,6 +270,19 @@ export function ProductEditorModal({ open, productId, canReview, canEdit, onClos
               <Space wrap><Typography.Text strong>Lifecycle</Typography.Text><Tag>{product.status}</Tag>{readinessQuery.data && <Tag color={readinessQuery.data.ready ? "success" : "warning"}>Readiness {readinessQuery.data.score}%</Tag>}<Tag color={product.canada?.compliance_status === "approved" ? "success" : "warning"}>Compliance {product.canada?.compliance_status ?? "pending"}</Tag></Space>
               {readinessQuery.data && !readinessQuery.data.ready && <Alert type="warning" showIcon message="Readiness blockers" description={readinessQuery.data.blockers.join(" · ")} />}
               {canReview && <Space wrap><Select style={{ width: 180 }} placeholder="Change lifecycle status" options={statusTransitions[product.status]?.map((value) => ({ label: value, value })) ?? []} onChange={(value) => void onStatusChange(product.id, value)} /><Typography.Text type="secondary">Allowed: {transitionOptions.length ? transitionOptions.join(", ") : "none"}</Typography.Text></Space>}
+
+              <div>
+                <Typography.Title level={5}>Price suggestions</Typography.Title>
+                <Space direction="vertical" style={{ display: "flex" }}>
+                  {product.skus.map((sku) => <Space key={sku.id} wrap>
+                    <Typography.Text strong>{sku.sku}</Typography.Text>
+                    <Typography.Text>{sku.suggested_price == null ? "No suggested price" : `${sku.suggested_price} ${sku.suggested_price_currency}`}</Typography.Text>
+                    <Tag color={priceStatusColors[sku.suggested_price_status] ?? "default"}>{sku.suggested_price_status}</Tag>
+                    {canReview && <Input placeholder="Review note" value={priceNotes[sku.id] ?? sku.suggested_price_note ?? ""} onChange={(event) => setPriceNotes((current) => ({ ...current, [sku.id]: event.target.value }))} style={{ width: 220 }} />}
+                    {canReview && <Select value={sku.suggested_price_status} style={{ width: 130 }} options={priceSuggestionStatuses.map((value) => ({ label: value, value }))} loading={priceReviewMutation.isPending} onChange={(value: (typeof priceSuggestionStatuses)[number]) => priceReviewMutation.mutate({ skuId: sku.id, status: value, note: priceNotes[sku.id] ?? sku.suggested_price_note })} />}
+                  </Space>)}
+                </Space>
+              </div>
 
               <Form form={complianceForm} layout="vertical" disabled={!canComplianceEdit}>
                 <Typography.Title level={5}>Canada compliance</Typography.Title>

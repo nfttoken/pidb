@@ -1,0 +1,11 @@
+[    4545ms] [LOG] [stoq-pixel] initialized, shop: thekshop-ca.myshopify.com @ https://thekshop.ca/web-pixels/strict/app/web-pixel-2356936961@4668795798fc607bb245d7c252a26b3b.js:1
+[    4846ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ chrome-error://chromewebdata/:0
+[    4953ms] [LOG] [stoq-pixel] sessionId set (rank 3): ff122fb3... @ https://thekshop.ca/web-pixels/strict/app/web-pixel-2356936961@4668795798fc607bb245d7c252a26b3b.js:1
+[    4977ms] [ERROR] Framing 'https://shop.app/' violates the following Content Security Policy directive: "frame-ancestors 'self' https://shop.app https://admin.shopify.com". The request has been blocked.
+ @ :0
+[    5688ms] [LOG] [stoq-pixel] initialized {cart_token: , page_url: https://thekshop.ca/pages/brands, page_type: page, shop_domain: thekshop-ca.myshopify.com, market_id: 210960641} @ https://thekshop.ca/web-pixels/strict/app/web-pixel-2356936961@4668795798fc607bb245d7c252a26b3b.js:2
+[    5692ms] [LOG] [stoq-pixel] bundle_ready {page_url: https://thekshop.ca/pages/brands, page_type: page, shop_domain: thekshop-ca.myshopify.com, market_id: 210960641, cart_token: } @ https://thekshop.ca/web-pixels/strict/app/web-pixel-2356936961@4668795798fc607bb245d7c252a26b3b.js:2
+[    5697ms] [LOG] [stoq-pixel] sweep_ran {page_url: https://thekshop.ca/pages/brands, page_type: page, market_id: 210960641, cart_token: , app_version: 581} @ https://thekshop.ca/web-pixels/strict/app/web-pixel-2356936961@4668795798fc607bb245d7c252a26b3b.js:2
+[    6681ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://zooomyapps.com/salespop/ZooomySalesOrderCapture.js?shop=thekshop-ca.myshopify.com:0
+[    8785ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://thekshop.ca/web-pixels@80079e4cw22952a98p55856082md4f1b6b4/custom/web-pixel-59048193@1/sandbox/modern/pages/brands:6
+[    9948ms] [WARNING] In a sandboxed environment, addEventListener may not behave as expected. @ https://thekshop.ca/web-pixels@80079e4cw22952a98p55856082md4f1b6b4/custom/web-pixel-69271809@1/sandbox/modern/pages/brands:6

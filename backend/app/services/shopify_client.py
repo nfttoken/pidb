@@ -22,8 +22,8 @@ class ShopifyApiError(RuntimeError):
 class ShopifyClient:
     """Small REST client for the Shopify Admin API.
 
-    The client deliberately exposes only the product, image, and metafield operations
-    needed by PIDB. It never sends price or inventory fields.
+    The normal product payload deliberately excludes price and inventory fields.
+    Price changes are exposed only through the explicit variant update operation.
     """
 
     def __init__(self, client: httpx.AsyncClient | None = None):
@@ -90,6 +90,12 @@ class ShopifyClient:
         body = {"id": product_id, **payload}
         return (await self._request("PUT", f"/products/{product_id}.json", json={"product": body})).get(
             "product", {}
+        )
+
+    async def update_variant(self, variant_id: str, payload: dict[str, Any]) -> dict[str, Any]:
+        body = {"id": variant_id, **payload}
+        return (await self._request("PUT", f"/variants/{variant_id}.json", json={"variant": body})).get(
+            "variant", {}
         )
 
     async def list_metafields(self, product_id: str) -> list[dict[str, Any]]:

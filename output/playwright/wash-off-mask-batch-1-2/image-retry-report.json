@@ -1,0 +1,140 @@
+{
+  "attempted": 22,
+  "attached": 22,
+  "failed": 0,
+  "reused_hosted_urls": 21,
+  "results": [
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/beauty-of-joseon-red-bean-refreshing-pore-mask-140ml-beauty-of-joseon-kiokii-and-7810674.jpg?v=1784945717",
+      "product_id": "d8a04689-b4b0-4a62-ab2f-055ad6110c91",
+      "result": "attached",
+      "reused_hosted_url": false
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/beauty-of-joseon-red-bean-refreshing-pore-mask-140ml-beauty-of-joseon-kiokii-and-4826779.jpg?v=1784945716",
+      "product_id": "d8a04689-b4b0-4a62-ab2f-055ad6110c91",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/ground-rice-and-honey-glow-mask-150mlbeauty-of-joseonkiokii-and-222236.webp?v=1771617985",
+      "product_id": "3c037c7d-fd39-4b33-9d3e-0ca5c1c8bf27",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/im-from-rice-mask-110gim-from-627978.jpg?v=1771616931",
+      "product_id": "8f4dffe6-dcb1-4bfd-8d00-be8e7153597e",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/rice-mask-120gskinfoodkiokii-and-151007.webp?v=1771617851",
+      "product_id": "db15d67c-904c-4580-b7bc-37b6e896cf14",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/im-from-ginseng-mask-120gim-from-476403.jpg?v=1771616942",
+      "product_id": "eb431bc9-8634-4c98-a875-54c449903efd",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/im-from-ginseng-mask-120gim-from-451279.jpg?v=1771616942",
+      "product_id": "eb431bc9-8634-4c98-a875-54c449903efd",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/im-from-mugwort-mask-110gim-from-141419.jpg?v=1771616947",
+      "product_id": "bab76c3f-b344-4096-b63d-70f256ce0ab0",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/tunemakers-skin-conditioning-mask-70gtunemakerskiokii-and-8113843.png?v=1756479649",
+      "product_id": "d5b66b86-00bc-4160-b2ba-82b28fa12d06",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/torhop-saunan-heating-salt-facial-mask-90gtorhopkiokii-and-2817577.webp?v=1754547735",
+      "product_id": "105f89ae-1800-4866-9969-475db429466e",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/lindsay-charcoal-modeling-masklindsay-744734.webp?v=1771617777",
+      "product_id": "5c2c6d89-5a8f-4c55-96a7-2c37e89d1f8d",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-vitamin-mediheal-kiokii-and-6000152.webp?v=1776515828",
+      "product_id": "e4635d5a-aaa0-432a-a4d6-bec106d88578",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-vitamin-mediheal-kiokii-and-5848696.webp?v=1776515829",
+      "product_id": "e4635d5a-aaa0-432a-a4d6-bec106d88578",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-hyaluronate-moisture-mediheal-kiokii-and-8383148.webp?v=1776515830",
+      "product_id": "f02b4afd-0dc9-4af2-bce2-7b6938ab722d",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-teatree-calming-mediheal-kiokii-and-8646672.webp?v=1776515830",
+      "product_id": "fda0674d-7ef3-4570-93ee-bad025f7ed02",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-teatree-calming-mediheal-kiokii-and-9098097.webp?v=1776515830",
+      "product_id": "fda0674d-7ef3-4570-93ee-bad025f7ed02",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-madecassoside-blemish-mediheal-kiokii-and-9279069.webp?v=1776515830",
+      "product_id": "5c685475-48d3-4878-8aef-a668a4686e63",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/vt-reedle-shot-ex-collagen-modeling-packvt-cosmeticskiokii-and-458645.webp?v=1771618596",
+      "product_id": "c4b92a0c-2902-4738-bdef-16887d16a814",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/vt-reedle-shot-ex-hyaluronic-modeling-pack-1-pcvt-cosmeticskiokii-and-239644.webp?v=1771618596",
+      "product_id": "cd376953-eeeb-4490-9a09-508017862bdd",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/medicube-zero-pore-blackhead-mud-mask-100gmedicubekiokii-and-4833613.webp?v=1762394755",
+      "product_id": "91c1eb7c-caf1-4d26-9ade-c00c61a84aed",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/medicube-zero-pore-blackhead-mud-mask-100gmedicubekiokii-and-2730390.png?v=1762394756",
+      "product_id": "91c1eb7c-caf1-4d26-9ade-c00c61a84aed",
+      "result": "attached",
+      "reused_hosted_url": true
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-collagen-kiokii-and-kiokii-and-5556755.webp?v=1777487118",
+      "product_id": "8d6f8052-d05a-4d2a-ba31-e844c7987fb6",
+      "result": "attached",
+      "reused_hosted_url": true
+    }
+  ]
+}

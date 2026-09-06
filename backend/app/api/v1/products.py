@@ -7,12 +7,14 @@ from app.api.deps import DbSession, require_roles
 from app.models.catalog import Product
 from app.schemas.common import SuccessResponse
 from app.schemas.product import (
+    PriceSuggestionReview,
     ProductCreate,
     ProductListItem,
     ProductResponse,
     ProductIngredientResponse,
     ProductStatusChange,
     ProductUpdate,
+    SkuResponse,
 )
 from app.schemas.review import (
     ProductCanadaResponse,
@@ -85,6 +87,8 @@ async def products(
     search: str | None = None,
     product_status: Annotated[str | None, Query(alias="status")] = None,
     compliance_status: str | None = Query(default=None),
+    brand_id: uuid.UUID | None = Query(default=None),
+    product_type_id: uuid.UUID | None = Query(default=None),
 ):
     items, total = await list_products(
         db,
@@ -93,6 +97,8 @@ async def products(
         search=search,
         product_status=product_status,
         compliance_status=compliance_status,
+        brand_id=brand_id,
+        product_type_id=product_type_id,
     )
     data = {
         "items": [
@@ -142,6 +148,37 @@ async def update(
     if product is None:
         raise HTTPException(status_code=404, detail="Product not found")
     return SuccessResponse(data=_to_product_response(await update_product(db, product, payload)))
+
+
+@router.post("/{product_id}/skus/{sku_id}/price-suggestion/status", response_model=SuccessResponse[SkuResponse])
+async def review_price_suggestion(
+    product_id: uuid.UUID,
+    sku_id: uuid.UUID,
+    payload: PriceSuggestionReview,
+    db: DbSession,
+    current_user=Depends(require_roles("admin", "reviewer")),
+):
+    product = await get_product(db, product_id)
+    if product is None:
+        raise HTTPException(status_code=404, detail="Product not found")
+    sku = next((item for item in product.skus if item.id == sku_id), None)
+    if sku is None:
+        raise HTTPException(status_code=404, detail="SKU not found")
+    if payload.status == "approved" and sku.suggested_price is None:
+        raise HTTPException(status_code=409, detail="A suggested price is required before approval")
+    sku.suggested_price_status = payload.status
+    sku.suggested_price_note = payload.note
+    if payload.status == "pending":
+        sku.suggested_price_reviewed_at = None
+        sku.suggested_price_reviewed_by = None
+    else:
+        from datetime import UTC, datetime
+
+        sku.suggested_price_reviewed_at = datetime.now(UTC)
+        sku.suggested_price_reviewed_by = current_user.id
+    await db.commit()
+    await db.refresh(sku)
+    return SuccessResponse(data=sku)
 
 
 @router.post("/{product_id}/status", response_model=SuccessResponse[ProductResponse])

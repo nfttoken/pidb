@@ -1,0 +1,810 @@
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Find a Store" [ref=e10] [cursor=pointer]:
+            - /url: /pages/store-locator
+        - listitem [ref=e11]:
+          - link "Contact Us" [ref=e12] [cursor=pointer]:
+            - /url: /pages/contact-us
+      - generic [ref=e15]:
+        - generic [ref=e16]: Flash Sale Ends In
+        - generic [ref=e18]:
+          - generic [ref=e19]: "00 :"
+          - generic [ref=e21]: "12 :"
+          - generic [ref=e23]: "53 :"
+          - generic [ref=e25]: "20"
+        - link "Shop" [ref=e27] [cursor=pointer]:
+          - /url: /collections/bundles
+      - generic [ref=e29]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Facebook" [ref=e32] [cursor=pointer]:
+              - /url: https://www.facebook.com/KiokiiandInc/
+          - listitem [ref=e36]:
+            - link "Instagram" [ref=e37] [cursor=pointer]:
+              - /url: https://www.instagram.com/kiokii.official
+          - listitem [ref=e41]:
+            - link "TikTok" [ref=e42] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@kiokii.official
+          - listitem [ref=e46]:
+            - link "Pinterest" [ref=e47] [cursor=pointer]:
+              - /url: https://ca.pinterest.com/KiokiiOfficial/
+        - generic [ref=e51]:
+          - generic [ref=e54]:
+            - heading "Language" [level=2] [ref=e55]
+            - button "English" [ref=e56] [cursor=pointer]
+          - generic [ref=e61]:
+            - heading "Country/region" [level=2] [ref=e62]
+            - button "Canada (CAD $)" [ref=e63] [cursor=pointer]
+    - generic:
+      - banner:
+        - generic [ref=e67]:
+          - link [ref=e69] [cursor=pointer]:
+            - /url: /
+            - img "Kiokii and..." [ref=e70]
+          - search [ref=e74]:
+            - generic [ref=e75]:
+              - combobox "Search" [ref=e76]
+              - generic [ref=e77]: Search
+              - button "Clear search term" [ref=e78] [cursor=pointer]:
+                - generic [ref=e79]: Clear
+              - button "Search" [ref=e80] [cursor=pointer]
+          - generic [ref=e85]:
+            - link "Account" [ref=e86] [cursor=pointer]:
+              - /url: "#k-hub"
+            - link "Wishlist" [ref=e90] [cursor=pointer]:
+              - /url: /pages/wishlist
+            - link "Cart" [ref=e94] [cursor=pointer]:
+              - /url: /cart
+        - navigation "Primary" [ref=e101]:
+          - list [ref=e102]:
+            - listitem [ref=e103]:
+              - link "Special Offers" [ref=e104] [cursor=pointer]:
+                - /url: https://kiokii.com/collections
+            - listitem [ref=e112]:
+              - group [ref=e113]:
+                - generic "Trending" [ref=e114] [cursor=pointer]
+            - listitem [ref=e119]:
+              - group [ref=e120]:
+                - generic "Skincare" [ref=e121] [cursor=pointer]
+            - listitem [ref=e126]:
+              - group [ref=e127]:
+                - generic "Makeup" [ref=e128] [cursor=pointer]
+            - listitem [ref=e133]:
+              - group [ref=e134]:
+                - generic "Body & Hair" [ref=e135] [cursor=pointer]
+            - listitem [ref=e140]:
+              - group [ref=e141]:
+                - generic "Brands" [ref=e142] [cursor=pointer]
+            - listitem [ref=e147]:
+              - group [ref=e148]:
+                - generic "Explore" [ref=e149] [cursor=pointer]
+            - listitem [ref=e154]:
+              - link "Rewards" [ref=e155] [cursor=pointer]:
+                - /url: /pages/rewards
+    - link [ref=e162] [cursor=pointer]:
+      - /url: /policies/shipping-policy
+      - paragraph [ref=e163]: Canada Free shipping over $75 CAD
+    - main [ref=e164]:
+      - navigation "breadcrumbs" [ref=e167]:
+        - link "Home" [ref=e168] [cursor=pointer]:
+          - /url: /
+        - link "Collection" [ref=e170] [cursor=pointer]:
+          - /url: /collections/all
+        - generic [ref=e172]: Wash-Off Masks
+      - generic [ref=e179]:
+        - link [ref=e182] [cursor=pointer]:
+          - /url: /collections/clearance
+          - img "Clearance" [ref=e185]
+          - generic:
+            - heading "Clearance" [level=3]
+        - link [ref=e188] [cursor=pointer]:
+          - /url: /collections/bundles
+          - img "Dr.Althea 345 Relief Cream 50ml + Vitamin C Boosting Serum 30ml by Dr. Althea – Bundle" [ref=e191]
+          - generic:
+            - heading "Skincare Bundles" [level=3]
+        - link [ref=e194] [cursor=pointer]:
+          - /url: /collections/sun-care
+          - img "ROUND LAB Birch Juice Moisturizing Mild Up Sunscreen 50ml by Round Lab – Sunscreen" [ref=e197]
+          - generic:
+            - heading "Sunscreen" [level=3]
+        - link [ref=e200] [cursor=pointer]:
+          - /url: /collections/exosomes
+          - img "Medicube PDRN Pink Exosome Shot Serum 2000 30ml by Medicube – Serum & Ampoule" [ref=e203]
+          - generic:
+            - heading "Exosome" [level=3]
+        - link [ref=e206] [cursor=pointer]:
+          - /url: /collections/matcha-skincare
+          - img "TIRTIR Matcha Calming Cream 50ml by TIRTIR – Lotion & Cream" [ref=e209]
+          - generic:
+            - heading "Matcha Skincare" [level=3]
+        - link [ref=e212] [cursor=pointer]:
+          - /url: /collections/nad
+          - img "numbuzin No.9+ NAD+ Bio Lifting-sil Essence 50ml by numbuzin – Toner & Essence" [ref=e215]
+          - generic:
+            - heading "NAD+" [level=3]
+        - link [ref=e218] [cursor=pointer]:
+          - /url: /collections/cooling-skincare
+          - img "Cooling Skincare - Kiokii and..." [ref=e221]
+          - generic:
+            - heading "Cooling Skincare" [level=3]
+        - link [ref=e224] [cursor=pointer]:
+          - /url: /collections/reedle
+          - img "Reedle" [ref=e227]
+          - generic:
+            - heading "Reedle" [level=3]
+        - link [ref=e230] [cursor=pointer]:
+          - /url: /collections/dryness-dehydration
+          - img "Dr. Melaxin Cemenrete Cyano Pink Spicule Cream 50ml by Dr.Melaxin – Lotion & Cream" [ref=e233]
+          - generic:
+            - heading "Dry Skin" [level=3]
+        - link [ref=e236] [cursor=pointer]:
+          - /url: /collections/oily-skin-picks
+          - img "ilso Super Melting Sebum Softener 150ml by ilso – Toner & Essence" [ref=e239]
+          - generic:
+            - heading "Oily Skin" [level=3]
+        - link [ref=e242] [cursor=pointer]:
+          - /url: /collections/sensitive-skin
+          - img "COSRX Advanced Snail 96 Mucin Power Essence 100ml by COSRX – Toner & Essence" [ref=e245]
+          - generic:
+            - heading "Sensitive Skin" [level=3]
+        - link [ref=e248] [cursor=pointer]:
+          - /url: /collections/youth-boosters
+          - img "JM Solution H9 Hyaluronic Ampoule Moisturizing Mask by JM Solution – Sheet Mask" [ref=e251]
+          - generic:
+            - heading "Youth Boosters" [level=3]
+        - link [ref=e254] [cursor=pointer]:
+          - /url: /collections/barrier-first
+          - img "ROUND LAB Birch Juice Hand Cream 30ml by Round Lab – Hand Cream" [ref=e257]
+          - generic:
+            - heading "Barrier-first" [level=3]
+      - heading "Collection:" [level=1] [ref=e263]
+      - generic [ref=e265]:
+        - generic [ref=e267]:
+          - generic [ref=e268]:
+            - generic [ref=e269]:
+              - text: Compare (
+              - generic [ref=e270]: "0"
+              - generic [ref=e271]: /3
+              - text: )
+            - generic [ref=e272]:
+              - button "Compare" [disabled] [ref=e273]
+              - button "Clear all" [ref=e275] [cursor=pointer]
+          - list [ref=e277]:
+            - listitem [ref=e278]
+            - listitem [ref=e279]
+            - listitem [ref=e280]
+        - generic [ref=e283]:
+          - generic [ref=e285]:
+            - generic [ref=e286]:
+              - status [ref=e288]: 39 products
+              - button "Filter" [ref=e291] [cursor=pointer]
+            - generic [ref=e295]:
+              - generic [ref=e296]:
+                - checkbox "Compare:" [ref=e297] [cursor=pointer]
+                - generic [ref=e298] [cursor=pointer]: "Compare:"
+              - generic [ref=e301]:
+                - generic [ref=e302]: "Sort by:"
+                - combobox "Sort by:" [ref=e304] [cursor=pointer]:
+                  - option "Featured" [selected]
+                  - option "Most relevant"
+                  - option "Best selling"
+                  - option "Alphabetically, A-Z"
+                  - option "Alphabetically, Z-A"
+                  - option "Price, low to high"
+                  - option "Price, high to low"
+                  - option "Date, old to new"
+                  - option "Date, new to old"
+              - generic [ref=e305]:
+                - generic [ref=e306]: "View as:"
+                - button "View as grid" [ref=e307] [cursor=pointer]
+                - button "View as list" [ref=e311] [cursor=pointer]
+          - generic [ref=e316]:
+            - generic [ref=e317]:
+              - generic [ref=e320]:
+                - generic [ref=e321]:
+                  - link "Beauty of Joseon Red Bean Refreshing Pore Mask 140ml" [ref=e322] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/beauty-of-joseon-red-bean-refreshing-pore-mask
+                    - img "Beauty of Joseon Red Bean Refreshing Pore Mask 140ml by Beauty of Joseon – Wash-Off Mask" [ref=e325]
+                  - generic [ref=e326]: PDRN
+                  - button "Add to cart" [ref=e329] [cursor=pointer]
+                - generic [ref=e332]:
+                  - paragraph [ref=e333]:
+                    - link "Type:Wash-Off Mask" [ref=e334] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e335]:
+                    - link "Beauty of Joseon Red Bean Refreshing Pore Mask 140ml" [ref=e336] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/beauty-of-joseon-red-bean-refreshing-pore-mask
+                  - generic [ref=e338]:
+                    - generic [ref=e339]: Regular price
+                    - text: $26.99 CAD
+              - generic [ref=e342]:
+                - generic [ref=e343]:
+                  - link "Beauty of Joseon Ground Rice and Honey Glow Mask 150ml" [ref=e344] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/ground-rice-and-honey-glow-mask
+                    - img "Beauty of Joseon Ground Rice and Honey Glow Mask 150ml by Beauty of Joseon – Wash - Off Mask" [ref=e347]
+                  - button "Add to cart" [ref=e349] [cursor=pointer]
+                - generic [ref=e352]:
+                  - paragraph [ref=e353]:
+                    - link "Type:Wash-Off Mask" [ref=e354] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e355]:
+                    - link "Beauty of Joseon Ground Rice and Honey Glow Mask 150ml" [ref=e356] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/ground-rice-and-honey-glow-mask
+                  - generic [ref=e358]:
+                    - generic [ref=e359]: Regular price
+                    - text: $24.99 CAD
+              - generic [ref=e362]:
+                - generic [ref=e363]:
+                  - link "SKIN1004 Madagascar Centella Poremizing Quick Clay Stick Mask 27g" [ref=e364] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/skin1004-madagascar-centella-poremizing-quick-clay-stick-mask-27g
+                    - img "SKIN1004 Madagascar Centella Poremizing Quick Clay Stick Mask 27g by SKIN1004 – Wash - Off Mask" [ref=e367]
+                  - generic [ref=e368]: PDRN
+                  - button "Add to cart" [ref=e371] [cursor=pointer]
+                - generic [ref=e374]:
+                  - paragraph [ref=e375]:
+                    - link "Type:Wash-Off Mask" [ref=e376] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e377]:
+                    - link "SKIN1004 Madagascar Centella Poremizing Quick Clay Stick Mask 27g" [ref=e378] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/skin1004-madagascar-centella-poremizing-quick-clay-stick-mask-27g
+                  - generic [ref=e380]:
+                    - generic [ref=e381]: Regular price
+                    - text: $26.99 CAD
+              - generic [ref=e384]:
+                - generic [ref=e385]:
+                  - link "AXIS-Y Mugwort Pore Clarifying Wash Off Pack 100ml" [ref=e386] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/mugwort-pore-clarifying-wash-off-pack-100ml
+                    - img "AXIS - Y Mugwort Pore Clarifying Wash Off Pack 100ml by AXIS - Y – Wash - Off Mask" [ref=e389]
+                  - button "Add to cart" [ref=e391] [cursor=pointer]
+                - generic [ref=e394]:
+                  - paragraph [ref=e395]:
+                    - link "Type:Wash-Off Mask" [ref=e396] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e397]:
+                    - link "AXIS-Y Mugwort Pore Clarifying Wash Off Pack 100ml" [ref=e398] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/mugwort-pore-clarifying-wash-off-pack-100ml
+                  - generic [ref=e400]:
+                    - generic [ref=e401]: Regular price
+                    - text: $23.99 CAD
+              - generic [ref=e404]:
+                - generic [ref=e405]:
+                  - link "Im From Rice Mask 110g" [ref=e406] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/im-from-rice-mask-110g
+                    - img "Im From Rice Mask 110g by I'm From – Wash - Off Mask" [ref=e409]
+                  - generic [aria-hidden] [ref=e411]: Sold out
+                  - button "Add to cart" [disabled] [ref=e413]:
+                    - generic [ref=e414]: Sold out
+                - generic [ref=e416]:
+                  - paragraph [ref=e417]:
+                    - link "Type:Wash-Off Mask" [ref=e418] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e419]:
+                    - link "Im From Rice Mask 110g" [ref=e420] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/im-from-rice-mask-110g
+                  - generic [ref=e422]:
+                    - generic [ref=e423]: Regular price
+                    - text: $35.99 CAD
+              - generic [ref=e426]:
+                - generic [ref=e427]:
+                  - link "Skinfood Egg White Pore Mask 120g" [ref=e428] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/egg-white-pore-mask-120g
+                    - img "Skinfood Egg White Pore Mask 120g by Skinfood – Wash - Off Mask" [ref=e431]
+                  - button "Add to cart" [ref=e433] [cursor=pointer]
+                - generic [ref=e436]:
+                  - paragraph [ref=e437]:
+                    - link "Type:Wash-Off Mask" [ref=e438] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e439]:
+                    - link "Skinfood Egg White Pore Mask 120g" [ref=e440] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/egg-white-pore-mask-120g
+                  - generic [ref=e442]:
+                    - generic [ref=e443]: Regular price
+                    - text: $17.99 CAD
+              - generic [ref=e446]:
+                - generic [ref=e447]:
+                  - link "Skinfood Rice Mask 120g" [ref=e448] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/rice-mask-120g
+                    - img "Skinfood Rice Mask 120g by Skinfood – Wash - Off Mask" [ref=e451]
+                  - button "Add to cart" [ref=e453] [cursor=pointer]
+                - generic [ref=e456]:
+                  - paragraph [ref=e457]:
+                    - link "Type:Wash-Off Mask" [ref=e458] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e459]:
+                    - link "Skinfood Rice Mask 120g" [ref=e460] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/rice-mask-120g
+                  - generic [ref=e462]:
+                    - generic [ref=e463]: Regular price
+                    - text: $17.99 CAD
+              - link "Long Weekend Sale - 15% OFF bundles" [ref=e465] [cursor=pointer]:
+                - /url: /collections/bundles
+                - img "Kiokii and..." [ref=e471]
+              - generic [ref=e476]:
+                - generic [ref=e477]:
+                  - link "Im From Ginseng Mask 120g" [ref=e478] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/im-from-ginseng-mask-120g
+                    - img "Im From Ginseng Mask 120g by I'm From – Wash - Off Mask" [ref=e481]
+                  - generic [aria-hidden] [ref=e483]: Sold out
+                  - button "Add to cart" [disabled] [ref=e485]:
+                    - generic [ref=e486]: Sold out
+                - generic [ref=e488]:
+                  - paragraph [ref=e489]:
+                    - link "Type:Wash-Off Mask" [ref=e490] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e491]:
+                    - link "Im From Ginseng Mask 120g" [ref=e492] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/im-from-ginseng-mask-120g
+                  - generic [ref=e494]:
+                    - generic [ref=e495]: Regular price
+                    - text: $47.99 CAD
+              - generic [ref=e498]:
+                - generic [ref=e499]:
+                  - link "Goodal Green Tangerine Vita C Wash Off Mask 110g" [ref=e500] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/green-tangerine-vita-c-wash-off-mask-110g
+                    - img "Goodal Green Tangerine Vita C Wash Off Mask 110g by Goodal – Wash - Off Mask" [ref=e503]
+                  - generic [aria-hidden] [ref=e505]: Sold out
+                  - button "Add to cart" [disabled] [ref=e507]:
+                    - generic [ref=e508]: Sold out
+                - generic [ref=e510]:
+                  - paragraph [ref=e511]:
+                    - link "Type:Wash-Off Mask" [ref=e512] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e513]:
+                    - link "Goodal Green Tangerine Vita C Wash Off Mask 110g" [ref=e514] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/green-tangerine-vita-c-wash-off-mask-110g
+                  - generic [ref=e516]:
+                    - generic [ref=e517]: Regular price
+                    - text: $27.99 CAD
+              - generic [ref=e520]:
+                - generic [ref=e521]:
+                  - link "Im From Mugwort Mask 110g" [ref=e522] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/im-from-mugwort-mask-110g
+                    - img "Im From Mugwort Mask 110g by I'm From – Wash - Off Mask" [ref=e525]
+                  - generic [aria-hidden] [ref=e527]: Sold out
+                  - button "Add to cart" [disabled] [ref=e529]:
+                    - generic [ref=e530]: Sold out
+                - generic [ref=e532]:
+                  - paragraph [ref=e533]:
+                    - link "Type:Wash-Off Mask" [ref=e534] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e535]:
+                    - link "Im From Mugwort Mask 110g" [ref=e536] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/im-from-mugwort-mask-110g
+                  - generic [ref=e538]:
+                    - generic [ref=e539]: Regular price
+                    - text: $45.99 CAD
+              - link "2 Best Sellers, 15% OFF" [ref=e541] [cursor=pointer]:
+                - /url: https://kiokii.com/collections/1-1-value-sets-12-off-on-bestsellers
+                - img "Kiokii and..." [ref=e546]
+              - link "Selected Skincare Buy 3 For 25% OFF" [ref=e550] [cursor=pointer]:
+                - /url: https://kiokii.com/collections/skin-school-2-0-buy-3-get-25-off
+                - img "Kiokii and..." [ref=e555]
+              - generic [ref=e560]:
+                - generic [ref=e561]:
+                  - link "AXIS-Y Mask Now Glow Later Duo Set" [ref=e562] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/axis-y-mask-now-glow-later-duo-set
+                    - img "AXIS - Y Mask Now Glow Later Duo Set by AXIS - Y – Wash - Off Mask" [ref=e565]
+                  - button "Add to cart" [ref=e567] [cursor=pointer]
+                - generic [ref=e570]:
+                  - paragraph [ref=e571]:
+                    - link "Type:Wash-Off Mask" [ref=e572] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e573]:
+                    - link "AXIS-Y Mask Now Glow Later Duo Set" [ref=e574] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/axis-y-mask-now-glow-later-duo-set
+                  - generic [ref=e576]:
+                    - generic [ref=e577]: Regular price
+                    - text: $24.99 CAD
+              - generic [ref=e580]:
+                - generic [ref=e581]:
+                  - link "TUNEMAKERS undiluted solution clay mask 100g" [ref=e582] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/tunemakers-clay-mask
+                    - img "TUNEMAKERS undiluted solution clay mask 100g by Tunemakers – Wash - Off Mask" [ref=e585]
+                  - generic [ref=e586]: GWP
+                  - button "Add to cart" [ref=e589] [cursor=pointer]
+                - generic [ref=e592]:
+                  - paragraph [ref=e593]:
+                    - link "Type:Wash-Off Mask" [ref=e594] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e595]:
+                    - link "TUNEMAKERS undiluted solution clay mask 100g" [ref=e596] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/tunemakers-clay-mask
+                  - generic [ref=e598]:
+                    - generic [ref=e599]: Regular price
+                    - text: $42.99 CAD
+              - generic [ref=e602]:
+                - generic [ref=e603]:
+                  - link "Skinfood Black Sugar Mask 120g" [ref=e604] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/black-sugar-mask-120g
+                    - img "Skinfood Black Sugar Mask 120g by Skinfood – Wash - Off Mask" [ref=e607]
+                  - generic [aria-hidden] [ref=e609]: Sold out
+                  - button "Add to cart" [disabled] [ref=e611]:
+                    - generic [ref=e612]: Sold out
+                - generic [ref=e614]:
+                  - paragraph [ref=e615]:
+                    - link "Type:Wash-Off Mask" [ref=e616] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e617]:
+                    - link "Skinfood Black Sugar Mask 120g" [ref=e618] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/black-sugar-mask-120g
+                  - generic [ref=e620]:
+                    - generic [ref=e621]: Regular price
+                    - text: $17.99 CAD
+              - generic [ref=e624]:
+                - generic [ref=e625]:
+                  - link "Tunemakers Skin Conditioning Mask 70g" [ref=e626] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/tunemakers-skin-conditioning-mask
+                    - img "Tunemakers Skin Conditioning Mask 70g by Tunemakers – Wash - Off Mask" [ref=e629]
+                  - generic [ref=e630]:
+                    - generic [ref=e631]: Clearance
+                    - generic [ref=e632]: GWP
+                  - button "Add to cart" [ref=e634] [cursor=pointer]
+                - generic [ref=e637]:
+                  - paragraph [ref=e638]:
+                    - link "Type:Wash-Off Mask" [ref=e639] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e640]:
+                    - link "Tunemakers Skin Conditioning Mask 70g" [ref=e641] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/tunemakers-skin-conditioning-mask
+                  - generic [ref=e643]:
+                    - generic [ref=e644]: Sale price
+                    - generic [ref=e645]: $33.59 CAD
+                    - generic [ref=e646]: Regular price
+                    - generic [ref=e647]: $47.99 CAD
+              - generic [ref=e650]:
+                - generic [ref=e651]:
+                  - link "Im From Fig Scrub Mask 120g" [ref=e652] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/im-from-fig-scrub-mask-120-g
+                    - img "Im From Fig Scrub Mask 120g by I'm From – Wash - Off Mask" [ref=e655]
+                  - generic [aria-hidden] [ref=e657]: Sold out
+                  - button "Add to cart" [disabled] [ref=e659]:
+                    - generic [ref=e660]: Sold out
+                - generic [ref=e662]:
+                  - paragraph [ref=e663]:
+                    - link "Type:Wash-Off Mask" [ref=e664] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e665]:
+                    - link "Im From Fig Scrub Mask 120g" [ref=e666] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/im-from-fig-scrub-mask-120-g
+                  - generic [ref=e668]:
+                    - generic [ref=e669]: Regular price
+                    - text: $40.99 CAD
+              - generic [ref=e672]:
+                - generic [ref=e673]:
+                  - link "BCL Tsururi Peel Off Mask Dirt Catch Charcoal 55g" [ref=e674] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/bcl-tsururi-peel-off-mask-dirt-catch-charcoal-55g
+                    - img "BCL Tsururi Peel Off Mask Dirt Catch Charcoal 55g by BCL – Wash - Off Mask" [ref=e677]
+                  - generic [ref=e678]:
+                    - generic [aria-hidden] [ref=e679]: Sold out
+                    - generic [ref=e680]: GWP
+                  - button "Add to cart" [disabled] [ref=e682]:
+                    - generic [ref=e683]: Sold out
+                - generic [ref=e685]:
+                  - paragraph [ref=e686]:
+                    - link "Type:Wash-Off Mask" [ref=e687] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e688]:
+                    - link "BCL Tsururi Peel Off Mask Dirt Catch Charcoal 55g" [ref=e689] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/bcl-tsururi-peel-off-mask-dirt-catch-charcoal-55g
+                  - generic [ref=e691]:
+                    - generic [ref=e692]: Regular price
+                    - text: $16.99 CAD
+              - generic [ref=e695]:
+                - generic [ref=e696]:
+                  - link "Torriden Dive In Modeling Pack 30g" [ref=e697] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/torriden-dive-in-modeling-pack-30g
+                    - img "Torriden Dive In Modeling Pack 30g by Torriden – Wash - Off Mask" [ref=e700]
+                  - generic [ref=e701]: PDRN
+                  - button "Add to cart" [ref=e704] [cursor=pointer]
+                - generic [ref=e707]:
+                  - paragraph [ref=e708]:
+                    - link "Type:Wash-Off Mask" [ref=e709] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e710]:
+                    - link "Torriden Dive In Modeling Pack 30g" [ref=e711] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/torriden-dive-in-modeling-pack-30g
+                  - generic [ref=e713]:
+                    - generic [ref=e714]: Regular price
+                    - text: $7.99 CAD
+              - generic [ref=e717]:
+                - generic [ref=e718]:
+                  - link "Isntree Gim PDRN Deep Sleep Mask 80ml" [ref=e719] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/isntree-gim-pdrn-deep-sleep-mask-80ml
+                    - img "Isntree Gim PDRN Deep Sleep Mask 80ml by Isntree – Wash - Off Mask" [ref=e722]
+                  - generic [ref=e723]:
+                    - generic [ref=e724]: 3 For 25% OFF
+                    - generic [ref=e725]: PDRN
+                  - button "Add to cart" [ref=e727] [cursor=pointer]
+                - generic [ref=e730]:
+                  - paragraph [ref=e731]:
+                    - link "Type:Wash-Off Mask" [ref=e732] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e733]:
+                    - link "Isntree Gim PDRN Deep Sleep Mask 80ml" [ref=e734] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/isntree-gim-pdrn-deep-sleep-mask-80ml
+                  - generic [ref=e736]:
+                    - generic [ref=e737]: Regular price
+                    - text: $24.99 CAD
+              - generic [ref=e740]:
+                - generic [ref=e741]:
+                  - link "Torhop Saunan Heating Salt Facial Mask 90g" [ref=e742] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/torhop-saunan-heating-salt-facial-mask-90g
+                    - img "Torhop Saunan Heating Salt Facial Mask 90g by Torhop – Wash - Off Mask" [ref=e745]
+                  - generic [ref=e746]: PDRN
+                  - button "Add to cart" [ref=e749] [cursor=pointer]
+                - generic [ref=e752]:
+                  - paragraph [ref=e753]:
+                    - link "Type:Wash-Off Mask" [ref=e754] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e755]:
+                    - link "Torhop Saunan Heating Salt Facial Mask 90g" [ref=e756] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/torhop-saunan-heating-salt-facial-mask-90g
+                  - generic [ref=e758]:
+                    - generic [ref=e759]: Regular price
+                    - text: $33.00 CAD
+              - generic [ref=e762]:
+                - generic [ref=e763]:
+                  - link "MEDIHEAL Hyaluron Hydrating Sleeping Mask 20ml" [ref=e764] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/mediheal-hyaluron-hydrating-sleeping-mask-20ml
+                    - img "MEDIHEAL Hyaluron Hydrating Sleeping Mask 20ml by Mediheal – Wash - Off Mask" [ref=e767]
+                  - generic [ref=e768]: PDRN
+                  - button "Add to cart" [ref=e771] [cursor=pointer]
+                - generic [ref=e774]:
+                  - paragraph [ref=e775]:
+                    - link "Type:Wash-Off Mask" [ref=e776] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e777]:
+                    - link "MEDIHEAL Hyaluron Hydrating Sleeping Mask 20ml" [ref=e778] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/mediheal-hyaluron-hydrating-sleeping-mask-20ml
+                  - generic [ref=e780]:
+                    - generic [ref=e781]: Regular price
+                    - text: $3.99 CAD
+              - generic [ref=e784]:
+                - generic [ref=e785]:
+                  - link "Lindsay Collagen Modeling Mask" [ref=e786] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/lindsay-collagen-modeling-mask
+                    - img "Lindsay Collagen Modeling Mask by Lindsay – Modeling Mask" [ref=e789]
+                  - button "Add to cart" [ref=e791] [cursor=pointer]
+                - generic [ref=e794]:
+                  - paragraph [ref=e795]:
+                    - link "Type:Modeling Mask" [ref=e796] [cursor=pointer]:
+                      - /url: /collections/types?q=Modeling%20Mask
+                      - text: Modeling Mask
+                  - heading [level=3] [ref=e797]:
+                    - link "Lindsay Collagen Modeling Mask" [ref=e798] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/lindsay-collagen-modeling-mask
+                  - generic [ref=e800]:
+                    - generic [ref=e801]: Regular price
+                    - text: $4.99 CAD
+              - generic [ref=e804]:
+                - generic [ref=e805]:
+                  - link "Lindsay Vitamin Modeling Mask" [ref=e806] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/lindsay-vitamin-modeling-mask
+                    - img "Lindsay Vitamin Modeling Mask by Lindsay – Modeling Mask" [ref=e809]
+                  - button "Add to cart" [ref=e811] [cursor=pointer]
+                - generic [ref=e814]:
+                  - paragraph [ref=e815]:
+                    - link "Type:Modeling Mask" [ref=e816] [cursor=pointer]:
+                      - /url: /collections/types?q=Modeling%20Mask
+                      - text: Modeling Mask
+                  - heading [level=3] [ref=e817]:
+                    - link "Lindsay Vitamin Modeling Mask" [ref=e818] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/lindsay-vitamin-modeling-mask
+                  - generic [ref=e820]:
+                    - generic [ref=e821]: Regular price
+                    - text: $4.99 CAD
+              - generic [ref=e824]:
+                - generic [ref=e825]:
+                  - link "Lindsay Calendula Modeling Mask" [ref=e826] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/lindsay-calendula-modeling-mask
+                    - img "Lindsay Calendula Modeling Mask by Lindsay – Modeling Mask" [ref=e829]
+                  - generic [aria-hidden] [ref=e831]: Sold out
+                  - button "Add to cart" [disabled] [ref=e833]:
+                    - generic [ref=e834]: Sold out
+                - generic [ref=e836]:
+                  - paragraph [ref=e837]:
+                    - link "Type:Modeling Mask" [ref=e838] [cursor=pointer]:
+                      - /url: /collections/types?q=Modeling%20Mask
+                      - text: Modeling Mask
+                  - heading [level=3] [ref=e839]:
+                    - link "Lindsay Calendula Modeling Mask" [ref=e840] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/lindsay-calendula-modeling-mask
+                  - generic [ref=e842]:
+                    - generic [ref=e843]: Regular price
+                    - text: $4.99 CAD
+              - generic [ref=e846]:
+                - generic [ref=e847]:
+                  - link "Lindsay Cool Tea Tree Modeling Mask" [ref=e848] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/lindsay-cool-tea-tree-modeling-mask
+                    - img "Lindsay Cool Tea Tree Modeling Mask by Lindsay – Modeling Mask" [ref=e851]
+                  - button "Add to cart" [ref=e853] [cursor=pointer]
+                - generic [ref=e856]:
+                  - paragraph [ref=e857]:
+                    - link "Type:Modeling Mask" [ref=e858] [cursor=pointer]:
+                      - /url: /collections/types?q=Modeling%20Mask
+                      - text: Modeling Mask
+                  - heading [level=3] [ref=e859]:
+                    - link "Lindsay Cool Tea Tree Modeling Mask" [ref=e860] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/lindsay-cool-tea-tree-modeling-mask
+                  - generic [ref=e862]:
+                    - generic [ref=e863]: Regular price
+                    - text: $4.99 CAD
+              - generic [ref=e866]:
+                - generic [ref=e867]:
+                  - link "Lindsay Charcoal Modeling Mask" [ref=e868] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/lindsay-charcoal-modeling-mask
+                    - img "Lindsay Charcoal Modeling Mask by Lindsay – Modeling Mask" [ref=e871]
+                  - button "Add to cart" [ref=e873] [cursor=pointer]
+                - generic [ref=e876]:
+                  - paragraph [ref=e877]:
+                    - link "Type:Modeling Mask" [ref=e878] [cursor=pointer]:
+                      - /url: /collections/types?q=Modeling%20Mask
+                      - text: Modeling Mask
+                  - heading [level=3] [ref=e879]:
+                    - link "Lindsay Charcoal Modeling Mask" [ref=e880] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/lindsay-charcoal-modeling-mask
+                  - generic [ref=e882]:
+                    - generic [ref=e883]: Regular price
+                    - text: $4.99 CAD
+              - generic [ref=e886]:
+                - generic [ref=e887]:
+                  - link "MEDIHEAL Derma Modeling Pack 28g - Vitamin" [ref=e888] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/mediheal-derma-modeling-powder-28g-vitamin
+                    - img "MEDIHEAL Derma Modeling Pack 28g - Vitamin by Mediheal – Modeling Mask" [ref=e891]
+                  - button "Add to cart" [ref=e893] [cursor=pointer]
+                - generic [ref=e896]:
+                  - paragraph [ref=e897]:
+                    - link "Type:Modeling Mask" [ref=e898] [cursor=pointer]:
+                      - /url: /collections/types?q=Modeling%20Mask
+                      - text: Modeling Mask
+                  - heading [level=3] [ref=e899]:
+                    - link "MEDIHEAL Derma Modeling Pack 28g - Vitamin" [ref=e900] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/mediheal-derma-modeling-powder-28g-vitamin
+                  - generic [ref=e902]:
+                    - generic [ref=e903]: Regular price
+                    - text: $6.99 CAD
+              - generic [ref=e906]:
+                - generic [ref=e907]:
+                  - link "MEDIHEAL Derma Modeling Pack 28g - Hyaluronate Moisture" [ref=e908] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/derma-modeling-powder-hyaluronate-moisture-28g
+                    - img "MEDIHEAL Derma Modeling Pack 28g - Hyaluronate Moisture by Mediheal – Modeling Mask" [ref=e911]
+                  - generic [ref=e912]:
+                    - generic [aria-hidden] [ref=e913]: Sold out
+                    - generic [ref=e914]: PDRN
+                  - button "Add to cart" [disabled] [ref=e916]:
+                    - generic [ref=e917]: Sold out
+                - generic [ref=e919]:
+                  - paragraph [ref=e920]:
+                    - link "Type:Modeling Mask" [ref=e921] [cursor=pointer]:
+                      - /url: /collections/types?q=Modeling%20Mask
+                      - text: Modeling Mask
+                  - heading [level=3] [ref=e922]:
+                    - link "MEDIHEAL Derma Modeling Pack 28g - Hyaluronate Moisture" [ref=e923] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/derma-modeling-powder-hyaluronate-moisture-28g
+                  - generic [ref=e925]:
+                    - generic [ref=e926]: Regular price
+                    - text: $6.99 CAD
+              - generic [ref=e929]:
+                - generic [ref=e930]:
+                  - link "MEDIHEAL Derma Modeling Pack 28g - Teatree Calming" [ref=e931] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/mediheal-derma-modeling-powder-28g-teatree-calming
+                    - img "MEDIHEAL Derma Modeling Pack 28g - Teatree Calming by Mediheal – Modeling Mask" [ref=e934]
+                  - button "Add to cart" [ref=e936] [cursor=pointer]
+                - generic [ref=e939]:
+                  - paragraph [ref=e940]:
+                    - link "Type:Modeling Mask" [ref=e941] [cursor=pointer]:
+                      - /url: /collections/types?q=Modeling%20Mask
+                      - text: Modeling Mask
+                  - heading [level=3] [ref=e942]:
+                    - link "MEDIHEAL Derma Modeling Pack 28g - Teatree Calming" [ref=e943] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/mediheal-derma-modeling-powder-28g-teatree-calming
+                  - generic [ref=e945]:
+                    - generic [ref=e946]: Regular price
+                    - text: $6.99 CAD
+              - generic [ref=e949]:
+                - generic [ref=e950]:
+                  - link "MEDIHEAL Derma Modeling Pack 28g - Madecassoside Blemish" [ref=e951] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/derma-modeling-powder-28g-madecassoside-blemish
+                    - img "MEDIHEAL Derma Modeling Pack 28g - Madecassoside Blemish by Mediheal – Modeling Mask" [ref=e954]
+                  - generic [aria-hidden] [ref=e956]: Sold out
+                  - button "Add to cart" [disabled] [ref=e958]:
+                    - generic [ref=e959]: Sold out
+                - generic [ref=e961]:
+                  - paragraph [ref=e962]:
+                    - link "Type:Modeling Mask" [ref=e963] [cursor=pointer]:
+                      - /url: /collections/types?q=Modeling%20Mask
+                      - text: Modeling Mask
+                  - heading [level=3] [ref=e964]:
+                    - link "MEDIHEAL Derma Modeling Pack 28g - Madecassoside Blemish" [ref=e965] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/derma-modeling-powder-28g-madecassoside-blemish
+                  - generic [ref=e967]:
+                    - generic [ref=e968]: Regular price
+                    - text: $6.99 CAD
+            - navigation "Pagination" [ref=e969]:
+              - list [ref=e970]:
+                - listitem [ref=e971]:
+                  - link "Page 1" [disabled] [ref=e972]: "1"
+                - listitem [ref=e973]:
+                  - link "Page 2" [ref=e974] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks?page=2
+                    - text: "2"
+                - listitem [ref=e975]:
+                  - link "Next" [ref=e976] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks?page=2
+      - generic [ref=e982]:
+        - heading [level=2] [ref=e985]
+        - generic [ref=e988]:
+          - group "1 / 9" [ref=e989]:
+            - link "Best Sellers" [ref=e991] [cursor=pointer]:
+              - /url: /collections/best-sellers
+          - group "2 / 9" [ref=e994]:
+            - link "New Arrivals" [ref=e996] [cursor=pointer]:
+              - /url: /collections/new-arrivals
+          - group "3 / 9" [ref=e999]:
+            - link "Sun Care" [ref=e1001] [cursor=pointer]:
+              - /url: /collections/sun-care
+          - group "4 / 9" [ref=e1004]:
+            - link "All Brands" [ref=e1006] [cursor=pointer]:
+              - /url: /pages/brands
+          - group "5 / 9" [ref=e1009]:
+            - link "Clearance" [ref=e1011] [cursor=pointer]:
+              - /url: /collections/clearance
+          - group "6 / 9" [ref=e1014]:
+            - link "Our Stores" [ref=e1016] [cursor=pointer]:
+              - /url: /pages/store-locator
+          - group "7 / 9" [ref=e1019]:
+            - link "Kiokii Rewards" [ref=e1021] [cursor=pointer]:
+              - /url: /pages/rewards
+          - group "8 / 9" [ref=e1024]:
+            - link "Medicube" [ref=e1026] [cursor=pointer]:
+              - /url: /collections/medicube
+          - group "9 / 9" [ref=e1029]:
+            - link "Celimax" [ref=e1031] [cursor=pointer]:
+              - /url: /collections/celimax
+  - button "Chat" [ref=e1039] [cursor=pointer]
+  - generic [ref=e1048]:
+    - generic [ref=e1050]:
+      - heading "Cart • 0" [level=3] [ref=e1051]
+      - button "Close cart" [ref=e1052] [cursor=pointer]
+    - generic [ref=e1055]:
+      - heading "Your cart is empty" [level=3] [ref=e1057]
+      - generic [ref=e1059]:
+        - heading "Add your favourite items to your cart." [level=3] [ref=e1060]
+        - link "Shop Now" [ref=e1062] [cursor=pointer]:
+          - /url: /
+  - region "Cookie consent" [active]:
+    - dialog "We respect your privacy" [ref=e1063]:
+      - generic [ref=e1064]:
+        - heading "We respect your privacy" [level=2] [ref=e1066]
+        - generic [ref=e1069]:
+          - text: This website uses cookies to ensure you get the best experience.
+          - link "Learn more" [ref=e1071] [cursor=pointer]:
+            - /url: /policies/privacy-policy
+        - generic [ref=e1073]:
+          - button "Accept" [ref=e1074] [cursor=pointer]
+          - button "Decline" [ref=e1075] [cursor=pointer]

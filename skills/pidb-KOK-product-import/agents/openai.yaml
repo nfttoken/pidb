@@ -1,0 +1,4 @@
+interface:
+  display_name: "PIDB KOK Product Import"
+  short_description: "Import authorized beauty products into PIDB"
+  default_prompt: "Use $pidb-KOK-product-import to import an authorized beauty product into PIDB."

@@ -12,7 +12,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import selectinload
 
 from app.core.config import settings
-from app.models.catalog import Product, ProductIngredient
+from app.models.catalog import Product, ProductIngredient, ProductSku
 from app.models.shopify import Job, ShopifyMapping, SyncLog
 from app.services.review import calculate_readiness
 from app.services.shopify_client import ShopifyApiError, ShopifyClient
@@ -222,6 +222,24 @@ def _validate_product(product: Product) -> None:
         )
 
 
+def _approved_price_updates(product: Product, mapping: ShopifyMapping) -> list[tuple[str, ProductSku, str]]:
+    if not mapping.shopify_product_id:
+        raise ShopifySyncBlocked("Product has no Shopify mapping", code="SHOPIFY_MAPPING_NOT_FOUND")
+    variant_ids = mapping.shopify_variant_ids or {}
+    approved = [sku for sku in product.skus if sku.suggested_price_status == "approved"]
+    if not approved:
+        raise ShopifySyncBlocked("No approved price suggestions to sync", code="PRICE_NOT_APPROVED")
+    updates: list[tuple[str, ProductSku, str]] = []
+    for sku in approved:
+        if sku.suggested_price is None:
+            raise ShopifySyncBlocked(f"SKU {sku.sku} has no suggested price", code="PRICE_NOT_APPROVED")
+        variant_id = variant_ids.get(str(sku.sku))
+        if not variant_id:
+            raise ShopifySyncBlocked(f"SKU {sku.sku} has no Shopify variant mapping", code="SHOPIFY_VARIANT_NOT_FOUND")
+        updates.append((str(variant_id), sku, format(sku.suggested_price, ".2f")))
+    return updates
+
+
 async def _sync_metafields(client: Any, product_id: str, product: Product) -> None:
     existing = {
         (item.get("namespace"), item.get("key")): item
@@ -314,10 +332,15 @@ async def process_sync_job(
     try:
         if product is None:
             raise ShopifySyncBlocked("Product not found", code="RESOURCE_NOT_FOUND")
-        if action not in {"sync", "unpublish"}:
+        if action not in {"sync", "unpublish", "sync_price"}:
             raise ShopifySyncBlocked(f"Unsupported Shopify action: {action}", code="VALIDATION_ERROR")
-        if action == "sync":
+        if action in {"sync", "sync_price"}:
             _validate_product(product)
+        if action == "sync_price":
+            price_updates = _approved_price_updates(product, mapping)
+        else:
+            price_updates = []
+        if action == "sync":
             if (
                 mapping.shopify_product_id
                 and mapping.sync_status == "success"
@@ -347,6 +370,10 @@ async def process_sync_job(
 
         if action == "unpublish":
             response_product = await client.update_product(mapping.shopify_product_id, {"status": "draft"})
+        elif action == "sync_price":
+            for variant_id, _, price in price_updates:
+                await client.update_variant(variant_id, {"price": price})
+            response_product = {"id": mapping.shopify_product_id}
         elif mapping.shopify_product_id:
             response_product = await client.update_product(
                 mapping.shopify_product_id, _update_payload(product, mapping)

@@ -3,6 +3,7 @@ import io
 import re
 import uuid
 from dataclasses import dataclass
+from decimal import Decimal, InvalidOperation
 
 from fastapi import HTTPException, status
 from sqlalchemy import delete, func, select
@@ -48,6 +49,7 @@ LIFECYCLE_STATUSES = {
     "draft", "imported", "processing", "review", "ready", "published", "active", "inactive", "discontinued"
 }
 COMPLIANCE_STATUSES = {"pending", "reviewing", "approved", "blocked"}
+PRICE_SUGGESTION_STATUSES = COMPLIANCE_STATUSES
 COUNTRY_ALIASES = {
     "korea": "KR",
     "south korea": "KR",
@@ -88,8 +90,6 @@ def _split_multi(value: str | None) -> list[str]:
 
 def _ingredient_names(row: dict[str, str]) -> list[str]:
     values = _split_multi(row.get("key_ingredients")) + _split_multi(row.get("ingredient_names"))
-    if not values and _clean(row.get("ingredients_inci")):
-        values = [_clean(value) for value in row["ingredients_inci"].split(",") if _clean(value)]
     return list(dict.fromkeys(values))
 
 
@@ -141,6 +141,20 @@ async def validate_rows(db: AsyncSession, rows: list[dict[str, str]]) -> list[Ro
         compliance_status = _clean(row.get("compliance_status")).lower()
         if compliance_status and compliance_status not in COMPLIANCE_STATUSES:
             errors.append(RowError(row_number, "compliance_status", "INVALID_COMPLIANCE_STATUS", "Unsupported compliance status"))
+        suggested_price = _clean(row.get("suggested_price"))
+        if suggested_price:
+            try:
+                parsed_price = Decimal(suggested_price)
+                if not parsed_price.is_finite() or parsed_price <= 0 or parsed_price.as_tuple().exponent < -2:
+                    raise InvalidOperation
+            except (InvalidOperation, ValueError):
+                errors.append(RowError(row_number, "suggested_price", "INVALID_SUGGESTED_PRICE", "Suggested price must be a positive amount with at most 2 decimals", suggested_price))
+        suggested_currency = _clean(row.get("suggested_price_currency"))
+        if suggested_currency and not re.fullmatch(r"[A-Za-z]{3}", suggested_currency):
+            errors.append(RowError(row_number, "suggested_price_currency", "INVALID_CURRENCY", "Currency must be a 3-letter code", suggested_currency))
+        suggested_price_status = _clean(row.get("suggested_price_status")).lower()
+        if suggested_price_status and suggested_price_status not in PRICE_SUGGESTION_STATUSES:
+            errors.append(RowError(row_number, "suggested_price_status", "INVALID_PRICE_STATUS", "Unsupported price suggestion status", suggested_price_status))
         quantity = _clean(row.get("net_quantity"))
         if quantity:
             try:
@@ -377,6 +391,10 @@ async def confirm_batch(db: AsyncSession, batch: ImportBatch, mode: str) -> tupl
             canada.notes = _clean(row.get("compliance_notes")) or None
 
         sku = await db.scalar(select(ProductSku).where(ProductSku.sku == _clean(row["sku"])))
+        price_fields_present = any(
+            field in row
+            for field in ("suggested_price", "suggested_price_currency", "suggested_price_status", "suggested_price_note")
+        )
         if sku is None:
             db.add(
                 ProductSku(
@@ -385,13 +403,27 @@ async def confirm_batch(db: AsyncSession, batch: ImportBatch, mode: str) -> tupl
                     barcode=_clean(row.get("barcode")) or None,
                     net_quantity=float(row["net_quantity"]) if _clean(row.get("net_quantity")) else None,
                     quantity_unit=_clean(row.get("quantity_unit")) or None,
+                    suggested_price=Decimal(_clean(row.get("suggested_price"))) if _clean(row.get("suggested_price")) else None,
+                    suggested_price_currency=_clean(row.get("suggested_price_currency")).upper() or "CAD",
+                    suggested_price_note=_clean(row.get("suggested_price_note")) or None,
+                    suggested_price_status="pending",
                 )
             )
-        else:
+        elif price_fields_present:
+            incoming_price = Decimal(_clean(row.get("suggested_price"))) if _clean(row.get("suggested_price")) else None
+            incoming_currency = _clean(row.get("suggested_price_currency")).upper() or "CAD"
+            same_price = sku.suggested_price == incoming_price and sku.suggested_price_currency == incoming_currency
             sku.product_id = product.id
             sku.barcode = _clean(row.get("barcode")) or None
             sku.net_quantity = float(row["net_quantity"]) if _clean(row.get("net_quantity")) else None
             sku.quantity_unit = _clean(row.get("quantity_unit")) or None
+            sku.suggested_price = incoming_price
+            sku.suggested_price_currency = incoming_currency
+            sku.suggested_price_note = _clean(row.get("suggested_price_note")) or None
+            if not same_price:
+                sku.suggested_price_status = "pending"
+                sku.suggested_price_reviewed_at = None
+                sku.suggested_price_reviewed_by = None
     batch.status = "confirmed"
     await db.commit()
     return created, updated, skipped
@@ -403,6 +435,7 @@ EXPORT_FIELDS = [
     "sku", "barcode", "skin_types", "skin_concerns", "key_ingredients", "ingredients_inci",
     "claims", "description_en", "description_zh", "how_to_use_en", "how_to_use_zh",
     "warnings_en", "warnings_zh", "image_urls", "status", "compliance_status",
+    "suggested_price", "suggested_price_currency", "suggested_price_status", "suggested_price_note",
 ]
 
 
@@ -459,6 +492,10 @@ async def export_product_rows(db: AsyncSession) -> list[dict[str, str]]:
                     "quantity_unit": sku.quantity_unit if sku and sku.quantity_unit else "",
                     "sku": sku.sku if sku else "",
                     "barcode": sku.barcode if sku and sku.barcode else "",
+                    "suggested_price": str(sku.suggested_price) if sku and sku.suggested_price is not None else "",
+                    "suggested_price_currency": sku.suggested_price_currency if sku else "CAD",
+                    "suggested_price_status": sku.suggested_price_status if sku else "pending",
+                    "suggested_price_note": (sku.suggested_price_note or "") if sku else "",
                 }
             )
             rows.append({field: row.get(field, "") for field in EXPORT_FIELDS})

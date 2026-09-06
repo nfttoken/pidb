@@ -1,0 +1,296 @@
+{
+  "source_pages": [
+    "https://kiokii.com/collections/wash-off-masks",
+    "https://kiokii.com/collections/wash-off-masks?page=2"
+  ],
+  "discovered": 39,
+  "extracted": 39,
+  "skipped_existing_products": [],
+  "created_products": [
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/beauty-of-joseon-red-bean-refreshing-pore-mask",
+      "pidb_product_id": "d8a04689-b4b0-4a62-ab2f-055ad6110c91",
+      "title": "Beauty of Joseon Red Bean Refreshing Pore Mask 140ml"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/ground-rice-and-honey-glow-mask",
+      "pidb_product_id": "3c037c7d-fd39-4b33-9d3e-0ca5c1c8bf27",
+      "title": "Beauty of Joseon Ground Rice and Honey Glow Mask 150ml"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/skin1004-madagascar-centella-poremizing-quick-clay-stick-mask-27g",
+      "pidb_product_id": "17ea9d57-3c01-4297-80b5-20b0dfcbe6e0",
+      "title": "SKIN1004 Madagascar Centella Poremizing Quick Clay Stick Mask 27g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/mugwort-pore-clarifying-wash-off-pack-100ml",
+      "pidb_product_id": "19cdcb2f-9dcb-4799-abd0-0912a8dca9d9",
+      "title": "AXIS-Y Mugwort Pore Clarifying Wash Off Pack 100ml"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/im-from-rice-mask-110g",
+      "pidb_product_id": "8f4dffe6-dcb1-4bfd-8d00-be8e7153597e",
+      "title": "Im From Rice Mask 110g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/egg-white-pore-mask-120g",
+      "pidb_product_id": "725ab242-e651-4868-80c4-37747b55bb4a",
+      "title": "Skinfood Egg White Pore Mask 120g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/rice-mask-120g",
+      "pidb_product_id": "db15d67c-904c-4580-b7bc-37b6e896cf14",
+      "title": "Skinfood Rice Mask 120g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/im-from-ginseng-mask-120g",
+      "pidb_product_id": "eb431bc9-8634-4c98-a875-54c449903efd",
+      "title": "Im From Ginseng Mask 120g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/green-tangerine-vita-c-wash-off-mask-110g",
+      "pidb_product_id": "a2cf2ea5-4198-43c5-be48-155405a6566c",
+      "title": "Goodal Green Tangerine Vita C Wash Off Mask 110g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/im-from-mugwort-mask-110g",
+      "pidb_product_id": "bab76c3f-b344-4096-b63d-70f256ce0ab0",
+      "title": "Im From Mugwort Mask 110g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/axis-y-mask-now-glow-later-duo-set",
+      "pidb_product_id": "cbe4190e-5faa-430f-93c8-7fd16d01f02a",
+      "title": "AXIS-Y Mask Now Glow Later Duo Set"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/tunemakers-clay-mask",
+      "pidb_product_id": "74b38f0b-08d5-40a1-8062-42d07701deb8",
+      "title": "TUNEMAKERS undiluted solution clay mask 100g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/black-sugar-mask-120g",
+      "pidb_product_id": "ed358a61-a332-40e0-aa12-05208519b778",
+      "title": "Skinfood Black Sugar Mask 120g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/tunemakers-skin-conditioning-mask",
+      "pidb_product_id": "d5b66b86-00bc-4160-b2ba-82b28fa12d06",
+      "title": "Tunemakers Skin Conditioning Mask 70g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/im-from-fig-scrub-mask-120-g",
+      "pidb_product_id": "f0a87693-2aa4-474a-bf83-29169fd54d27",
+      "title": "Im From Fig Scrub Mask 120g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/bcl-tsururi-peel-off-mask-dirt-catch-charcoal-55g",
+      "pidb_product_id": "d187597d-4ce0-4148-9e7a-61e611fd1ce4",
+      "title": "BCL Tsururi Peel Off Mask Dirt Catch Charcoal 55g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/torriden-dive-in-modeling-pack-30g",
+      "pidb_product_id": "aa2cce2b-42c8-479f-87eb-99a3d862dae4",
+      "title": "Torriden Dive In Modeling Pack 30g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/isntree-gim-pdrn-deep-sleep-mask-80ml",
+      "pidb_product_id": "5cee8358-3336-456e-a563-24070634ad7f",
+      "title": "Isntree Gim PDRN Deep Sleep Mask 80ml"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/torhop-saunan-heating-salt-facial-mask-90g",
+      "pidb_product_id": "105f89ae-1800-4866-9969-475db429466e",
+      "title": "Torhop Saunan Heating Salt Facial Mask 90g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/mediheal-hyaluron-hydrating-sleeping-mask-20ml",
+      "pidb_product_id": "9521d13a-d655-4d69-a3e7-783f77a1ec1a",
+      "title": "MEDIHEAL Hyaluron Hydrating Sleeping Mask 20ml"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/lindsay-collagen-modeling-mask",
+      "pidb_product_id": "3ad25e4a-953e-43ac-a066-abbc231cd6eb",
+      "title": "Lindsay Collagen Modeling Mask"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/lindsay-vitamin-modeling-mask",
+      "pidb_product_id": "ec6012fa-2afc-42c1-b553-cbb7fe801069",
+      "title": "Lindsay Vitamin Modeling Mask"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/lindsay-calendula-modeling-mask",
+      "pidb_product_id": "33bbe560-dce9-44ce-915c-1c234f7c1171",
+      "title": "Lindsay Calendula Modeling Mask"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/lindsay-cool-tea-tree-modeling-mask",
+      "pidb_product_id": "301b2a47-7c9d-4404-abcd-97baafb647ff",
+      "title": "Lindsay Cool Tea Tree Modeling Mask"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/lindsay-charcoal-modeling-mask",
+      "pidb_product_id": "5c2c6d89-5a8f-4c55-96a7-2c37e89d1f8d",
+      "title": "Lindsay Charcoal Modeling Mask"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/mediheal-derma-modeling-powder-28g-vitamin",
+      "pidb_product_id": "e4635d5a-aaa0-432a-a4d6-bec106d88578",
+      "title": "MEDIHEAL Derma Modeling Pack 28g - Vitamin"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/derma-modeling-powder-hyaluronate-moisture-28g",
+      "pidb_product_id": "f02b4afd-0dc9-4af2-bce2-7b6938ab722d",
+      "title": "MEDIHEAL Derma Modeling Pack 28g - Hyaluronate Moisture"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/mediheal-derma-modeling-powder-28g-teatree-calming",
+      "pidb_product_id": "fda0674d-7ef3-4570-93ee-bad025f7ed02",
+      "title": "MEDIHEAL Derma Modeling Pack 28g - Teatree Calming"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/derma-modeling-powder-28g-madecassoside-blemish",
+      "pidb_product_id": "5c685475-48d3-4878-8aef-a668a4686e63",
+      "title": "MEDIHEAL Derma Modeling Pack 28g - Madecassoside Blemish"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/vt-reedle-shot-ex-cica-modeling-pack",
+      "pidb_product_id": "2036c61d-ad29-4b3a-aaf6-3b808cb3b3d5",
+      "title": "VT Reedle Shot EX Cica Modeling Pack"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/vt-reedle-shot-ex-collagen-modeling-pack",
+      "pidb_product_id": "c4b92a0c-2902-4738-bdef-16887d16a814",
+      "title": "VT Reedle Shot EX Collagen Modeling Pack"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/vt-reedle-shot-ex-hyaluronic-modeling-pack-1-pc",
+      "pidb_product_id": "cd376953-eeeb-4490-9a09-508017862bdd",
+      "title": "VT Reedle Shot EX Hyaluronic Modeling Pack 1 pc"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/vt-reedle-shot-ex-vitamin-modeling-pack-1pc",
+      "pidb_product_id": "9ff951a3-6404-4754-82df-03b60941460f",
+      "title": "VT Reedle Shot EX Vitamin Modeling Pack 1pc"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/medicube-zero-pore-blackhead-mud-mask-100g",
+      "pidb_product_id": "91c1eb7c-caf1-4d26-9ade-c00c61a84aed",
+      "title": "Medicube Zero Pore Blackhead Mud Mask 100g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/new-skin-resolution-gel-mask-100-ml",
+      "pidb_product_id": "06154fa4-42a9-4c93-82f8-89a7d15821f9",
+      "title": "AXIS-Y New Skin Resolution Gel Mask 100ml"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/biore-charcoal-whipped-purifying-detox-mask",
+      "pidb_product_id": "0473dd0f-abe4-4e7c-b200-8aa27c4b9897",
+      "title": "Bioré Charcoal Whipped Purifying Detox Mask 110g"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/mediheal-derma-modeling-pack-28g-collagen",
+      "pidb_product_id": "8d6f8052-d05a-4d2a-ba31-e844c7987fb6",
+      "title": "MEDIHEAL Derma Modeling Pack 28g - Collagen"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/mediheal-derma-modeling-pack-madecassoside-special-set",
+      "pidb_product_id": "633837c7-f961-4c8e-92b0-f68b569b3d80",
+      "title": "Mediheal Derma Modeling Pack Madecassoside Special Set"
+    },
+    {
+      "source_url": "https://kiokii.com/collections/wash-off-masks/products/axisy-mugwort-pore-clarifying-wash-off-pack-50ml",
+      "pidb_product_id": "edcfd0f5-1bf4-4e07-ac4f-849d8b63fc14",
+      "title": "AXIS-Y Mugwort Pore Clarifying Wash Off Pack 50ml"
+    }
+  ],
+  "failed": [
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/beauty-of-joseon-red-bean-refreshing-pore-mask-140ml-beauty-of-joseon-kiokii-and-7810674.jpg?v=1784945717",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788707710490_q718wx.jpg"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/beauty-of-joseon-red-bean-refreshing-pore-mask-140ml-beauty-of-joseon-kiokii-and-4826779.jpg?v=1784945716",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788707727532_s2lshm.jpg"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/ground-rice-and-honey-glow-mask-150mlbeauty-of-joseonkiokii-and-222236.webp?v=1771617985",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788707765076_zzku57.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/im-from-rice-mask-110gim-from-627978.jpg?v=1771616931",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788707878885_2e0nmy.jpg"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/rice-mask-120gskinfoodkiokii-and-151007.webp?v=1771617851",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788707989481_6ty245.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/im-from-ginseng-mask-120gim-from-476403.jpg?v=1771616942",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708020184_zo722x.jpg"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/im-from-ginseng-mask-120gim-from-451279.jpg?v=1771616942",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708028757_2dx5r9.jpg"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/im-from-mugwort-mask-110gim-from-141419.jpg?v=1771616947",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708095290_rv8kxo.jpg"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/tunemakers-skin-conditioning-mask-70gtunemakerskiokii-and-8113843.png?v=1756479649",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708158940_70f3a0.png"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/torhop-saunan-heating-salt-facial-mask-90gtorhopkiokii-and-2817577.webp?v=1754547735",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708283145_e1sb95.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/lindsay-charcoal-modeling-masklindsay-744734.webp?v=1771617777",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708386040_ge8kyo.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-vitamin-mediheal-kiokii-and-6000152.webp?v=1776515828",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708406302_lxihgn.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-vitamin-mediheal-kiokii-and-5848696.webp?v=1776515829",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708414901_opnka8.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-hyaluronate-moisture-mediheal-kiokii-and-8383148.webp?v=1776515830",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708465593_ogfsvl.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-teatree-calming-mediheal-kiokii-and-8646672.webp?v=1776515830",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708514721_y5cvf6.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-teatree-calming-mediheal-kiokii-and-9098097.webp?v=1776515830",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708520278_8akfjm.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-madecassoside-blemish-mediheal-kiokii-and-9279069.webp?v=1776515830",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708566935_n9eba1.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/vt-reedle-shot-ex-collagen-modeling-packvt-cosmeticskiokii-and-458645.webp?v=1771618596",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708598282_w62gqt.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/vt-reedle-shot-ex-hyaluronic-modeling-pack-1-pcvt-cosmeticskiokii-and-239644.webp?v=1771618596",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708602273_zlhv05.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/medicube-zero-pore-blackhead-mud-mask-100gmedicubekiokii-and-4833613.webp?v=1762394755",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708618011_lv8lgr.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/medicube-zero-pore-blackhead-mud-mask-100gmedicubekiokii-and-2730390.png?v=1762394756",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708628602_jbs8da.png"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-collagen-kiokii-and-kiokii-and-5556755.webp?v=1777487118",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708713856_5zsaup.webp"
+    }
+  ]
+}

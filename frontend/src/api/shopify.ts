@@ -24,9 +24,9 @@ export async function getShopifyStatus(productId: string): Promise<ShopifySyncSt
   }
 }
 
-export async function syncProduct(productId: string): Promise<ShopifyJob> {
+export async function syncProduct(productId: string, action: "sync" | "sync_price" = "sync"): Promise<ShopifyJob> {
   const { data } = await api.post<ApiResponse<ShopifyJob>>(`/shopify/products/${productId}/sync`, {
-    action: "sync",
+    action,
   });
   return data.data;
 }

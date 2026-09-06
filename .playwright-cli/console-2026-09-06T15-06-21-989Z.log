@@ -1,0 +1,7 @@
+[   10248ms] [LOG] [stoq-pixel] initialized, shop: kiokiiand.myshopify.com @ https://kiokii.com/web-pixels/strict/app/web-pixel-2620719424@4668795798fc607bb245d7c252a26b3b.js:1
+[   10368ms] [INFO] k-web-pixel-version 2 @ https://kiokii.com/web-pixels/strict/app/web-pixel-1845231936@c63c5b72c8d77be5f2d27d14c081da38.js:0
+[   12724ms] [LOG] [stoq-pixel] sessionId set (rank 3): 7e1e983b... @ https://kiokii.com/web-pixels/strict/app/web-pixel-2620719424@4668795798fc607bb245d7c252a26b3b.js:1
+[   15966ms] [LOG] [stoq-pixel] initialized {cart_token: , page_url: https://kiokii.com/collections/wash-off-masks, page_type: collection, shop_domain: kiokiiand.myshopify.com, market_id: 40600109376} @ https://kiokii.com/web-pixels/strict/app/web-pixel-2620719424@4668795798fc607bb245d7c252a26b3b.js:2
+[   15972ms] [TIMEEND] SavedBy ready: 5614.7099609375 ms @ https://cdn.shopify.com/extensions/01a04524-d6d4-7596-af04-bee4989b2664/savedby-1-463/assets/v7.0.0-beta.36.js:29
+[   15976ms] [LOG] [stoq-pixel] bundle_ready {page_url: https://kiokii.com/collections/wash-off-masks, page_type: collection, shop_domain: kiokiiand.myshopify.com, market_id: 40600109376, cart_token: } @ https://kiokii.com/web-pixels/strict/app/web-pixel-2620719424@4668795798fc607bb245d7c252a26b3b.js:2
+[   15981ms] [LOG] [stoq-pixel] sweep_ran {page_url: https://kiokii.com/collections/wash-off-masks, page_type: collection, market_id: 40600109376, cart_token: , app_version: 581} @ https://kiokii.com/web-pixels/strict/app/web-pixel-2620719424@4668795798fc607bb245d7c252a26b3b.js:2

@@ -1,0 +1,563 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link [ref=e9] [cursor=pointer]:
+            - /url: /
+          - navigation [ref=e13]:
+            - list [ref=e16]:
+              - generic:
+                - link "Brands" [ref=e17] [cursor=pointer]:
+                  - /url: /pages/brands
+                - link "Cleansing" [ref=e19] [cursor=pointer]:
+                  - /url: /collections/cleansing-1
+                - link "Skincare" [ref=e21] [cursor=pointer]:
+                  - /url: /collections/skincare
+                - link "Body" [ref=e23] [cursor=pointer]:
+                  - /url: /collections/body-care
+                - link "Hair" [ref=e25] [cursor=pointer]:
+                  - /url: /collections/hair
+                - link "Makeup" [ref=e27] [cursor=pointer]:
+                  - /url: /collections/makeup
+                - link "Nails" [ref=e29] [cursor=pointer]:
+                  - /url: /collections/nails
+                - link "Other" [ref=e31] [cursor=pointer]:
+                  - /url: /collections/accessories
+                - link "J-Beauty" [ref=e33] [cursor=pointer]:
+                  - /url: /collections/j-beauty
+                - link "K-POP" [ref=e35] [cursor=pointer]:
+                  - /url: /collections/k-pop
+              - menuitem "More" [ref=e38] [cursor=pointer]
+        - generic [ref=e40]:
+          - button "Open region and language selector CAD / EN" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]: Open region and language selector
+            - generic [ref=e44]: CAD
+            - generic [ref=e45]: /
+            - generic [ref=e46]: EN
+          - button "Open search" [ref=e48] [cursor=pointer]
+          - generic [ref=e49]:
+            - button "Open account menu" [ref=e51] [cursor=pointer]
+            - 'link "Cart Total items in cart: 0" [ref=e56] [cursor=pointer]':
+              - /url: /cart
+              - generic [ref=e58]:
+                - status:
+                  - generic [ref=e60]: "Total items in cart: 0"
+    - complementary [ref=e63]:
+      - generic [ref=e64]:
+        - generic:
+          - button "Previous slide" [ref=e65] [cursor=pointer]
+          - button "Next slide" [ref=e66] [cursor=pointer]
+        - generic [ref=e68]:
+          - paragraph [ref=e69]: THEKSHOP's only official websites are thekshop.ca (Canada) and thekshop.co (Global). Learn more →
+          - link "THEKSHOP's only official websites are thekshop.ca (Canada) and thekshop.co (Global). Learn more →" [ref=e70] [cursor=pointer]:
+            - /url: /pages/%E2%9A%A0%EF%B8%8F-beware-of-scam-websites
+  - main [ref=e72]:
+    - generic [ref=e77]:
+      - paragraph [ref=e79]: Cleansing
+      - paragraph [ref=e81]: The foundation of every K-beauty routine starts with a thorough yet gentle cleanse. Our Korean cleanser collection spans oil cleansers, foam cleansers, gel washes, and micellar waters — formulated to remove makeup, SPF, and impurities without stripping the skin barrier.
+    - generic [ref=e84]:
+      - link "Skip to results list" [ref=e85] [cursor=pointer]:
+        - /url: "#ResultsList"
+      - generic [ref=e86]:
+        - generic "Filters" [ref=e88]:
+          - generic [ref=e90]:
+            - list [ref=e93]:
+              - generic:
+                - group [ref=e95]:
+                  - generic "Availability" [ref=e96] [cursor=pointer]
+                - group [ref=e100]:
+                  - generic "Price" [ref=e101] [cursor=pointer]
+                - group [ref=e104]:
+                  - generic "Brand" [ref=e105] [cursor=pointer]
+            - generic "Product count" [ref=e109]: 262 items
+            - group [ref=e112]:
+              - button "Sort" [ref=e113] [cursor=pointer]
+            - group "Column grid" [ref=e116]:
+              - radio "Default" [checked] [ref=e119] [cursor=pointer]
+              - radio "Zoom out" [ref=e127] [cursor=pointer]
+        - list [ref=e141]:
+          - listitem [ref=e142]:
+            - generic [ref=e143]:
+              - link "Anua Heartleaf Pore Control Cleansing Oil" [ref=e144] [cursor=pointer]:
+                - /url: /products/anua-heartleaf-pore-control-cleansing-oil?variant=43978052600065
+              - generic [ref=e146] [cursor=pointer]:
+                - generic [ref=e147]:
+                  - link "Anua Heartleaf Pore Control Cleansing Oil" [ref=e148]:
+                    - /url: "\n/products/anua-heartleaf-pore-control-cleansing-oil?variant=43978052600065"
+                    - img "Anua Heartleaf Pore Control Cleansing Oil asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping clean beauty routine skin makeup" [ref=e154]
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e155]:
+                  - /url: "\n/products/anua-heartleaf-pore-control-cleansing-oil?variant=43978052600065"
+                  - paragraph [ref=e157]: Anua Heartleaf Pore Control Cleansing Oil
+                - generic [ref=e158]: $28.00 CAD
+          - listitem [ref=e160]:
+            - generic [ref=e161]:
+              - link "COSRX Low PH Good Morning Gel Cleanser" [ref=e162] [cursor=pointer]:
+                - /url: /products/cosrx-low-ph-good-morning-gel-cleanser?variant=32251990900785
+              - generic [ref=e164] [cursor=pointer]:
+                - generic [ref=e165]:
+                  - link "COSRX Low PH Good Morning Gel Cleanser" [ref=e166]:
+                    - /url: "\n/products/cosrx-low-ph-good-morning-gel-cleanser?variant=32251990900785"
+                    - img "COSRX Low pH Good Morning Gel Cleanser 150ml Korean gel facial cleanser with tea tree and BHA for oily and combination skin" [ref=e172]
+                  - generic [ref=e173]: Sale
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e175]:
+                  - /url: "\n/products/cosrx-low-ph-good-morning-gel-cleanser?variant=32251990900785"
+                  - paragraph [ref=e177]: COSRX Low PH Good Morning Gel Cleanser
+                - generic [ref=e179]:
+                  - group [ref=e180]:
+                    - generic [ref=e181]: Sale price
+                    - text: $17.99 CAD
+                  - group [ref=e182]:
+                    - generic [ref=e183]: Regular price
+                    - text: $19.99 CAD
+          - listitem [ref=e184]:
+            - generic [ref=e185]:
+              - link "Anua Heartleaf Quercetinol Pore Deep Cleansing Foam" [ref=e186] [cursor=pointer]:
+                - /url: /products/anua-heartleaf-quercetinol-pore-deep-cleansing-foam?variant=43980450398465
+              - generic [ref=e188] [cursor=pointer]:
+                - generic [ref=e189]:
+                  - link "Anua Heartleaf Quercetinol Pore Deep Cleansing Foam" [ref=e190]:
+                    - /url: "\n/products/anua-heartleaf-quercetinol-pore-deep-cleansing-foam?variant=43980450398465"
+                    - img "Anua Heartleaf Quercetinol Pore Deep Cleansing Foam a Korean water-based cleanser designed to unclog pores and manage excess oil. Suitable for oily acne-prone skin." [ref=e196]
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e197]:
+                  - /url: "\n/products/anua-heartleaf-quercetinol-pore-deep-cleansing-foam?variant=43980450398465"
+                  - paragraph [ref=e199]: Anua Heartleaf Quercetinol Pore Deep Cleansing Foam
+                - generic [ref=e200]: $21.99 CAD
+          - listitem [ref=e202]:
+            - generic [ref=e203]:
+              - link "Beauty of Joseon Green Plum Refreshing Cleanser" [ref=e204] [cursor=pointer]:
+                - /url: /products/beauty-of-joseon-green-plum-refreshing-cleanser?variant=42831029207297
+              - generic [ref=e206] [cursor=pointer]:
+                - generic [ref=e207]:
+                  - link "Beauty of Joseon Green Plum Refreshing Cleanser" [ref=e208]:
+                    - /url: "\n/products/beauty-of-joseon-green-plum-refreshing-cleanser?variant=42831029207297"
+                    - img "Beauty of Joseon Green Plum Refreshing Cleanser asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping" [ref=e214]
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e215]:
+                  - /url: "\n/products/beauty-of-joseon-green-plum-refreshing-cleanser?variant=42831029207297"
+                  - paragraph [ref=e217]: Beauty of Joseon Green Plum Refreshing Cleanser
+                - generic [ref=e218]: $19.99 CAD
+          - listitem [ref=e220]:
+            - generic [ref=e221]:
+              - link "HARUHARU WONDER Black Rice Moisture Deep Cleansing Oil Unscented" [ref=e222] [cursor=pointer]:
+                - /url: /products/haruharu-wonder-black-rice-moisture-deep-cleansing-oil-unscented?variant=42403297198337
+              - generic [ref=e224] [cursor=pointer]:
+                - generic [ref=e225]:
+                  - link "HARUHARU WONDER Black Rice Moisture Deep Cleansing Oil Unscented" [ref=e226]:
+                    - /url: "\n/products/haruharu-wonder-black-rice-moisture-deep-cleansing-oil-unscented?variant=42403297198337"
+                    - img "HARUHARU WONDER - Black Rice Moisture Deep Cleansing Oil Unscented asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping" [ref=e232]
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e233]:
+                  - /url: "\n/products/haruharu-wonder-black-rice-moisture-deep-cleansing-oil-unscented?variant=42403297198337"
+                  - paragraph [ref=e235]: HARUHARU WONDER Black Rice Moisture Deep Cleansing Oil Unscented
+                - generic [ref=e236]: $27.99 CAD
+          - listitem [ref=e238]:
+            - generic [ref=e239]:
+              - link "SKIN1004 Madagascar Centella Ampoule Foam" [ref=e240] [cursor=pointer]:
+                - /url: /products/skin1004-madagascar-centella-ampoule-foam?variant=32350822531121
+              - generic [ref=e242] [cursor=pointer]:
+                - generic [ref=e243]:
+                  - link "SKIN1004 Madagascar Centella Ampoule Foam" [ref=e244]:
+                    - /url: "\n/products/skin1004-madagascar-centella-ampoule-foam?variant=32350822531121"
+                    - img "SKIN1004 Madagascar Centella Ampoule Foam asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping" [ref=e250]
+                  - generic [ref=e251]: Sale
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e253]:
+                  - /url: "\n/products/skin1004-madagascar-centella-ampoule-foam?variant=32350822531121"
+                  - paragraph [ref=e255]: SKIN1004 Madagascar Centella Ampoule Foam
+                - generic [ref=e257]:
+                  - group [ref=e258]:
+                    - generic [ref=e259]: Sale price
+                    - text: $18.00 CAD
+                  - group [ref=e260]:
+                    - generic [ref=e261]: Regular price
+                    - text: $21.00 CAD
+          - listitem [ref=e262]:
+            - generic [ref=e263]:
+              - link "Beauty of Joseon Ginseng Cleansing Oil" [ref=e264] [cursor=pointer]:
+                - /url: /products/beauty-of-joseon-ginseng-cleansing-oil?variant=43315746111745
+              - generic [ref=e266] [cursor=pointer]:
+                - generic [ref=e267]:
+                  - link "Beauty of Joseon Ginseng Cleansing Oil" [ref=e268]:
+                    - /url: "\n/products/beauty-of-joseon-ginseng-cleansing-oil?variant=43315746111745"
+                    - img "Beauty of Joseon Ginseng Cleansing Oil asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping" [ref=e274]
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e275]:
+                  - /url: "\n/products/beauty-of-joseon-ginseng-cleansing-oil?variant=43315746111745"
+                  - paragraph [ref=e277]: Beauty of Joseon Ginseng Cleansing Oil
+                - generic [ref=e278]: $29.99 CAD
+          - listitem [ref=e280]:
+            - generic [ref=e281]:
+              - link "HARUHARU WONDER Black Rice Moisture 5.5 Soft Cleansing Gel" [ref=e282] [cursor=pointer]:
+                - /url: /products/haruharu-wonder-black-rice-moisture-5-5-soft-cleansing-gel?variant=42352466821377
+              - generic [ref=e284] [cursor=pointer]:
+                - generic [ref=e285]:
+                  - link "HARUHARU WONDER Black Rice Moisture 5.5 Soft Cleansing Gel" [ref=e286]:
+                    - /url: "\n/products/haruharu-wonder-black-rice-moisture-5-5-soft-cleansing-gel?variant=42352466821377"
+                    - img "HARUHARU WONDER Black Rice Moisture 5.5 Soft Cleansing Gel asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping clean beauty routine skin makeup" [ref=e292]
+                  - generic [ref=e293]: Sold out
+                - link [ref=e295]:
+                  - /url: "\n/products/haruharu-wonder-black-rice-moisture-5-5-soft-cleansing-gel?variant=42352466821377"
+                  - paragraph [ref=e297]: HARUHARU WONDER Black Rice Moisture 5.5 Soft Cleansing Gel
+                - generic [ref=e299]:
+                  - group [ref=e300]:
+                    - generic [ref=e301]: Sale price
+                    - text: $18.00 CAD
+                  - group [ref=e302]:
+                    - generic [ref=e303]: Regular price
+                    - text: $23.00 CAD
+          - listitem [ref=e304]:
+            - generic [ref=e305]:
+              - link "NEEDLY Daily Toner Pad" [ref=e306] [cursor=pointer]:
+                - /url: /products/needly-daily-toner-pad-280g-60pads?variant=39458856009777
+              - generic [ref=e308] [cursor=pointer]:
+                - generic [ref=e309]:
+                  - link "NEEDLY Daily Toner Pad" [ref=e310]:
+                    - /url: "\n/products/needly-daily-toner-pad-280g-60pads?variant=39458856009777"
+                    - img "NEEDLY - Daily Toner Pad asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping clean beauty routine skin makeup" [ref=e316]
+                  - generic [ref=e317]: Sold out
+                - link [ref=e319]:
+                  - /url: "\n/products/needly-daily-toner-pad-280g-60pads?variant=39458856009777"
+                  - paragraph [ref=e321]: NEEDLY Daily Toner Pad
+                - generic [ref=e322]: $29.99 CAD
+          - listitem [ref=e324]:
+            - generic [ref=e325]:
+              - link "Medicube Zero Pore Pad 2.0" [ref=e326] [cursor=pointer]:
+                - /url: /products/medicube-zero-pore-pad-2-0?variant=45197276446977
+              - generic [ref=e328] [cursor=pointer]:
+                - generic [ref=e329]:
+                  - link "Medicube Zero Pore Pad 2.0" [ref=e330]:
+                    - /url: "\n/products/medicube-zero-pore-pad-2-0?variant=45197276446977"
+                    - img "Medicube Zero Pore Pad 2.0 a popular Korean dual-textured toner pad designed to minimize the appearance of pores, control sebum, and exfoliate dead skin cells for a smoother complexion" [ref=e336]
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e340]:
+                  - /url: "\n/products/medicube-zero-pore-pad-2-0?variant=45197276446977"
+                  - paragraph [ref=e342]: Medicube Zero Pore Pad 2.0
+                - generic [ref=e343]: $34.00 CAD
+          - listitem [ref=e345]:
+            - generic [ref=e346]:
+              - link "Anua Heartleaf 77 Clear Pad" [ref=e347] [cursor=pointer]:
+                - /url: /products/anua-heartleaf-77-clear-pad?variant=43977973530881
+              - generic [ref=e349] [cursor=pointer]:
+                - generic [ref=e350]:
+                  - link "Anua Heartleaf 77 Clear Pad" [ref=e351]:
+                    - /url: "\n/products/anua-heartleaf-77-clear-pad?variant=43977973530881"
+                    - img "Anua Heartleaf 77 Clear Pad asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping clean beauty routine skin makeup" [ref=e357]
+                  - generic [ref=e358]: Sale
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e360]:
+                  - /url: "\n/products/anua-heartleaf-77-clear-pad?variant=43977973530881"
+                  - paragraph [ref=e362]: Anua Heartleaf 77 Clear Pad
+                - generic [ref=e364]:
+                  - group [ref=e365]:
+                    - generic [ref=e366]: Sale price
+                    - text: $28.00 CAD
+                  - group [ref=e367]:
+                    - generic [ref=e368]: Regular price
+                    - text: $36.00 CAD
+          - listitem [ref=e369]:
+            - generic [ref=e370]:
+              - link "Banila Co. Clean It Zero Cleansing Balm" [ref=e371] [cursor=pointer]:
+                - /url: /products/banila-co-clean-it-zero-cleansing-balm?variant=32572806955057
+              - generic [ref=e373] [cursor=pointer]:
+                - generic [ref=e374]:
+                  - link "Banila Co. Clean It Zero Cleansing Balm" [ref=e375]:
+                    - /url: "\n/products/banila-co-clean-it-zero-cleansing-balm?variant=32572806955057"
+                    - generic [ref=e377]:
+                      - generic:
+                        - button "Previous slide" [ref=e378]
+                        - button "Next slide" [ref=e379]
+                      - img "BANILA CO. CLEAN IT ZERO CLEANSING BALM asian korean skincare montreal toronto canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics original nourishing purifying revitalizing" [ref=e383]
+                  - generic [ref=e387]: Sale
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e389]:
+                  - /url: "\n/products/banila-co-clean-it-zero-cleansing-balm?variant=32572806955057"
+                  - paragraph [ref=e391]: Banila Co. Clean It Zero Cleansing Balm
+                - generic [ref=e393]:
+                  - group [ref=e394]:
+                    - generic [ref=e395]: Sale price
+                    - text: $29.99 CAD
+                  - group [ref=e396]:
+                    - generic [ref=e397]: Regular price
+                    - text: $33.00 CAD
+          - listitem [ref=e398]:
+            - generic [ref=e399]:
+              - link "BEAUTY OF JOSEON - Radiance Cleansing Balm" [ref=e400] [cursor=pointer]:
+                - /url: /products/beauty-of-joseon-radiance-cleansing-balm?variant=39296317095985
+              - generic [ref=e402] [cursor=pointer]:
+                - generic [ref=e403]:
+                  - link "BEAUTY OF JOSEON - Radiance Cleansing Balm" [ref=e404]:
+                    - /url: "\n/products/beauty-of-joseon-radiance-cleansing-balm?variant=39296317095985"
+                    - img "BEAUTY OF JOSEON - Radiance Cleansing Balm asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping" [ref=e410]
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e411]:
+                  - /url: "\n/products/beauty-of-joseon-radiance-cleansing-balm?variant=39296317095985"
+                  - paragraph [ref=e413]: BEAUTY OF JOSEON - Radiance Cleansing Balm
+                - generic [ref=e414]: $28.00 CAD
+          - listitem [ref=e416]:
+            - generic [ref=e417]:
+              - link "ETUDE Soon Jung pH 6.5 Whip Cleanser" [ref=e418] [cursor=pointer]:
+                - /url: /products/etude-soon-jung-ph-6-5-whip-cleanser?variant=44081688707329
+              - generic [ref=e420] [cursor=pointer]:
+                - generic [ref=e421]:
+                  - link "ETUDE Soon Jung pH 6.5 Whip Cleanser" [ref=e422]:
+                    - /url: "\n/products/etude-soon-jung-ph-6-5-whip-cleanser?variant=44081688707329"
+                    - img "ETUDE Soon Jung pH 6.5 Whip Cleanser is a gentle Korean low pH foaming cleanser formulated with naturally-derived ingredients to create a rich lather to deeply cleanse skin, while Panthenol hydrates skin, replenishing its moisture barrier, and Centella Asiatica calms and soothes skin. Fragrance-free, suitable for sensitive skin." [ref=e428]
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e429]:
+                  - /url: "\n/products/etude-soon-jung-ph-6-5-whip-cleanser?variant=44081688707329"
+                  - paragraph [ref=e431]: ETUDE Soon Jung pH 6.5 Whip Cleanser
+                - generic [ref=e432]: $19.99 CAD
+          - listitem [ref=e434]:
+            - generic [ref=e435]:
+              - link "Some By Mi AHA BHA PHA 30 Days Miracle Acne Clear Foam" [ref=e436] [cursor=pointer]:
+                - /url: /products/some-by-mi-aha-bha-pha-30-days-miracle-acne-clear-foam?variant=32146827214897
+              - generic [ref=e438] [cursor=pointer]:
+                - generic [ref=e439]:
+                  - link "Some By Mi AHA BHA PHA 30 Days Miracle Acne Clear Foam" [ref=e440]:
+                    - /url: "\n/products/some-by-mi-aha-bha-pha-30-days-miracle-acne-clear-foam?variant=32146827214897"
+                    - img "SOME BY MI AHA BHA PHA 30 DAYS MIRACLE ACNE CLEAR FOAM asian korean skincare cosmetics canada montreal toronto" [ref=e446]
+                  - generic [ref=e447]: Sold out
+                - link [ref=e449]:
+                  - /url: "\n/products/some-by-mi-aha-bha-pha-30-days-miracle-acne-clear-foam?variant=32146827214897"
+                  - paragraph [ref=e451]: Some By Mi AHA BHA PHA 30 Days Miracle Acne Clear Foam
+                - generic [ref=e452]: $23.00 CAD
+          - listitem [ref=e454]:
+            - generic [ref=e455]:
+              - link "SKIN1004 Madagascar Centella Poremizing Deep Cleansing Foam" [ref=e456] [cursor=pointer]:
+                - /url: /products/skin1004-madagascar-centella-poremizing-deep-cleansing-foam?variant=43153607262465
+              - generic [ref=e458] [cursor=pointer]:
+                - generic [ref=e459]:
+                  - link "SKIN1004 Madagascar Centella Poremizing Deep Cleansing Foam" [ref=e460]:
+                    - /url: "\n/products/skin1004-madagascar-centella-poremizing-deep-cleansing-foam?variant=43153607262465"
+                    - img "SKIN1004 Madagascar Centella Poremizing Deep Cleansing Foam asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping clean beauty routine skin makeup" [ref=e466]
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e470]:
+                  - /url: "\n/products/skin1004-madagascar-centella-poremizing-deep-cleansing-foam?variant=43153607262465"
+                  - paragraph [ref=e472]: SKIN1004 Madagascar Centella Poremizing Deep Cleansing Foam
+                - generic [ref=e473]: $19.99 CAD
+          - listitem [ref=e475]:
+            - generic [ref=e476]:
+              - link "ETUDE HOUSE Soon Jung 5.5 Foam Cleanser" [ref=e477] [cursor=pointer]:
+                - /url: /products/etude-house-soonjung-5-5-foam-cleanser?variant=42202064290049
+              - generic [ref=e479] [cursor=pointer]:
+                - generic [ref=e480]:
+                  - link "ETUDE HOUSE Soon Jung 5.5 Foam Cleanser" [ref=e481]:
+                    - /url: "\n/products/etude-house-soonjung-5-5-foam-cleanser?variant=42202064290049"
+                    - img "ETUDE HOUSE Soon Jung 5.5 Foam Cleanser" [ref=e487]
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e491]:
+                  - /url: "\n/products/etude-house-soonjung-5-5-foam-cleanser?variant=42202064290049"
+                  - paragraph [ref=e493]: ETUDE HOUSE Soon Jung 5.5 Foam Cleanser
+                - generic [ref=e494]: $17.99 CAD
+          - listitem [ref=e496]:
+            - generic [ref=e497]:
+              - link "manyo Pure Cleansing Oil" [ref=e498] [cursor=pointer]:
+                - /url: /products/manyo-pure-cleansing-oil?variant=44230034686209
+              - generic [ref=e500] [cursor=pointer]:
+                - generic [ref=e501]:
+                  - link "manyo Pure Cleansing Oil" [ref=e502]:
+                    - /url: "\n/products/manyo-pure-cleansing-oil?variant=44230034686209"
+                    - img "manyo Pure Cleansing Oil asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping clean beauty routine skin makeup kpop stayz stan fandom photocard stray kids treasure" [ref=e508]
+                  - generic [ref=e509]: Sold out
+                - link [ref=e511]:
+                  - /url: "\n/products/manyo-pure-cleansing-oil?variant=44230034686209"
+                  - paragraph [ref=e513]: manyo Pure Cleansing Oil
+                - generic [ref=e514]: $31.00 CAD
+          - listitem [ref=e516]:
+            - generic [ref=e517]:
+              - link "HEIMISH All Clean Balm" [ref=e518] [cursor=pointer]:
+                - /url: /products/heimish-all-clean-balm?variant=42093247037697
+              - generic [ref=e520] [cursor=pointer]:
+                - generic [ref=e521]:
+                  - link "HEIMISH All Clean Balm" [ref=e522]:
+                    - /url: "\n/products/heimish-all-clean-balm?variant=42093247037697"
+                    - img "HEIMISH All Clean Balm 120 ml 50 ml asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping clean beauty routine skin makeup" [ref=e528]
+                  - generic [ref=e529]: Sold out
+                - link [ref=e531]:
+                  - /url: "\n/products/heimish-all-clean-balm?variant=42093247037697"
+                  - paragraph [ref=e533]: HEIMISH All Clean Balm
+                - generic [ref=e534]: $24.99 CAD
+          - listitem [ref=e536]:
+            - generic [ref=e537]:
+              - link "THE FACE SHOP RICE WATER BRIGHT Cleansing Foam" [ref=e538] [cursor=pointer]:
+                - /url: /products/the-face-shop-rice-water-bright-cleansing-foam?variant=50156504580353
+              - generic [ref=e540] [cursor=pointer]:
+                - generic [ref=e541]:
+                  - link "THE FACE SHOP RICE WATER BRIGHT Cleansing Foam" [ref=e542]:
+                    - /url: "\n/products/the-face-shop-rice-water-bright-cleansing-foam?variant=50156504580353"
+                    - img "THE FACE SHOP RICE WATER BRIGHT Cleansing Foam" [ref=e548]
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e549]:
+                  - /url: "\n/products/the-face-shop-rice-water-bright-cleansing-foam?variant=50156504580353"
+                  - paragraph [ref=e551]: THE FACE SHOP RICE WATER BRIGHT Cleansing Foam
+                - generic [ref=e552]: $12.00 CAD
+          - listitem [ref=e554]:
+            - generic [ref=e555]:
+              - link "Dr. Althea Pure Grinding Cleansing Balm" [ref=e556] [cursor=pointer]:
+                - /url: /products/dr-althea-pure-grinding-cleansing-balm?variant=45228159336705
+              - generic [ref=e558] [cursor=pointer]:
+                - generic [ref=e559]:
+                  - link "Dr. Althea Pure Grinding Cleansing Balm" [ref=e560]:
+                    - /url: "\n/products/dr-althea-pure-grinding-cleansing-balm?variant=45228159336705"
+                    - img "Dr. Althea Pure Grinding Cleansing Balm asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping clean beauty routine skin makeup kpop stayz stan fandom photocard stray kids treasure ateez atiny dix30 brossard" [ref=e566]
+                  - generic [ref=e570]: Sold out
+                - link [ref=e572]:
+                  - /url: "\n/products/dr-althea-pure-grinding-cleansing-balm?variant=45228159336705"
+                  - paragraph [ref=e574]: Dr. Althea Pure Grinding Cleansing Balm
+                - generic [ref=e575]: $28.00 CAD
+          - listitem [ref=e577]:
+            - generic [ref=e578]:
+              - link "Anua Heartleaf Pore Control Cleansing Oil Mild" [ref=e579] [cursor=pointer]:
+                - /url: /products/anua-heartleaf-pore-control-cleansing-oil-mild?variant=45289481797889
+              - generic [ref=e581] [cursor=pointer]:
+                - generic [ref=e582]:
+                  - link "Anua Heartleaf Pore Control Cleansing Oil Mild" [ref=e583]:
+                    - /url: "\n/products/anua-heartleaf-pore-control-cleansing-oil-mild?variant=45289481797889"
+                    - img "Anua Heartleaf Pore Control Cleansing Oil Mild asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping clean beauty routine skin makeup kpop stayz stan fandom photocard stray kids treasure ateez atiny dix30 brossard" [ref=e589]
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e590]:
+                  - /url: "\n/products/anua-heartleaf-pore-control-cleansing-oil-mild?variant=45289481797889"
+                  - paragraph [ref=e592]: Anua Heartleaf Pore Control Cleansing Oil Mild
+                - generic [ref=e593]: $29.00 CAD
+          - listitem [ref=e595]:
+            - generic [ref=e596]:
+              - link "SKIN1004 Madagascar Centella Tea-Trica BHA Foam" [ref=e597] [cursor=pointer]:
+                - /url: /products/skin1004-madagascar-centella-tea-trica-bha-foam?variant=43153757536513
+              - generic [ref=e599] [cursor=pointer]:
+                - generic [ref=e600]:
+                  - link "SKIN1004 Madagascar Centella Tea-Trica BHA Foam" [ref=e601]:
+                    - /url: "\n/products/skin1004-madagascar-centella-tea-trica-bha-foam?variant=43153757536513"
+                    - img "SKIN1004 Madagascar Centella Tea-Trica BHA Foam asian authentic genuine original korean skincare montreal toronto calgary canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics kbeauty vancouver free shipping clean beauty routine skin makeup" [ref=e607]
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e611]:
+                  - /url: "\n/products/skin1004-madagascar-centella-tea-trica-bha-foam?variant=43153757536513"
+                  - paragraph [ref=e613]: SKIN1004 Madagascar Centella Tea-Trica BHA Foam
+                - generic [ref=e614]: $19.99 CAD
+          - listitem [ref=e616]:
+            - generic [ref=e617]:
+              - link "B-LAB - Matcha Hydrating Foam Cleanser" [ref=e618] [cursor=pointer]:
+                - /url: /products/b-lab-matcha-hydrating-foam-cleanser?variant=39248373841969
+              - generic [ref=e620] [cursor=pointer]:
+                - generic [ref=e621]:
+                  - link "B-LAB - Matcha Hydrating Foam Cleanser" [ref=e622]:
+                    - /url: "\n/products/b-lab-matcha-hydrating-foam-cleanser?variant=39248373841969"
+                    - img "B-LAB - Matcha Hydrating Foam Cleanser asian authentic genuine original korean skincare montreal toronto canada thekshop thekshop.ca natural organic vegan cruelty-free cosmetics" [ref=e628]
+                  - generic [ref=e629]: Sale
+                  - generic:
+                    - generic:
+                      - status
+                - link [ref=e631]:
+                  - /url: "\n/products/b-lab-matcha-hydrating-foam-cleanser?variant=39248373841969"
+                  - paragraph [ref=e633]: B-LAB - Matcha Hydrating Foam Cleanser
+                - generic [ref=e635]:
+                  - group [ref=e636]:
+                    - generic [ref=e637]: Sale price
+                    - text: $18.00 CAD
+                  - group [ref=e638]:
+                    - generic [ref=e639]: Regular price
+                    - text: $21.00 CAD
+  - list [ref=e644]:
+    - listitem [ref=e645]:
+      - link "About Us" [ref=e646] [cursor=pointer]:
+        - /url: /pages/about-us
+    - listitem [ref=e647]:
+      - link "Shipping Info" [ref=e648] [cursor=pointer]:
+        - /url: /pages/shipping-info
+    - listitem [ref=e649]:
+      - link "Return / Refund Policy" [ref=e650] [cursor=pointer]:
+        - /url: /policies/refund-policy
+    - listitem [ref=e651]:
+      - link "Not For Sale Items Disclaimer" [ref=e652] [cursor=pointer]:
+        - /url: /pages/not-for-sale-items-disclaimer
+    - listitem [ref=e653]:
+      - link "Contact Us" [ref=e654] [cursor=pointer]:
+        - /url: /pages/contact-us
+    - listitem [ref=e655]:
+      - link "Personalized High-Tech Korean Skin & Hair Analysis Service" [ref=e656] [cursor=pointer]:
+        - /url: https://thekshop.ca/pages/personalized-high-tech-korean-skin-hair-analysis-service
+    - listitem [ref=e657]:
+      - link "Our Stores" [ref=e658] [cursor=pointer]:
+        - /url: /pages/our-stores
+    - listitem [ref=e659]:
+      - link "AS SEEN IN" [ref=e660] [cursor=pointer]:
+        - /url: /pages/as-seen-in
+    - listitem [ref=e661]:
+      - link "CAREERS" [ref=e662] [cursor=pointer]:
+        - /url: /pages/careers
+    - listitem [ref=e663]:
+      - link "Ingredient Lab" [ref=e664] [cursor=pointer]:
+        - /url: https://thekshop.ca/blogs/ingredient-lab
+    - listitem [ref=e665]:
+      - link "THEKBLOG" [ref=e666] [cursor=pointer]:
+        - /url: https://thekshop.ca/blogs/thekblog
+    - listitem [ref=e667]:
+      - link "THEKSHOP GLOBAL" [ref=e668] [cursor=pointer]:
+        - /url: /pages/looking-for-international-shipping-discover-thekshop-global
+  - contentinfo [ref=e669]:
+    - generic [ref=e672]:
+      - generic [ref=e674]:
+        - heading "Join our email list" [level=2] [ref=e676]
+        - paragraph [ref=e678]: Get exclusive deals and early access to new products.
+        - button [ref=e682] [cursor=pointer]:
+          - generic [ref=e687]:
+            - text: Follow on
+            - img "Shop" [ref=e688]
+        - paragraph [ref=e691]: THEKSHOP is an authorized Canadian retailer of Korean skincare and K-beauty products, based in Montreal, Quebec. We carry authentic products from trusted brands like Beauty of Joseon, SKIN1004, medicube, Kundal, and many more.All products are sourced directly from brand official distributors to ensure authenticity and quality.
+      - generic [ref=e694]:
+        - generic [ref=e695]: Email
+        - textbox "Email" [ref=e696]:
+          - /placeholder: Email address
+        - button "Sign up" [ref=e697] [cursor=pointer]
+  - generic [ref=e701]:
+    - generic [ref=e703]:
+      - text: © 2026
+      - link "thekshop.ca" [ref=e704] [cursor=pointer]:
+        - /url: /
+    - button "Terms and Policies" [ref=e706] [cursor=pointer]
+    - generic [ref=e707]:
+      - link "Facebook" [ref=e709] [cursor=pointer]:
+        - /url: https://www.facebook.com/thekshop.ca
+      - link "Instagram" [ref=e713] [cursor=pointer]:
+        - /url: https://www.instagram.com/thekshop.ca/
+      - link "Tiktok" [ref=e717] [cursor=pointer]:
+        - /url: https://www.tiktok.com/@thekshop.ca

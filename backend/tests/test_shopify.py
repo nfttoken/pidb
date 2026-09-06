@@ -6,7 +6,7 @@ import httpx
 import pytest
 
 from app.core.config import settings
-from app.services.shopify import build_metafields, build_product_payload
+from app.services.shopify import _approved_price_updates, build_metafields, build_product_payload
 from app.services.shopify_client import ShopifyApiError, ShopifyClient
 
 
@@ -118,3 +118,44 @@ async def test_shopify_network_errors_are_retryable() -> None:
 def test_shopify_api_error_marks_rate_limit_retryable() -> None:
     assert ShopifyApiError("rate limited", code="SHOPIFY_API_ERROR", status_code=429).retryable
     assert not ShopifyApiError("invalid sku", code="SHOPIFY_API_ERROR", status_code=422).retryable
+
+
+def test_approved_price_updates_only_returns_approved_variants() -> None:
+    product = SimpleNamespace(
+        skus=[
+            SimpleNamespace(sku="SKU-1", suggested_price=19.99, suggested_price_status="approved"),
+            SimpleNamespace(sku="SKU-2", suggested_price=24.99, suggested_price_status="pending"),
+        ]
+    )
+    mapping = SimpleNamespace(shopify_product_id="123", shopify_variant_ids={"SKU-1": "456"})
+
+    updates = _approved_price_updates(product, mapping)
+
+    assert [(variant_id, price) for variant_id, _, price in updates] == [("456", "19.99")]
+
+
+@pytest.mark.asyncio
+async def test_shopify_rest_client_updates_variant_price_only() -> None:
+    requests: list[httpx.Request] = []
+
+    async def handler(request: httpx.Request) -> httpx.Response:
+        requests.append(request)
+        return httpx.Response(200, json={"variant": {"id": 456, "price": "19.99"}})
+
+    previous_domain = settings.shopify_store_domain
+    previous_token = settings.shopify_admin_access_token
+    settings.shopify_store_domain = "example.myshopify.com"
+    settings.shopify_admin_access_token = "test-token"
+    client = ShopifyClient(client=httpx.AsyncClient(transport=httpx.MockTransport(handler)))
+    try:
+        variant = await client.update_variant("456", {"price": "19.99"})
+    finally:
+        await client.close()
+        settings.shopify_store_domain = previous_domain
+        settings.shopify_admin_access_token = previous_token
+
+    assert variant == {"id": 456, "price": "19.99"}
+    assert requests[0].method == "PUT"
+    assert requests[0].url.path.endswith("/admin/api/2025-01/variants/456.json")
+    body = json.loads(requests[0].content)
+    assert body == {"variant": {"id": "456", "price": "19.99"}}

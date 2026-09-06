@@ -1,4 +1,6 @@
 import uuid
+from datetime import datetime
+from decimal import Decimal
 from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field
@@ -19,6 +21,7 @@ ProductStatus = Literal[
     "inactive",
     "discontinued",
 ]
+PriceSuggestionStatus = Literal["pending", "reviewing", "approved", "blocked"]
 
 
 class SkuCreate(BaseModel):
@@ -28,6 +31,9 @@ class SkuCreate(BaseModel):
     variant_name_zh: str | None = None
     net_quantity: float | None = Field(default=None, gt=0)
     quantity_unit: str | None = Field(default=None, max_length=20)
+    suggested_price: Decimal | None = Field(default=None, gt=0, max_digits=12, decimal_places=2)
+    suggested_price_currency: str = Field(default="CAD", min_length=3, max_length=3, pattern="^[A-Za-z]{3}$")
+    suggested_price_note: str | None = None
 
 
 class SkuResponse(SkuCreate):
@@ -35,7 +41,16 @@ class SkuResponse(SkuCreate):
 
     id: uuid.UUID
     product_id: uuid.UUID
+    suggested_price_status: PriceSuggestionStatus
+    suggested_price_note: str | None
+    suggested_price_reviewed_at: datetime | None
+    suggested_price_reviewed_by: uuid.UUID | None
     status: str
+
+
+class PriceSuggestionReview(BaseModel):
+    status: PriceSuggestionStatus
+    note: str | None = None
 
 
 class ProductIngredientInput(BaseModel):

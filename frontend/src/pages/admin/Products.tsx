@@ -4,6 +4,7 @@ import { Button, Card, Flex, Input, Select, Space, Statistic, Table, Tag, Typogr
 import { PlusOutlined, ReloadOutlined, SearchOutlined } from "@ant-design/icons";
 
 import { createProduct, changeProductStatus, listProducts, updateProduct } from "../../api/products";
+import { listBrands, listProductTypes } from "../../api/catalog";
 import { ProductEditorModal } from "../../components/admin/ProductEditorModal";
 import { useAuthStore } from "../../stores/auth";
 import type { ProductCreatePayload, ProductListItem, ProductUpdatePayload } from "../../types/product";
@@ -16,9 +17,18 @@ export function Products() {
   const [searchInput, setSearchInput] = useState("");
   const [search, setSearch] = useState("");
   const [status, setStatus] = useState<string>();
+  const [brandId, setBrandId] = useState<string>();
+  const [productTypeId, setProductTypeId] = useState<string>();
+  const [page, setPage] = useState(1);
+  const pageSize = 20;
   const [editorOpen, setEditorOpen] = useState(false);
   const [editingId, setEditingId] = useState<string>();
-  const productsQuery = useQuery({ queryKey: ["products", search, status], queryFn: () => listProducts({ search, status }) });
+  const brandsQuery = useQuery({ queryKey: ["catalog", "brands"], queryFn: listBrands });
+  const productTypesQuery = useQuery({ queryKey: ["catalog", "product-types"], queryFn: listProductTypes });
+  const productsQuery = useQuery({
+    queryKey: ["products", search, status, brandId, productTypeId, page],
+    queryFn: () => listProducts({ offset: (page - 1) * pageSize, limit: pageSize, search, status, brand_id: brandId, product_type_id: productTypeId }),
+  });
 
   const refresh = () => {
     void queryClient.invalidateQueries({ queryKey: ["products"] });
@@ -38,16 +48,18 @@ export function Products() {
         <Space><Button icon={<ReloadOutlined />} aria-label="Refresh products" onClick={() => void productsQuery.refetch()} /><Button type="primary" icon={<PlusOutlined />} disabled={!canEdit} onClick={() => { setEditingId(undefined); setEditorOpen(true); }}>New product</Button></Space>
       </Flex>
       <Flex gap={12} wrap="wrap">
-        <Input.Search style={{ width: 360, maxWidth: "100%" }} value={searchInput} prefix={<SearchOutlined />} placeholder="Search product code or name" onChange={(event) => setSearchInput(event.target.value)} onSearch={setSearch} allowClear />
-        <Select allowClear style={{ width: 180 }} placeholder="Filter status" value={status} onChange={setStatus} options={["draft", "imported", "processing", "review", "ready", "published", "active", "inactive", "discontinued"].map((value) => ({ label: value, value }))} />
+        <Input.Search style={{ width: 360, maxWidth: "100%" }} value={searchInput} prefix={<SearchOutlined />} placeholder="Search product code or name" onChange={(event) => setSearchInput(event.target.value)} onSearch={(value) => { setSearch(value); setPage(1); }} allowClear />
+        <Select allowClear style={{ width: 180 }} placeholder="Filter status" value={status} onChange={(value) => { setStatus(value); setPage(1); }} options={["draft", "imported", "processing", "review", "ready", "published", "active", "inactive", "discontinued"].map((value) => ({ label: value, value }))} />
+        <Select allowClear showSearch optionFilterProp="label" style={{ width: 220 }} placeholder="Filter brand" value={brandId} onChange={(value) => { setBrandId(value); setPage(1); }} loading={brandsQuery.isLoading} options={(brandsQuery.data ?? []).map((item) => ({ label: item.name, value: item.id }))} />
+        <Select allowClear showSearch optionFilterProp="label" style={{ width: 220 }} placeholder="Filter product type" value={productTypeId} onChange={(value) => { setProductTypeId(value); setPage(1); }} loading={productTypesQuery.isLoading} options={(productTypesQuery.data ?? []).map((item) => ({ label: item.name_en, value: item.id }))} />
       </Flex>
       <Card>
-        <Flex gap={32} style={{ marginBottom: 20 }} wrap="wrap"><Statistic title="Total products" value={productsQuery.data?.total ?? 0} /><Statistic title="Visible results" value={productsQuery.data?.items.length ?? 0} /></Flex>
+        <Flex gap={32} style={{ marginBottom: 20 }} wrap="wrap"><Statistic title="Total products" value={productsQuery.data?.total ?? 0} /><Statistic title="Results on page" value={productsQuery.data?.items.length ?? 0} /></Flex>
         <Table
           rowKey="id"
           loading={productsQuery.isLoading}
           dataSource={productsQuery.data?.items ?? []}
-          pagination={{ pageSize: 20, showSizeChanger: false }}
+          pagination={{ current: page, pageSize, total: productsQuery.data?.total ?? 0, showSizeChanger: false, showTotal: (total) => `${total} products`, onChange: setPage }}
           columns={[
             { title: "Product", key: "product", render: (_: unknown, item: ProductListItem) => <Space direction="vertical" size={0}><Typography.Text strong>{item.product_name_en}</Typography.Text><Typography.Text type="secondary">{item.product_code}</Typography.Text></Space> },
             { title: "Brand", dataIndex: "brand_name", key: "brand" },

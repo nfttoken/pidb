@@ -78,12 +78,20 @@ export function ShopifySync() {
   });
 
   const syncMutation = useMutation({
-    mutationFn: syncProduct,
+    mutationFn: (productId: string) => syncProduct(productId),
     onSuccess: () => {
       message.success("Shopify sync started");
       void queryClient.invalidateQueries({ queryKey: ["shopify-status", selectedProductId] });
     },
     onError: () => message.error("Shopify sync could not be started"),
+  });
+  const priceSyncMutation = useMutation({
+    mutationFn: (productId: string) => syncProduct(productId, "sync_price"),
+    onSuccess: () => {
+      message.success("Approved prices sync started");
+      void queryClient.invalidateQueries({ queryKey: ["shopify-status", selectedProductId] });
+    },
+    onError: () => message.error("Approved prices could not be synced"),
   });
   const queueMutation = useMutation({
     mutationFn: queueProducts,
@@ -209,6 +217,14 @@ export function ShopifySync() {
                   onClick={() => syncMutation.mutate(selectedProduct.id)}
                 >
                   Sync product
+                </Button>
+                <Button
+                  icon={<SyncOutlined />}
+                  disabled={!canSync}
+                  loading={priceSyncMutation.isPending}
+                  onClick={() => priceSyncMutation.mutate(selectedProduct.id)}
+                >
+                  Sync approved prices
                 </Button>
               </Space>
             </Flex>

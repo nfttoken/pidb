@@ -1,0 +1,811 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Find a Store" [ref=e10] [cursor=pointer]:
+            - /url: /pages/store-locator
+        - listitem [ref=e11]:
+          - link "Contact Us" [ref=e12] [cursor=pointer]:
+            - /url: /pages/contact-us
+      - generic [ref=e15]:
+        - generic [ref=e16]: Flash Sale Ends In
+        - generic [ref=e18]:
+          - generic [ref=e19]: "00 :"
+          - generic [ref=e21]: "15 :"
+          - generic [ref=e23]: "29 :"
+          - generic [ref=e25]: "19"
+        - link "Shop" [ref=e27] [cursor=pointer]:
+          - /url: /collections/bundles
+      - generic [ref=e29]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Facebook" [ref=e32] [cursor=pointer]:
+              - /url: https://www.facebook.com/KiokiiandInc/
+          - listitem [ref=e36]:
+            - link "Instagram" [ref=e37] [cursor=pointer]:
+              - /url: https://www.instagram.com/kiokii.official
+          - listitem [ref=e41]:
+            - link "TikTok" [ref=e42] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@kiokii.official
+          - listitem [ref=e46]:
+            - link "Pinterest" [ref=e47] [cursor=pointer]:
+              - /url: https://ca.pinterest.com/KiokiiOfficial/
+        - generic [ref=e51]:
+          - generic [ref=e54]:
+            - heading "Language" [level=2] [ref=e55]
+            - button "English" [ref=e56] [cursor=pointer]
+          - generic [ref=e61]:
+            - heading "Country/region" [level=2] [ref=e62]
+            - button "Canada (CAD $)" [ref=e63] [cursor=pointer]
+    - generic:
+      - banner:
+        - generic [ref=e67]:
+          - link [ref=e69] [cursor=pointer]:
+            - /url: /
+            - img "Kiokii and..." [ref=e70]
+          - search [ref=e74]:
+            - generic [ref=e75]:
+              - combobox "Search" [ref=e76]
+              - generic [ref=e77]: Search
+              - button "Clear search term" [ref=e78] [cursor=pointer]:
+                - generic [ref=e79]: Clear
+              - button "Search" [ref=e80] [cursor=pointer]
+          - generic [ref=e85]:
+            - link "Account" [ref=e86] [cursor=pointer]:
+              - /url: "#k-hub"
+            - link "Wishlist" [ref=e90] [cursor=pointer]:
+              - /url: /pages/wishlist
+            - link "Cart" [ref=e94] [cursor=pointer]:
+              - /url: /cart
+        - navigation "Primary" [ref=e101]:
+          - list [ref=e102]:
+            - listitem [ref=e103]:
+              - link "Special Offers" [ref=e104] [cursor=pointer]:
+                - /url: https://kiokii.com/collections
+            - listitem [ref=e112]:
+              - group [ref=e113]:
+                - generic "Trending" [ref=e114] [cursor=pointer]
+            - listitem [ref=e119]:
+              - group [ref=e120]:
+                - generic "Skincare" [ref=e121] [cursor=pointer]
+            - listitem [ref=e126]:
+              - group [ref=e127]:
+                - generic "Makeup" [ref=e128] [cursor=pointer]
+            - listitem [ref=e133]:
+              - group [ref=e134]:
+                - generic "Body & Hair" [ref=e135] [cursor=pointer]
+            - listitem [ref=e140]:
+              - group [ref=e141]:
+                - generic "Brands" [ref=e142] [cursor=pointer]
+            - listitem [ref=e147]:
+              - group [ref=e148]:
+                - generic "Explore" [ref=e149] [cursor=pointer]
+            - listitem [ref=e154]:
+              - link "Rewards" [ref=e155] [cursor=pointer]:
+                - /url: /pages/rewards
+    - link [ref=e162] [cursor=pointer]:
+      - /url: /policies/shipping-policy
+      - paragraph [ref=e163]: Canada Free shipping over $75 CAD
+    - main [ref=e164]:
+      - navigation "breadcrumbs" [ref=e167]:
+        - link "Home" [ref=e168] [cursor=pointer]:
+          - /url: /
+        - link "Collection" [ref=e170] [cursor=pointer]:
+          - /url: /collections/all
+        - generic [ref=e172]: Sheet Masks
+      - generic [ref=e179]:
+        - link [ref=e182] [cursor=pointer]:
+          - /url: /collections/clearance
+          - img "Clearance" [ref=e185]
+          - generic:
+            - heading "Clearance" [level=3]
+        - link [ref=e188] [cursor=pointer]:
+          - /url: /collections/bundles
+          - img "Dr.Althea 345 Relief Cream 50ml + Vitamin C Boosting Serum 30ml by Dr. Althea – Bundle" [ref=e191]
+          - generic:
+            - heading "Skincare Bundles" [level=3]
+        - link [ref=e194] [cursor=pointer]:
+          - /url: /collections/sun-care
+          - img "ROUND LAB Birch Juice Moisturizing Mild Up Sunscreen 50ml by Round Lab – Sunscreen" [ref=e197]
+          - generic:
+            - heading "Sunscreen" [level=3]
+        - link [ref=e200] [cursor=pointer]:
+          - /url: /collections/exosomes
+          - img "Medicube PDRN Pink Exosome Shot Serum 2000 30ml by Medicube – Serum & Ampoule" [ref=e203]
+          - generic:
+            - heading "Exosome" [level=3]
+        - link [ref=e206] [cursor=pointer]:
+          - /url: /collections/matcha-skincare
+          - img "TIRTIR Matcha Calming Cream 50ml by TIRTIR – Lotion & Cream" [ref=e209]
+          - generic:
+            - heading "Matcha Skincare" [level=3]
+        - link [ref=e212] [cursor=pointer]:
+          - /url: /collections/nad
+          - img "numbuzin No.9+ NAD+ Bio Lifting-sil Essence 50ml by numbuzin – Toner & Essence" [ref=e215]
+          - generic:
+            - heading "NAD+" [level=3]
+        - link [ref=e218] [cursor=pointer]:
+          - /url: /collections/cooling-skincare
+          - img "Cooling Skincare - Kiokii and..." [ref=e221]
+          - generic:
+            - heading "Cooling Skincare" [level=3]
+        - link [ref=e224] [cursor=pointer]:
+          - /url: /collections/reedle
+          - img "Reedle" [ref=e227]
+          - generic:
+            - heading "Reedle" [level=3]
+        - link [ref=e230] [cursor=pointer]:
+          - /url: /collections/dryness-dehydration
+          - img "Dr. Melaxin Cemenrete Cyano Pink Spicule Cream 50ml by Dr.Melaxin – Lotion & Cream" [ref=e233]
+          - generic:
+            - heading "Dry Skin" [level=3]
+        - link [ref=e236] [cursor=pointer]:
+          - /url: /collections/oily-skin-picks
+          - img "ilso Super Melting Sebum Softener 150ml by ilso – Toner & Essence" [ref=e239]
+          - generic:
+            - heading "Oily Skin" [level=3]
+        - link [ref=e242] [cursor=pointer]:
+          - /url: /collections/sensitive-skin
+          - img "COSRX Advanced Snail 96 Mucin Power Essence 100ml by COSRX – Toner & Essence" [ref=e245]
+          - generic:
+            - heading "Sensitive Skin" [level=3]
+        - link [ref=e248] [cursor=pointer]:
+          - /url: /collections/youth-boosters
+          - img "JM Solution H9 Hyaluronic Ampoule Moisturizing Mask by JM Solution – Sheet Mask" [ref=e251]
+          - generic:
+            - heading "Youth Boosters" [level=3]
+        - link [ref=e254] [cursor=pointer]:
+          - /url: /collections/barrier-first
+          - img "ROUND LAB Birch Juice Hand Cream 30ml by Round Lab – Hand Cream" [ref=e257]
+          - generic:
+            - heading "Barrier-first" [level=3]
+      - heading "Collection:" [level=1] [ref=e263]
+      - generic [ref=e265]:
+        - generic [ref=e267]:
+          - generic [ref=e268]:
+            - generic [ref=e269]:
+              - text: Compare (
+              - generic [ref=e270]: "0"
+              - generic [ref=e271]: /3
+              - text: )
+            - generic [ref=e272]:
+              - button "Compare" [disabled] [ref=e273]
+              - button "Clear all" [ref=e275] [cursor=pointer]
+          - list [ref=e277]:
+            - listitem [ref=e278]
+            - listitem [ref=e279]
+            - listitem [ref=e280]
+        - generic [ref=e283]:
+          - generic [ref=e285]:
+            - generic [ref=e286]:
+              - status [ref=e288]: 199 products
+              - button "Filter" [ref=e291] [cursor=pointer]
+            - generic [ref=e295]:
+              - generic [ref=e296]:
+                - checkbox "Compare:" [ref=e297] [cursor=pointer]
+                - generic [ref=e298] [cursor=pointer]: "Compare:"
+              - generic [ref=e301]:
+                - generic [ref=e302]: "Sort by:"
+                - combobox "Sort by:" [ref=e304] [cursor=pointer]:
+                  - option "Featured" [selected]
+                  - option "Most relevant"
+                  - option "Best selling"
+                  - option "Alphabetically, A-Z"
+                  - option "Alphabetically, Z-A"
+                  - option "Price, low to high"
+                  - option "Price, high to low"
+                  - option "Date, old to new"
+                  - option "Date, new to old"
+              - generic [ref=e305]:
+                - generic [ref=e306]: "View as:"
+                - button "View as grid" [ref=e307] [cursor=pointer]
+                - button "View as list" [ref=e311] [cursor=pointer]
+          - generic [ref=e316]:
+            - generic [ref=e317]:
+              - generic [ref=e320]:
+                - generic [ref=e321]:
+                  - link "numbuzin No.9 NAD+ Bio Lifting-sil Full Face Mask (Box 4pcs/Single)" [ref=e322] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/numbuzin-no-9-nad-bio-lifting-sil-full-face-mask-box-single
+                    - img "Numbuzin No.9 NAD Bio Lifting - sil Full Face Mask (Box 4pcs/Single) by numbuzin – Sheet Mask" [ref=e325]
+                  - generic [ref=e326]:
+                    - generic [ref=e327]: NAD+
+                    - generic [ref=e328]: PDRN
+                  - button "Choose options" [ref=e330] [cursor=pointer]
+                - generic [ref=e333]:
+                  - paragraph [ref=e334]:
+                    - link "Type:Sheet Mask" [ref=e335] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e336]:
+                    - link "numbuzin No.9 NAD+ Bio Lifting-sil Full Face Mask (Box 4pcs/Single)" [ref=e337] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/numbuzin-no-9-nad-bio-lifting-sil-full-face-mask-box-single
+                  - generic [ref=e339]:
+                    - generic [ref=e340]: Regular price
+                    - text: From $7.99 CAD
+              - generic [ref=e343]:
+                - generic [ref=e344]:
+                  - link "Benton Snail Bee High Content Mask Pack 1pc" [ref=e345] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/benton-snail-bee-high-content-mask-pack-1pc
+                    - img "Benton Snail Bee High Content Mask Pack 1pc by Benton – Sheet Mask" [ref=e348]
+                  - generic [aria-hidden] [ref=e350]: Sold out
+                  - button "Add to cart" [disabled] [ref=e352]:
+                    - generic [ref=e353]: Sold out
+                - generic [ref=e355]:
+                  - paragraph [ref=e356]:
+                    - link "Type:Sheet Mask" [ref=e357] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e358]:
+                    - link "Benton Snail Bee High Content Mask Pack 1pc" [ref=e359] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/benton-snail-bee-high-content-mask-pack-1pc
+                  - generic [ref=e361]:
+                    - generic [ref=e362]: Regular price
+                    - text: $2.99 CAD
+              - generic [ref=e365]:
+                - generic [ref=e366]:
+                  - link "numbuzin No.2 Water Collagen 65% Volumizing Sheet Mask (2 Sizes)" [ref=e367] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/no-2-water-collagen-65-voluming-sheet-mask-4pcs
+                    - img "Numbuzin No.2 Water Collagen 65% Volumizing Sheet Mask (2 Sizes) by numbuzin – Sheet Mask" [ref=e370]
+                  - generic [aria-hidden] [ref=e372]: Sold out
+                  - button "Choose options" [ref=e374] [cursor=pointer]
+                - generic [ref=e377]:
+                  - paragraph [ref=e378]:
+                    - link "Type:Sheet Mask" [ref=e379] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e380]:
+                    - link "numbuzin No.2 Water Collagen 65% Volumizing Sheet Mask (2 Sizes)" [ref=e381] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/no-2-water-collagen-65-voluming-sheet-mask-4pcs
+                  - generic [ref=e383]:
+                    - generic [ref=e384]: Regular price
+                    - text: $4.99 CAD
+              - generic [ref=e387]:
+                - generic [ref=e388]:
+                  - link "ARIUL 7 days Mask Aloe H 1pc" [ref=e389] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/ariul-7-days-mask-aloe-h-1pc
+                    - img "ARIUL 7 days Mask Aloe H 1pc by Ariul – Sheet Mask" [ref=e392]
+                  - button "Add to cart" [ref=e394] [cursor=pointer]
+                - generic [ref=e397]:
+                  - paragraph [ref=e398]:
+                    - link "Type:Sheet Mask" [ref=e399] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e400]:
+                    - link "ARIUL 7 days Mask Aloe H 1pc" [ref=e401] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/ariul-7-days-mask-aloe-h-1pc
+                  - generic [ref=e403]:
+                    - generic [ref=e404]: Regular price
+                    - text: $2.99 CAD
+              - generic [ref=e407]:
+                - generic [ref=e408]:
+                  - link "SOME BY MI Galactomyces Glutathione Glow Serum Mask 1p" [ref=e409] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/some-by-mi-galactomyces-gluetathione-glow-serum-mask-1p
+                    - img "SOME BY MI Galactomyces Glutathione Glow Serum Mask 1p by Some by Mi – Sheet Mask" [ref=e412]
+                  - button "Add to cart" [ref=e414] [cursor=pointer]
+                - generic [ref=e417]:
+                  - paragraph [ref=e418]:
+                    - link "Type:Sheet Mask" [ref=e419] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e420]:
+                    - link "SOME BY MI Galactomyces Glutathione Glow Serum Mask 1p" [ref=e421] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/some-by-mi-galactomyces-gluetathione-glow-serum-mask-1p
+                  - generic [ref=e423]:
+                    - generic [ref=e424]: Regular price
+                    - text: $3.99 CAD
+              - generic [ref=e427]:
+                - generic [ref=e428]:
+                  - link "BIOHEAL BOH Probioderm 3D Lifting Full Face Tension Gel Mask 1pc" [ref=e429] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/bioheal-boh-probioderm-3d-lifting-full-face-tension-gel-mask-1pc
+                    - img "BIOHEAL BOH Probioderm 3D Lifting Full Face Tension Gel Mask 1pc by BIOHEAL BOH – Sheet Mask" [ref=e432]
+                  - generic [aria-hidden] [ref=e434]: Sold out
+                  - button "Add to cart" [disabled] [ref=e436]:
+                    - generic [ref=e437]: Sold out
+                - generic [ref=e439]:
+                  - paragraph [ref=e440]:
+                    - link "Type:Sheet Mask" [ref=e441] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e442]:
+                    - link "BIOHEAL BOH Probioderm 3D Lifting Full Face Tension Gel Mask 1pc" [ref=e443] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/bioheal-boh-probioderm-3d-lifting-full-face-tension-gel-mask-1pc
+                  - generic [ref=e445]:
+                    - generic [ref=e446]: Regular price
+                    - text: $9.99 CAD
+              - generic [ref=e449]:
+                - generic [ref=e450]:
+                  - link "ARIUL 7days Mask Lotus N 1pc" [ref=e451] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/ariul-7days-mask-lotus-n-1pc
+                    - img "ARIUL 7days Mask Lotus N 1pc by Ariul – Sheet Mask" [ref=e454]
+                  - button "Add to cart" [ref=e456] [cursor=pointer]
+                - generic [ref=e459]:
+                  - paragraph [ref=e460]:
+                    - link "Type:Sheet Mask" [ref=e461] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e462]:
+                    - link "ARIUL 7days Mask Lotus N 1pc" [ref=e463] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/ariul-7days-mask-lotus-n-1pc
+                  - generic [ref=e465]:
+                    - generic [ref=e466]: Regular price
+                    - text: $2.99 CAD
+              - link "Long Weekend Sale - 15% OFF bundles" [ref=e468] [cursor=pointer]:
+                - /url: /collections/bundles
+                - img "Kiokii and..." [ref=e474]
+              - generic [ref=e479]:
+                - generic [ref=e480]:
+                  - link "ARIUL 7 days Mask Lemon C 1pc" [ref=e481] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/ariul-7-days-mask-lemon-c-1pc
+                    - img "ARIUL 7 days Mask Lemon C 1pc by Ariul – Sheet Mask" [ref=e484]
+                  - button "Add to cart" [ref=e486] [cursor=pointer]
+                - generic [ref=e489]:
+                  - paragraph [ref=e490]:
+                    - link "Type:Sheet Mask" [ref=e491] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e492]:
+                    - link "ARIUL 7 days Mask Lemon C 1pc" [ref=e493] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/ariul-7-days-mask-lemon-c-1pc
+                  - generic [ref=e495]:
+                    - generic [ref=e496]: Regular price
+                    - text: $2.99 CAD
+              - generic [ref=e499]:
+                - generic [ref=e500]:
+                  - link "ARIUL 7 days Mask Heartleaf P 1pc" [ref=e501] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/ariul-7days-mask-heartleaf-1pc
+                    - img "ARIUL 7 days Mask Heartleaf P 1pc by Ariul – Sheet Mask" [ref=e504]
+                  - button "Add to cart" [ref=e506] [cursor=pointer]
+                - generic [ref=e509]:
+                  - paragraph [ref=e510]:
+                    - link "Type:Sheet Mask" [ref=e511] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e512]:
+                    - link "ARIUL 7 days Mask Heartleaf P 1pc" [ref=e513] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/ariul-7days-mask-heartleaf-1pc
+                  - generic [ref=e515]:
+                    - generic [ref=e516]: Regular price
+                    - text: $2.99 CAD
+              - generic [ref=e519]:
+                - generic [ref=e520]:
+                  - link "KOCOSTAR Waffle Mask (3 Styles)" [ref=e521] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/kocostar-waffle-mask-3-styles
+                    - img "KOCOSTAR Waffle Mask (3 Styles) by Kocostar – Sheet Mask" [ref=e524]
+                  - button "Choose options" [ref=e526] [cursor=pointer]
+                - generic [ref=e529]:
+                  - paragraph [ref=e530]:
+                    - link "Type:Sheet Mask" [ref=e531] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e532]:
+                    - link "KOCOSTAR Waffle Mask (3 Styles)" [ref=e533] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/kocostar-waffle-mask-3-styles
+                  - generic [ref=e535]:
+                    - generic [ref=e536]: Regular price
+                    - text: $3.99 CAD
+              - link "2 Best Sellers, 15% OFF" [ref=e538] [cursor=pointer]:
+                - /url: https://kiokii.com/collections/1-1-value-sets-12-off-on-bestsellers
+                - img "Kiokii and..." [ref=e543]
+              - link "Selected Skincare Buy 3 For 25% OFF" [ref=e547] [cursor=pointer]:
+                - /url: https://kiokii.com/collections/skin-school-2-0-buy-3-get-25-off
+                - img "Kiokii and..." [ref=e552]
+              - generic [ref=e557]:
+                - generic [ref=e558]:
+                  - link "Sungboon Editor Deep Collagen Hyalu-B5 Hydrating Mask 4pcs" [ref=e559] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/sungboon-editor-deep-collagen-hyalu-b5-hydrating-mask-4pcs
+                    - img "Sungboon Editor Deep Collagen Hyalu - B5 Hydrating Mask 4pcs by Sungboon – Sheet Mask" [ref=e562]
+                  - button "Add to cart" [ref=e564] [cursor=pointer]
+                - generic [ref=e567]:
+                  - paragraph [ref=e568]:
+                    - link "Type:Sheet Mask" [ref=e569] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e570]:
+                    - link "Sungboon Editor Deep Collagen Hyalu-B5 Hydrating Mask 4pcs" [ref=e571] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/sungboon-editor-deep-collagen-hyalu-b5-hydrating-mask-4pcs
+                  - generic [ref=e573]:
+                    - generic [ref=e574]: Regular price
+                    - text: $25.99 CAD
+              - generic [ref=e577]:
+                - generic [ref=e578]:
+                  - link "Dr.Althea Oasis Soothing Mask (2 Sizes)" [ref=e579] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/dr-althea-oasis-soothing-mask-5pc
+                    - img "Dr. Althea Oasis Soothing Mask (2 Sizes) by Dr. Althea – Sheet Mask" [ref=e582]
+                  - button "Choose options" [ref=e584] [cursor=pointer]
+                - generic [ref=e587]:
+                  - paragraph [ref=e588]:
+                    - link "Type:Sheet Mask" [ref=e589] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e590]:
+                    - link "Dr.Althea Oasis Soothing Mask (2 Sizes)" [ref=e591] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/dr-althea-oasis-soothing-mask-5pc
+                  - generic [ref=e593]:
+                    - generic [ref=e594]: Regular price
+                    - text: From $6.00 CAD
+              - generic [ref=e597]:
+                - generic [ref=e598]:
+                  - link "BCL Saborino Night Face Mask Chamomile Orange 30 Sheets" [ref=e599] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/saborino-morning-face-mask-chamomile-orange
+                    - img "BCL Saborino Night Face Mask Chamomile Orange 30 Sheets by BCL – Sheet Mask" [ref=e602]
+                  - generic [ref=e603]: GWP
+                  - button "Add to cart" [ref=e606] [cursor=pointer]
+                - generic [ref=e609]:
+                  - paragraph [ref=e610]:
+                    - link "Type:Sheet Mask" [ref=e611] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e612]:
+                    - link "BCL Saborino Night Face Mask Chamomile Orange 30 Sheets" [ref=e613] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/saborino-morning-face-mask-chamomile-orange
+                  - generic [ref=e615]:
+                    - generic [ref=e616]: Regular price
+                    - text: $16.99 CAD
+              - generic [ref=e619]:
+                - generic [ref=e620]:
+                  - link "Dr.Jart+ Dermask Ultra Jet Porecting Solution Sheet Mask" [ref=e621] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/dr-jart-porecting-bubbling-cha
+                    - img "Dr.Jart+ Dermask Ultra Jet Porecting Solution Sheet Mask by Dr.Jart+ – Sheet Mask" [ref=e624]
+                  - generic [aria-hidden] [ref=e626]: Sold out
+                  - button "Add to cart" [disabled] [ref=e628]:
+                    - generic [ref=e629]: Sold out
+                - generic [ref=e631]:
+                  - paragraph [ref=e632]:
+                    - link "Type:Sheet Mask" [ref=e633] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e634]:
+                    - link "Dr.Jart+ Dermask Ultra Jet Porecting Solution Sheet Mask" [ref=e635] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/dr-jart-porecting-bubbling-cha
+                  - generic [ref=e637]:
+                    - generic [ref=e638]: Regular price
+                    - text: $16.99 CAD
+              - generic [ref=e641]:
+                - generic [ref=e642]:
+                  - link "BCL Saborino Morning Face Mask Mix Berry 30 Sheets" [ref=e643] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/saborino-morning-face-mask-mix-berry
+                    - img "BCL Saborino Morning Face Mask Mix Berry 30 Sheets by BCL – Sheet Mask" [ref=e646]
+                  - generic [ref=e647]:
+                    - generic [aria-hidden] [ref=e648]: Sold out
+                    - generic [ref=e649]: GWP
+                  - button "Add to cart" [disabled] [ref=e651]:
+                    - generic [ref=e652]: Sold out
+                - generic [ref=e654]:
+                  - paragraph [ref=e655]:
+                    - link "Type:Sheet Mask" [ref=e656] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e657]:
+                    - link "BCL Saborino Morning Face Mask Mix Berry 30 Sheets" [ref=e658] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/saborino-morning-face-mask-mix-berry
+                  - generic [ref=e660]:
+                    - generic [ref=e661]: Regular price
+                    - text: $16.99 CAD
+              - generic [ref=e664]:
+                - generic [ref=e665]:
+                  - link "Sungboon Editor Deep Collagen Niacin Vita C Brightening Mask 4pcs" [ref=e666] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/sungboon-editor-deep-collagen-niacin-vita-c-brightening-mask-4pcs
+                    - img "Sungboon Editor Deep Collagen Niacin Vita C Brightening Mask 4pcs by Sungboon – Sheet Mask" [ref=e669]
+                  - button "Add to cart" [ref=e671] [cursor=pointer]
+                - generic [ref=e674]:
+                  - paragraph [ref=e675]:
+                    - link "Type:Sheet Mask" [ref=e676] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e677]:
+                    - link "Sungboon Editor Deep Collagen Niacin Vita C Brightening Mask 4pcs" [ref=e678] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/sungboon-editor-deep-collagen-niacin-vita-c-brightening-mask-4pcs
+                  - generic [ref=e680]:
+                    - generic [ref=e681]: Regular price
+                    - text: $25.99 CAD
+              - generic [ref=e684]:
+                - generic [ref=e685]:
+                  - link "APLB Retinol Vitamin C Vitamin E Sheet Mask Set 10 Sheets" [ref=e686] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/aplb-retinol-vitamin-c-vitamin-e-sheet-mask-set-10-sheets
+                    - img "APLB Retinol Vitamin C Vitamin E Sheet Mask Set 10 Sheets by APLB – Sheet Mask" [ref=e689]
+                  - generic [ref=e690]: PDRN
+                  - button "Choose options" [ref=e693] [cursor=pointer]
+                - generic [ref=e696]:
+                  - paragraph [ref=e697]:
+                    - link "Type:Sheet Mask" [ref=e698] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e699]:
+                    - link "APLB Retinol Vitamin C Vitamin E Sheet Mask Set 10 Sheets" [ref=e700] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/aplb-retinol-vitamin-c-vitamin-e-sheet-mask-set-10-sheets
+                  - generic [ref=e702]:
+                    - generic [ref=e703]: Regular price
+                    - text: From $1.99 CAD
+              - generic [ref=e706]:
+                - generic [ref=e707]:
+                  - link "APLB Collagen EGF Peptide Sheet Mask Set 10 Sheets" [ref=e708] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/aplb-collagen-egf-peptide-sheet-mask-set-10-sheets
+                    - img "APLB Collagen EGF Peptide Sheet Mask Set 10 Sheets by APLB – Sheet Mask" [ref=e711]
+                  - generic [ref=e712]: PDRN
+                  - button "Choose options" [ref=e715] [cursor=pointer]
+                - generic [ref=e718]:
+                  - paragraph [ref=e719]:
+                    - link "Type:Sheet Mask" [ref=e720] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e721]:
+                    - link "APLB Collagen EGF Peptide Sheet Mask Set 10 Sheets" [ref=e722] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/aplb-collagen-egf-peptide-sheet-mask-set-10-sheets
+                  - generic [ref=e724]:
+                    - generic [ref=e725]: Regular price
+                    - text: From $1.99 CAD
+              - generic [ref=e728]:
+                - generic [ref=e729]:
+                  - link "BIOHEAL BOH Probioderm Collagen Remodeling Serum Gel Mask Sheet (Box/Single)" [ref=e730] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/bioheal-boh-probioderm-collagen-remodeling-serum-gel-mask-sheet-box-single
+                    - img "BIOHEAL BOH Probioderm Collagen Remodeling Serum Gel Mask Sheet (Box/Single) by BIOHEAL BOH – Sheet Mask" [ref=e733]
+                  - button "Choose options" [ref=e735] [cursor=pointer]
+                - generic [ref=e738]:
+                  - paragraph [ref=e739]:
+                    - link "Type:Sheet Mask" [ref=e740] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e741]:
+                    - link "BIOHEAL BOH Probioderm Collagen Remodeling Serum Gel Mask Sheet (Box/Single)" [ref=e742] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/bioheal-boh-probioderm-collagen-remodeling-serum-gel-mask-sheet-box-single
+                  - generic [ref=e744]:
+                    - generic [ref=e745]: Regular price
+                    - text: From $7.49 CAD
+              - generic [ref=e748]:
+                - generic [ref=e749]:
+                  - link "ARIUL 7days Mask Calendula P 1pc" [ref=e750] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/ariul-7days-mask-calendula-p-1pc
+                    - img "ARIUL 7days Mask Calendula P 1pc by Ariul – Sheet Mask" [ref=e753]
+                  - button "Add to cart" [ref=e755] [cursor=pointer]
+                - generic [ref=e758]:
+                  - paragraph [ref=e759]:
+                    - link "Type:Sheet Mask" [ref=e760] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e761]:
+                    - link "ARIUL 7days Mask Calendula P 1pc" [ref=e762] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/ariul-7days-mask-calendula-p-1pc
+                  - generic [ref=e764]:
+                    - generic [ref=e765]: Regular price
+                    - text: $2.99 CAD
+              - generic [ref=e768]:
+                - generic [ref=e769]:
+                  - link "ARIUL 7days Mask Green Tea S 1pc" [ref=e770] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/ariul-7days-mask-green-tea-s-1pc
+                    - img "ARIUL 7days Mask Green Tea S 1pc by Ariul – Sheet Mask" [ref=e773]
+                  - generic [aria-hidden] [ref=e775]: Sold out
+                  - button "Add to cart" [disabled] [ref=e777]:
+                    - generic [ref=e778]: Sold out
+                - generic [ref=e780]:
+                  - paragraph [ref=e781]:
+                    - link "Type:Sheet Mask" [ref=e782] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e783]:
+                    - link "ARIUL 7days Mask Green Tea S 1pc" [ref=e784] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/ariul-7days-mask-green-tea-s-1pc
+                  - generic [ref=e786]:
+                    - generic [ref=e787]: Regular price
+                    - text: $2.99 CAD
+              - generic [ref=e790]:
+                - generic [ref=e791]:
+                  - link "ARIUL 7days Mask Tea Tree M 1pc" [ref=e792] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/ariul-7days-mask-tea-tree-m-1pc
+                    - img "ARIUL 7days Mask Tea Tree M 1pc by Ariul – Sheet Mask" [ref=e795]
+                  - button "Add to cart" [ref=e797] [cursor=pointer]
+                - generic [ref=e800]:
+                  - paragraph [ref=e801]:
+                    - link "Type:Sheet Mask" [ref=e802] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e803]:
+                    - link "ARIUL 7days Mask Tea Tree M 1pc" [ref=e804] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/ariul-7days-mask-tea-tree-m-1pc
+                  - generic [ref=e806]:
+                    - generic [ref=e807]: Regular price
+                    - text: $2.99 CAD
+              - generic [ref=e810]:
+                - generic [ref=e811]:
+                  - link "The SAEM Natural Mask Sheet (1pc)" [ref=e812] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/the-saem-natural-mask-sheet
+                    - img "The SAEM Natural Mask Sheet (1pc) by The Saem – Sheet Mask" [ref=e815]
+                  - generic [ref=e816]: PDRN
+                  - button "Choose options" [ref=e819] [cursor=pointer]
+                - generic [ref=e822]:
+                  - paragraph [ref=e823]:
+                    - link "Type:Sheet Mask" [ref=e824] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e825]:
+                    - link "The SAEM Natural Mask Sheet (1pc)" [ref=e826] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/the-saem-natural-mask-sheet
+                  - generic [ref=e828]:
+                    - generic [ref=e829]: Regular price
+                    - text: $2.99 CAD
+              - generic [ref=e832]:
+                - generic [ref=e833]:
+                  - link "MEDIHEAL Centella Niacin Ampoule Mask 10pcs" [ref=e834] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/mediheal-centella-niacin-ampoule-mask-10pcs
+                    - img "MEDIHEAL Centella Niacin Ampoule Mask 10pcs by Mediheal – Sheet Mask" [ref=e837]
+                  - button "Add to cart" [ref=e839] [cursor=pointer]
+                - generic [ref=e842]:
+                  - paragraph [ref=e843]:
+                    - link "Type:Sheet Mask" [ref=e844] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e845]:
+                    - link "MEDIHEAL Centella Niacin Ampoule Mask 10pcs" [ref=e846] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/mediheal-centella-niacin-ampoule-mask-10pcs
+                  - generic [ref=e848]:
+                    - generic [ref=e849]: Regular price
+                    - text: $24.99 CAD
+              - generic [ref=e852]:
+                - generic [ref=e853]:
+                  - link "Dalba White Truffle Nourishing Treatment Mask 5pcs" [ref=e854] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/dalba-white-truffle-nourishing-treatment-mask-5pcs
+                    - img "Dalba White Truffle Nourishing Treatment Mask 5pcs by d'Alba – Sheet Mask" [ref=e857]
+                  - generic [aria-hidden] [ref=e859]: Sold out
+                  - button "Add to cart" [disabled] [ref=e861]:
+                    - generic [ref=e862]: Sold out
+                - generic [ref=e864]:
+                  - paragraph [ref=e865]:
+                    - link "Type:Sheet Mask" [ref=e866] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e867]:
+                    - link "Dalba White Truffle Nourishing Treatment Mask 5pcs" [ref=e868] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/dalba-white-truffle-nourishing-treatment-mask-5pcs
+                  - generic [ref=e870]:
+                    - generic [ref=e871]: Regular price
+                    - text: $26.99 CAD
+              - generic [ref=e874]:
+                - generic [ref=e875]:
+                  - link "MEDIHEAL Collagen Essential Mask Core Firming (10pcs)" [ref=e876] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/mediheal-collagen-essential-mask-core-firming-10pcs
+                    - img "MEDIHEAL Collagen Essential Mask Core Firming (10pcs) by Mediheal – Sheet Mask" [ref=e879]
+                  - generic [ref=e880]: PDRN
+                  - button "Add to cart" [ref=e883] [cursor=pointer]
+                - generic [ref=e886]:
+                  - paragraph [ref=e887]:
+                    - link "Type:Sheet Mask" [ref=e888] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e889]:
+                    - link "MEDIHEAL Collagen Essential Mask Core Firming (10pcs)" [ref=e890] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/mediheal-collagen-essential-mask-core-firming-10pcs
+                  - generic [ref=e892]:
+                    - generic [ref=e893]: Regular price
+                    - text: $15.99 CAD
+              - generic [ref=e896]:
+                - generic [ref=e897]:
+                  - link "MEDIHEAL Vitamin C Essential Mask (10pcs)" [ref=e898] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/mediheal-vitamin-c-essential-mask-10
+                    - img "MEDIHEAL Vitamin C Essential Mask (10pcs) by Mediheal – Sheet Mask" [ref=e901]
+                  - generic [ref=e902]: PDRN
+                  - button "Add to cart" [ref=e905] [cursor=pointer]
+                - generic [ref=e908]:
+                  - paragraph [ref=e909]:
+                    - link "Type:Sheet Mask" [ref=e910] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e911]:
+                    - link "MEDIHEAL Vitamin C Essential Mask (10pcs)" [ref=e912] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/mediheal-vitamin-c-essential-mask-10
+                  - generic [ref=e914]:
+                    - generic [ref=e915]: Regular price
+                    - text: $15.99 CAD
+              - generic [ref=e918]:
+                - generic [ref=e919]:
+                  - link "MEDIHEAL Hyaluronate Essential Mask (10pcs)" [ref=e920] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/mediheal-hyaluronate-essential-mask-10pcs
+                    - img "MEDIHEAL Hyaluronate Essential Mask (10pcs) by Mediheal – Sheet Mask" [ref=e923]
+                  - generic [ref=e924]: PDRN
+                  - button "Add to cart" [ref=e927] [cursor=pointer]
+                - generic [ref=e930]:
+                  - paragraph [ref=e931]:
+                    - link "Type:Sheet Mask" [ref=e932] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e933]:
+                    - link "MEDIHEAL Hyaluronate Essential Mask (10pcs)" [ref=e934] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/mediheal-hyaluronate-essential-mask-10pcs
+                  - generic [ref=e936]:
+                    - generic [ref=e937]: Regular price
+                    - text: $15.99 CAD
+              - generic [ref=e940]:
+                - generic [ref=e941]:
+                  - link "MEDIHEAL Essential Mask Calming Moisture 10 Pieces (2 Types)" [ref=e942] [cursor=pointer]:
+                    - /url: /collections/sheet-masks/products/mediheal-essential-mask-calming-moisture
+                    - img "MEDIHEAL Essential Mask Calming Moisture 10 Pieces (2 Types) by Mediheal – Sheet Mask" [ref=e945]
+                  - generic [ref=e946]: PDRN
+                  - button "Choose options" [ref=e949] [cursor=pointer]
+                - generic [ref=e952]:
+                  - paragraph [ref=e953]:
+                    - link "Type:Sheet Mask" [ref=e954] [cursor=pointer]:
+                      - /url: /collections/types?q=Sheet%20Mask
+                      - text: Sheet Mask
+                  - heading [level=3] [ref=e955]:
+                    - link "MEDIHEAL Essential Mask Calming Moisture 10 Pieces (2 Types)" [ref=e956] [cursor=pointer]:
+                      - /url: /collections/sheet-masks/products/mediheal-essential-mask-calming-moisture
+                  - generic [ref=e958]:
+                    - generic [ref=e959]: Regular price
+                    - text: $15.99 CAD
+            - navigation "Pagination" [ref=e960]:
+              - list [ref=e961]:
+                - listitem [ref=e962]:
+                  - link "Prev" [ref=e963] [cursor=pointer]:
+                    - /url: /collections/sheet-masks?page=3
+                - listitem [ref=e967]:
+                  - link "Page 1" [ref=e968] [cursor=pointer]:
+                    - /url: /collections/sheet-masks?page=1
+                    - text: "1"
+                - listitem [ref=e969]:
+                  - link "Page 2" [ref=e970] [cursor=pointer]:
+                    - /url: /collections/sheet-masks?page=2
+                    - text: "2"
+                - listitem [ref=e971]:
+                  - link "Page 3" [ref=e972] [cursor=pointer]:
+                    - /url: /collections/sheet-masks?page=3
+                    - text: "3"
+                - listitem [ref=e973]:
+                  - link "Page 4" [disabled] [ref=e974]: "4"
+                - listitem [ref=e975]:
+                  - link "Page 5" [ref=e976] [cursor=pointer]:
+                    - /url: /collections/sheet-masks?page=5
+                    - text: "5"
+                - listitem [ref=e977]:
+                  - link "Page 6" [ref=e978] [cursor=pointer]:
+                    - /url: /collections/sheet-masks?page=6
+                    - text: "6"
+                - listitem [ref=e979]:
+                  - link "Page 7" [ref=e980] [cursor=pointer]:
+                    - /url: /collections/sheet-masks?page=7
+                    - text: "7"
+                - listitem [ref=e981]:
+                  - link "Next" [ref=e982] [cursor=pointer]:
+                    - /url: /collections/sheet-masks?page=5
+      - generic [ref=e988]:
+        - heading [level=2] [ref=e991]
+        - generic [ref=e994]:
+          - group "1 / 9" [ref=e995]:
+            - link "Best Sellers" [ref=e997] [cursor=pointer]:
+              - /url: /collections/best-sellers
+          - group "2 / 9" [ref=e1000]:
+            - link "New Arrivals" [ref=e1002] [cursor=pointer]:
+              - /url: /collections/new-arrivals
+          - group "3 / 9" [ref=e1005]:
+            - link "Sun Care" [ref=e1007] [cursor=pointer]:
+              - /url: /collections/sun-care
+          - group "4 / 9" [ref=e1010]:
+            - link "All Brands" [ref=e1012] [cursor=pointer]:
+              - /url: /pages/brands
+          - group "5 / 9" [ref=e1015]:
+            - link "Clearance" [ref=e1017] [cursor=pointer]:
+              - /url: /collections/clearance
+          - group "6 / 9" [ref=e1020]:
+            - link "Our Stores" [ref=e1022] [cursor=pointer]:
+              - /url: /pages/store-locator
+          - group "7 / 9" [ref=e1025]:
+            - link "Kiokii Rewards" [ref=e1027] [cursor=pointer]:
+              - /url: /pages/rewards
+          - group "8 / 9" [ref=e1030]:
+            - link "Medicube" [ref=e1032] [cursor=pointer]:
+              - /url: /collections/medicube
+          - group "9 / 9" [ref=e1035]:
+            - link "Celimax" [ref=e1037] [cursor=pointer]:
+              - /url: /collections/celimax
+  - button "Chat" [ref=e1045] [cursor=pointer]
+  - generic [ref=e1054]:
+    - generic [ref=e1056]:
+      - heading "Cart • 0" [level=3] [ref=e1057]
+      - button "Close cart" [ref=e1058] [cursor=pointer]
+    - generic [ref=e1061]:
+      - heading "Your cart is empty" [level=3] [ref=e1063]
+      - generic [ref=e1065]:
+        - heading "Add your favourite items to your cart." [level=3] [ref=e1066]
+        - link "Shop Now" [ref=e1068] [cursor=pointer]:
+          - /url: /
+  - region "Cookie consent"

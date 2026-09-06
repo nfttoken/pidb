@@ -1,9 +1,14 @@
 import type { ApiResponse } from "../types/auth";
-import type { Product, ProductCreatePayload, ProductImage, ProductListResponse, ProductReadiness, ProductUpdatePayload } from "../types/product";
+import type { Product, ProductCreatePayload, ProductImage, ProductListResponse, ProductReadiness, ProductUpdatePayload, PriceSuggestionStatus, Sku } from "../types/product";
 import api from "./client";
 
-export async function listProducts(params: { search?: string; status?: string; compliance_status?: string }): Promise<ProductListResponse> {
-  const { data } = await api.get<ApiResponse<ProductListResponse>>("/products", { params: { offset: 0, limit: 100, ...params } });
+export async function listProducts(params: { offset?: number; limit?: number; search?: string; status?: string; compliance_status?: string; brand_id?: string; product_type_id?: string } = {}): Promise<ProductListResponse> {
+  const { data } = await api.get<ApiResponse<ProductListResponse>>("/products", { params: { offset: 0, limit: 20, ...params } });
+  return data.data;
+}
+
+export async function reviewPriceSuggestion(productId: string, skuId: string, payload: { status: PriceSuggestionStatus; note?: string | null }): Promise<Sku> {
+  const { data } = await api.post<ApiResponse<Sku>>(`/products/${productId}/skus/${skuId}/price-suggestion/status`, payload);
   return data.data;
 }
 

@@ -1,6 +1,8 @@
 import uuid
 
-from sqlalchemy import Boolean, Column, ForeignKey, Integer, Numeric, String, Table, Text, UniqueConstraint
+from datetime import datetime
+
+from sqlalchemy import Boolean, Column, DateTime, ForeignKey, Integer, Numeric, String, Table, Text, UniqueConstraint
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import Mapped, mapped_column, relationship
@@ -170,6 +172,12 @@ class ProductSku(UUIDPrimaryKeyMixin, TimestampMixin, Base):
     variant_name_zh: Mapped[str | None] = mapped_column(String(255))
     net_quantity: Mapped[float | None] = mapped_column(Numeric(12, 3))
     quantity_unit: Mapped[str | None] = mapped_column(String(20))
+    suggested_price: Mapped[float | None] = mapped_column(Numeric(12, 2))
+    suggested_price_currency: Mapped[str] = mapped_column(String(3), default="CAD", server_default="CAD")
+    suggested_price_status: Mapped[str] = mapped_column(String(20), default="pending", server_default="pending", index=True)
+    suggested_price_note: Mapped[str | None] = mapped_column(Text)
+    suggested_price_reviewed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    suggested_price_reviewed_by: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("users.id", ondelete="SET NULL"))
     status: Mapped[str] = mapped_column(String(20), default="active")
 
     product: Mapped[Product] = relationship(back_populates="skus")

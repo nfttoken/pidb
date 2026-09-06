@@ -1,0 +1,674 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link [ref=e9] [cursor=pointer]:
+            - /url: /
+          - navigation [ref=e13]:
+            - list [ref=e16]:
+              - generic:
+                - link "Brands" [ref=e17] [cursor=pointer]:
+                  - /url: /pages/brands
+                - link "Cleansing" [ref=e19] [cursor=pointer]:
+                  - /url: /collections/cleansing-1
+                - link "Skincare" [ref=e21] [cursor=pointer]:
+                  - /url: /collections/skincare
+                - link "Body" [ref=e23] [cursor=pointer]:
+                  - /url: /collections/body-care
+                - link "Hair" [ref=e25] [cursor=pointer]:
+                  - /url: /collections/hair
+                - link "Makeup" [ref=e27] [cursor=pointer]:
+                  - /url: /collections/makeup
+                - link "Nails" [ref=e29] [cursor=pointer]:
+                  - /url: /collections/nails
+                - link "Other" [ref=e31] [cursor=pointer]:
+                  - /url: /collections/accessories
+                - link "J-Beauty" [ref=e33] [cursor=pointer]:
+                  - /url: /collections/j-beauty
+                - link "K-POP" [ref=e35] [cursor=pointer]:
+                  - /url: /collections/k-pop
+              - menuitem "More" [ref=e38] [cursor=pointer]
+        - generic [ref=e40]:
+          - button "Open region and language selector CAD / EN" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]: Open region and language selector
+            - generic [ref=e44]: CAD
+            - generic [ref=e45]: /
+            - generic [ref=e46]: EN
+          - button "Open search" [ref=e48] [cursor=pointer]
+          - generic [ref=e49]:
+            - button "Open account menu" [ref=e51] [cursor=pointer]
+            - 'link "Cart Total items in cart: 0" [ref=e56] [cursor=pointer]':
+              - /url: /cart
+              - generic [ref=e58]:
+                - status:
+                  - generic [ref=e60]: "Total items in cart: 0"
+    - complementary [ref=e63]:
+      - generic [ref=e64]:
+        - generic:
+          - button "Previous slide" [ref=e65] [cursor=pointer]
+          - button "Next slide" [ref=e66] [cursor=pointer]
+        - generic [ref=e68]:
+          - paragraph [ref=e69]: THEKSHOP's only official websites are thekshop.ca (Canada) and thekshop.co (Global). Learn more →
+          - link "THEKSHOP's only official websites are thekshop.ca (Canada) and thekshop.co (Global). Learn more →" [ref=e70] [cursor=pointer]:
+            - /url: /pages/%E2%9A%A0%EF%B8%8F-beware-of-scam-websites
+  - main [ref=e72]:
+    - generic [ref=e73]:
+      - heading "Brands" [level=2] [ref=e74]
+      - list [ref=e76]:
+        - listitem [ref=e77]:
+          - link "&honey" [ref=e78] [cursor=pointer]:
+            - /url: /collections/honey
+        - listitem [ref=e79]:
+          - link "A'PIEU" [ref=e80] [cursor=pointer]:
+            - /url: /collections/apieu
+        - listitem [ref=e81]:
+          - link "Abib" [ref=e82] [cursor=pointer]:
+            - /url: /collections/abib
+        - listitem [ref=e83]:
+          - link "ACROPASS" [ref=e84] [cursor=pointer]:
+            - /url: /collections/acropass
+        - listitem [ref=e85]:
+          - link "ACWELL" [ref=e86] [cursor=pointer]:
+            - /url: /collections/acwell
+        - listitem [ref=e87]:
+          - link "Aestura" [ref=e88] [cursor=pointer]:
+            - /url: /collections/aestura
+        - listitem [ref=e89]:
+          - link "AHC" [ref=e90] [cursor=pointer]:
+            - /url: /collections/ahc
+        - listitem [ref=e91]:
+          - link "AMUSE" [ref=e92] [cursor=pointer]:
+            - /url: /collections/amuse
+        - listitem [ref=e93]:
+          - link "Anua" [ref=e94] [cursor=pointer]:
+            - /url: /collections/anua
+        - listitem [ref=e95]:
+          - link "APLB" [ref=e96] [cursor=pointer]:
+            - /url: /collections/aplb
+        - listitem [ref=e97]:
+          - link "APRILSKIN" [ref=e98] [cursor=pointer]:
+            - /url: /collections/aprilskin
+        - listitem [ref=e99]:
+          - link "Arencia" [ref=e100] [cursor=pointer]:
+            - /url: /collections/arencia
+        - listitem [ref=e101]:
+          - link "Aromatica" [ref=e102] [cursor=pointer]:
+            - /url: /collections/aromatica
+        - listitem [ref=e103]:
+          - link "Atopalm" [ref=e104] [cursor=pointer]:
+            - /url: /collections/atopalm
+        - listitem [ref=e105]:
+          - link "AXIS-Y" [ref=e106] [cursor=pointer]:
+            - /url: /collections/axis-y
+        - listitem [ref=e107]:
+          - link "B-LAB" [ref=e108] [cursor=pointer]:
+            - /url: /collections/b-lab
+        - listitem [ref=e109]:
+          - link "BANILA" [ref=e110] [cursor=pointer]:
+            - /url: /collections/banila
+        - listitem [ref=e111]:
+          - link "Baren" [ref=e112] [cursor=pointer]:
+            - /url: /collections/baren
+        - listitem [ref=e113]:
+          - link "BBIA" [ref=e114] [cursor=pointer]:
+            - /url: /collections/bbia
+        - listitem [ref=e115]:
+          - link "Beauty of Joseon" [ref=e116] [cursor=pointer]:
+            - /url: /collections/beauty-of-joseon
+        - listitem [ref=e117]:
+          - link "belif" [ref=e118] [cursor=pointer]:
+            - /url: /collections/belif
+        - listitem [ref=e119]:
+          - link "Bellasoo" [ref=e120] [cursor=pointer]:
+            - /url: /collections/bellasoo
+        - listitem [ref=e121]:
+          - link "Benton" [ref=e122] [cursor=pointer]:
+            - /url: /collections/benton
+        - listitem [ref=e123]:
+          - link "beplain" [ref=e124] [cursor=pointer]:
+            - /url: /collections/beplain
+        - listitem [ref=e125]:
+          - link "BEYOND" [ref=e126] [cursor=pointer]:
+            - /url: /collections/beyond
+        - listitem [ref=e127]:
+          - link "Biodance" [ref=e128] [cursor=pointer]:
+            - /url: /collections/biodance
+        - listitem [ref=e129]:
+          - link "BIOHEAL BOH" [ref=e130] [cursor=pointer]:
+            - /url: /collections/bioheal-boh
+        - listitem [ref=e131]:
+          - link "Biore" [ref=e132] [cursor=pointer]:
+            - /url: /collections/biore
+        - listitem [ref=e133]:
+          - link "Blanc Diva" [ref=e134] [cursor=pointer]:
+            - /url: /collections/blanc-diva
+        - listitem [ref=e135]:
+          - link "Bonajour" [ref=e136] [cursor=pointer]:
+            - /url: /collections/bonajour
+        - listitem [ref=e137]:
+          - link "BRAYE" [ref=e138] [cursor=pointer]:
+            - /url: /collections/braye
+        - listitem [ref=e139]:
+          - link "British M" [ref=e140] [cursor=pointer]:
+            - /url: /collections/british-m
+        - listitem [ref=e141]:
+          - link "BT21" [ref=e142] [cursor=pointer]:
+            - /url: /collections/bt21
+        - listitem [ref=e143]:
+          - link "By Wishtrend" [ref=e144] [cursor=pointer]:
+            - /url: /collections/by-wishtrend
+        - listitem [ref=e145]:
+          - link "Canmake" [ref=e146] [cursor=pointer]:
+            - /url: /collections/canmake
+        - listitem [ref=e147]:
+          - link "CARENEL" [ref=e148] [cursor=pointer]:
+            - /url: /collections/carenel
+        - listitem [ref=e149]:
+          - link "celimax" [ref=e150] [cursor=pointer]:
+            - /url: /collections/celimax
+        - listitem [ref=e151]:
+          - link "Chwi" [ref=e152] [cursor=pointer]:
+            - /url: /collections/chwi
+        - listitem [ref=e153]:
+          - link "CLIO" [ref=e154] [cursor=pointer]:
+            - /url: /collections/clio
+        - listitem [ref=e155]:
+          - link "CNP Laboratory" [ref=e156] [cursor=pointer]:
+            - /url: /collections/cnp-laboratory
+        - listitem [ref=e157]:
+          - link "colorgram" [ref=e158] [cursor=pointer]:
+            - /url: /collections/colorgram
+        - listitem [ref=e159]:
+          - link "COMMONLABS" [ref=e160] [cursor=pointer]:
+            - /url: /collections/commonlabs
+        - listitem [ref=e161]:
+          - link "COSRX" [ref=e162] [cursor=pointer]:
+            - /url: /collections/cosrx
+        - listitem [ref=e163]:
+          - link "Country & Stream" [ref=e164] [cursor=pointer]:
+            - /url: /collections/country-stream
+        - listitem [ref=e165]:
+          - link "d'Alba" [ref=e166] [cursor=pointer]:
+            - /url: /collections/dalba
+        - listitem [ref=e167]:
+          - link "DAENG GI MEO RI" [ref=e168] [cursor=pointer]:
+            - /url: /collections/daeng-gi-meo-ri
+        - listitem [ref=e169]:
+          - link "dasique" [ref=e170] [cursor=pointer]:
+            - /url: /collections/dasique
+        - listitem [ref=e171]:
+          - link "Dear Dahlia" [ref=e172] [cursor=pointer]:
+            - /url: /collections/dear-dahlia
+        - listitem [ref=e173]:
+          - link "Disney Stationery" [ref=e174] [cursor=pointer]:
+            - /url: /collections/disney-stationery
+        - listitem [ref=e175]:
+          - link "Dr. Althea" [ref=e176] [cursor=pointer]:
+            - /url: /collections/dr-althea
+        - listitem [ref=e177]:
+          - link "Dr. Ceuracle" [ref=e178] [cursor=pointer]:
+            - /url: /collections/dr-ceuracle
+        - listitem [ref=e179]:
+          - link "DR. JART+" [ref=e180] [cursor=pointer]:
+            - /url: /collections/dr-jart
+        - listitem [ref=e181]:
+          - link "Dr. Melaxin" [ref=e182] [cursor=pointer]:
+            - /url: /collections/dr-melaxin
+        - listitem [ref=e183]:
+          - link "Dr.G" [ref=e184] [cursor=pointer]:
+            - /url: /collections/dr-g
+        - listitem [ref=e185]:
+          - link "Dr.Reju" [ref=e186] [cursor=pointer]:
+            - /url: /collections/dr-reju
+        - listitem [ref=e187]:
+          - link "EASYDEW" [ref=e188] [cursor=pointer]:
+            - /url: /collections/easydew
+        - listitem [ref=e189]:
+          - link "efilow" [ref=e190] [cursor=pointer]:
+            - /url: /collections/efilow
+        - listitem [ref=e191]:
+          - link "Elizavecca" [ref=e192] [cursor=pointer]:
+            - /url: /collections/elizavecca
+        - listitem [ref=e193]:
+          - link "ELROEL" [ref=e194] [cursor=pointer]:
+            - /url: /collections/elroel
+        - listitem [ref=e195]:
+          - link "eonni" [ref=e196] [cursor=pointer]:
+            - /url: /collections/eonni
+        - listitem [ref=e197]:
+          - link "EQQUALBERRY" [ref=e198] [cursor=pointer]:
+            - /url: /collections/eqqualberry
+        - listitem [ref=e199]:
+          - link "Etude House" [ref=e200] [cursor=pointer]:
+            - /url: /collections/etude-house
+        - listitem [ref=e201]:
+          - link "Farm Stay" [ref=e202] [cursor=pointer]:
+            - /url: /collections/farm-stay
+        - listitem [ref=e203]:
+          - link "FRANKLY" [ref=e204] [cursor=pointer]:
+            - /url: /collections/frankly
+        - listitem [ref=e205]:
+          - link "FRUDIA" [ref=e206] [cursor=pointer]:
+            - /url: /collections/frudia
+        - listitem [ref=e207]:
+          - link "FULLY" [ref=e208] [cursor=pointer]:
+            - /url: /collections/fully
+        - listitem [ref=e209]:
+          - link "fwee" [ref=e210] [cursor=pointer]:
+            - /url: /collections/fwee
+        - listitem [ref=e211]:
+          - link "Gatsby" [ref=e212] [cursor=pointer]:
+            - /url: /collections/gatsby
+        - listitem [ref=e213]:
+          - link "glowiest" [ref=e214] [cursor=pointer]:
+            - /url: /collections/glowiest
+        - listitem [ref=e215]:
+          - link "Goodal" [ref=e216] [cursor=pointer]:
+            - /url: /collections/goodal
+        - listitem [ref=e217]:
+          - link "grabity" [ref=e218] [cursor=pointer]:
+            - /url: /collections/grabity
+        - listitem [ref=e219]:
+          - link "GRAFEN" [ref=e220] [cursor=pointer]:
+            - /url: /collections/grafen
+        - listitem [ref=e221]:
+          - link "GROWUS" [ref=e222] [cursor=pointer]:
+            - /url: /collections/growus
+        - listitem [ref=e223]:
+          - link "Hada Labo" [ref=e224] [cursor=pointer]:
+            - /url: /collections/hada-labo
+        - listitem [ref=e225]:
+          - link "Haruharu" [ref=e226] [cursor=pointer]:
+            - /url: /collections/haruharu
+        - listitem [ref=e227]:
+          - link "Heal Made" [ref=e228] [cursor=pointer]:
+            - /url: /collections/heal-made
+        - listitem [ref=e229]:
+          - link "HEIMISH" [ref=e230] [cursor=pointer]:
+            - /url: /collections/heimish
+        - listitem [ref=e231]:
+          - link "Hello Kitty" [ref=e232] [cursor=pointer]:
+            - /url: /collections/hello-kitty
+        - listitem [ref=e233]:
+          - link "HEVEBLUE" [ref=e234] [cursor=pointer]:
+            - /url: /collections/heveblue
+        - listitem [ref=e235]:
+          - link "hince" [ref=e236] [cursor=pointer]:
+            - /url: /collections/hince
+        - listitem [ref=e237]:
+          - link "HM" [ref=e238] [cursor=pointer]:
+            - /url: /collections/hm
+        - listitem [ref=e239]:
+          - link "Holika Holika" [ref=e240] [cursor=pointer]:
+            - /url: /collections/holika-holika
+        - listitem [ref=e241]:
+          - link "House of HUR" [ref=e242] [cursor=pointer]:
+            - /url: /collections/house-of-hur
+        - listitem [ref=e243]:
+          - link "I DEW CARE" [ref=e244] [cursor=pointer]:
+            - /url: /collections/i-dew-care
+        - listitem [ref=e245]:
+          - link "I'm Sorry For My Skin" [ref=e246] [cursor=pointer]:
+            - /url: /collections/im-sorry-for-my-skin
+        - listitem [ref=e247]:
+          - link "Illiyoon" [ref=e248] [cursor=pointer]:
+            - /url: /collections/illiyoon
+        - listitem [ref=e249]:
+          - link "ilso" [ref=e250] [cursor=pointer]:
+            - /url: /collections/ilso
+        - listitem [ref=e251]:
+          - link "Innisfree" [ref=e252] [cursor=pointer]:
+            - /url: /collections/innisfree
+        - listitem [ref=e253]:
+          - link "Ishizawa Lab" [ref=e254] [cursor=pointer]:
+            - /url: /collections/ishizawa-lab
+        - listitem [ref=e255]:
+          - link "Isntree" [ref=e256] [cursor=pointer]:
+            - /url: /collections/isntree
+        - listitem [ref=e257]:
+          - link "ISOI" [ref=e258] [cursor=pointer]:
+            - /url: /collections/isoi
+        - listitem [ref=e259]:
+          - link "IUNIK" [ref=e260] [cursor=pointer]:
+            - /url: /collections/iunik
+        - listitem [ref=e261]:
+          - link "I’m from" [ref=e262] [cursor=pointer]:
+            - /url: /collections/i-m-from
+        - listitem [ref=e263]:
+          - link "Jayjun" [ref=e264] [cursor=pointer]:
+            - /url: /collections/jayjun
+        - listitem [ref=e265]:
+          - link "JM Solution" [ref=e266] [cursor=pointer]:
+            - /url: /collections/jm-solution
+        - listitem [ref=e267]:
+          - link "JUMISO" [ref=e268] [cursor=pointer]:
+            - /url: /collections/jumiso
+        - listitem [ref=e269]:
+          - link "K-POP" [ref=e270] [cursor=pointer]:
+            - /url: /collections/k-pop
+        - listitem [ref=e271]:
+          - link "KAHI" [ref=e272] [cursor=pointer]:
+            - /url: /collections/kahi
+        - listitem [ref=e273]:
+          - link "Kaine" [ref=e274] [cursor=pointer]:
+            - /url: /collections/kaine
+        - listitem [ref=e275]:
+          - link "KEYTH" [ref=e276] [cursor=pointer]:
+            - /url: /collections/keyth
+        - listitem [ref=e277]:
+          - link "KissMe" [ref=e278] [cursor=pointer]:
+            - /url: /collections/kissme
+        - listitem [ref=e279]:
+          - link "Klairs" [ref=e280] [cursor=pointer]:
+            - /url: /collections/klairs
+        - listitem [ref=e281]:
+          - link "Koelf" [ref=e282] [cursor=pointer]:
+            - /url: /collections/koelf
+        - listitem [ref=e283]:
+          - link "Kose" [ref=e284] [cursor=pointer]:
+            - /url: /collections/kose
+        - listitem [ref=e285]:
+          - link "KRAVE Beauty" [ref=e286] [cursor=pointer]:
+            - /url: /collections/krave-beauty
+        - listitem [ref=e287]:
+          - link "KSECRET" [ref=e288] [cursor=pointer]:
+            - /url: /collections/ksecret
+        - listitem [ref=e289]:
+          - link "Kundal" [ref=e290] [cursor=pointer]:
+            - /url: /collections/kundal
+        - listitem [ref=e291]:
+          - link "Lador" [ref=e292] [cursor=pointer]:
+            - /url: /collections/lador
+        - listitem [ref=e293]:
+          - link "Laka" [ref=e294] [cursor=pointer]:
+            - /url: /collections/laka
+        - listitem [ref=e295]:
+          - link "Laneige" [ref=e296] [cursor=pointer]:
+            - /url: /collections/laneige
+        - listitem [ref=e297]:
+          - link "LEADERS" [ref=e298] [cursor=pointer]:
+            - /url: /collections/leaders
+        - listitem [ref=e299]:
+          - link "Lotte" [ref=e300] [cursor=pointer]:
+            - /url: /collections/lotte
+        - listitem [ref=e301]:
+          - link "LULULUN" [ref=e302] [cursor=pointer]:
+            - /url: /collections/lululun
+        - listitem [ref=e303]:
+          - link "Make Prem" [ref=e304] [cursor=pointer]:
+            - /url: /collections/make-prem
+        - listitem [ref=e305]:
+          - link "manyo" [ref=e306] [cursor=pointer]:
+            - /url: /collections/manyo
+        - listitem [ref=e307]:
+          - link "Mary&May" [ref=e308] [cursor=pointer]:
+            - /url: /collections/mary-may
+        - listitem [ref=e309]:
+          - link "Medi Heal" [ref=e310] [cursor=pointer]:
+            - /url: /collections/medi-heal
+        - listitem [ref=e311]:
+          - link "Medi Peel" [ref=e312] [cursor=pointer]:
+            - /url: /collections/medi-peel
+        - listitem [ref=e313]:
+          - link "Medicube" [ref=e314] [cursor=pointer]:
+            - /url: /collections/medicube
+        - listitem [ref=e315]:
+          - link "Mediheal" [ref=e316] [cursor=pointer]:
+            - /url: /collections/mediheal
+        - listitem [ref=e317]:
+          - link "MEFACTORY" [ref=e318] [cursor=pointer]:
+            - /url: /collections/mefactory
+        - listitem [ref=e319]:
+          - link "Melixir" [ref=e320] [cursor=pointer]:
+            - /url: /collections/melixir
+        - listitem [ref=e321]:
+          - link "Miguhara" [ref=e322] [cursor=pointer]:
+            - /url: /collections/miguhara
+        - listitem [ref=e323]:
+          - link "Milk Touch" [ref=e324] [cursor=pointer]:
+            - /url: /collections/milk-touch
+        - listitem [ref=e325]:
+          - link "Mise En Scene" [ref=e326] [cursor=pointer]:
+            - /url: /collections/mise-en-scene
+        - listitem [ref=e327]:
+          - link "Missha" [ref=e328] [cursor=pointer]:
+            - /url: /collections/missha
+        - listitem [ref=e329]:
+          - link "MIXSOON" [ref=e330] [cursor=pointer]:
+            - /url: /collections/mixsoon
+        - listitem [ref=e331]:
+          - link "NACIFIC" [ref=e332] [cursor=pointer]:
+            - /url: /collections/nacific
+        - listitem [ref=e333]:
+          - link "Nacific x ATEEZ" [ref=e334] [cursor=pointer]:
+            - /url: /collections/nacific-x-ateez
+        - listitem [ref=e335]:
+          - link "Nacific x xikers" [ref=e336] [cursor=pointer]:
+            - /url: /collections/nacific-x-xikers
+        - listitem [ref=e337]:
+          - link "Nature Republic" [ref=e338] [cursor=pointer]:
+            - /url: /collections/nature-republic
+        - listitem [ref=e339]:
+          - link "NEEDLY" [ref=e340] [cursor=pointer]:
+            - /url: /collections/needly
+        - listitem [ref=e341]:
+          - link "Neogen" [ref=e342] [cursor=pointer]:
+            - /url: /collections/neogen
+        - listitem [ref=e343]:
+          - link "Nine Less" [ref=e344] [cursor=pointer]:
+            - /url: /collections/nine-less
+        - listitem [ref=e345]:
+          - link "numbuzin" [ref=e346] [cursor=pointer]:
+            - /url: /collections/numbuzin
+        - listitem [ref=e347]:
+          - link "nutseline" [ref=e348] [cursor=pointer]:
+            - /url: /collections/nutseline
+        - listitem [ref=e349]:
+          - link "ohora" [ref=e350] [cursor=pointer]:
+            - /url: /collections/ohora
+        - listitem [ref=e351]:
+          - link "Ongredients" [ref=e352] [cursor=pointer]:
+            - /url: /collections/ongredients
+        - listitem [ref=e353]:
+          - link "OOTD" [ref=e354] [cursor=pointer]:
+            - /url: /collections/ootd
+        - listitem [ref=e355]:
+          - link "orien" [ref=e356] [cursor=pointer]:
+            - /url: /collections/orien
+        - listitem [ref=e357]:
+          - link "Parnell" [ref=e358] [cursor=pointer]:
+            - /url: /collections/parnell
+        - listitem [ref=e359]:
+          - link "Peripera" [ref=e360] [cursor=pointer]:
+            - /url: /collections/peripera
+        - listitem [ref=e361]:
+          - link "Petitfee" [ref=e362] [cursor=pointer]:
+            - /url: /collections/petitfee
+        - listitem [ref=e363]:
+          - link "Purcell" [ref=e364] [cursor=pointer]:
+            - /url: /collections/purcell
+        - listitem [ref=e365]:
+          - link "Purito" [ref=e366] [cursor=pointer]:
+            - /url: /collections/purito
+        - listitem [ref=e367]:
+          - link "Pyunkang YUL" [ref=e368] [cursor=pointer]:
+            - /url: /collections/pyunkang-yul
+        - listitem [ref=e369]:
+          - link "Real Barrier" [ref=e370] [cursor=pointer]:
+            - /url: /collections/real-barrier
+        - listitem [ref=e371]:
+          - link "Rohto Melano" [ref=e372] [cursor=pointer]:
+            - /url: /collections/rohto-melano
+        - listitem [ref=e373]:
+          - link "rom&nd" [ref=e374] [cursor=pointer]:
+            - /url: /collections/rom-nd
+        - listitem [ref=e375]:
+          - link "Round Lab" [ref=e376] [cursor=pointer]:
+            - /url: /collections/round-lab
+        - listitem [ref=e377]:
+          - link "Rovectin" [ref=e378] [cursor=pointer]:
+            - /url: /collections/rovectin
+        - listitem [ref=e379]:
+          - link "Ryo" [ref=e380] [cursor=pointer]:
+            - /url: /collections/ryo
+        - listitem [ref=e381]:
+          - link "Sanrio" [ref=e382] [cursor=pointer]:
+            - /url: /collections/sanrio
+        - listitem [ref=e383]:
+          - link "Seapuri" [ref=e384] [cursor=pointer]:
+            - /url: /collections/seapuri
+        - listitem [ref=e385]:
+          - link "Shiseido" [ref=e386] [cursor=pointer]:
+            - /url: /collections/shiseido
+        - listitem [ref=e387]:
+          - link "Skin Republic" [ref=e388] [cursor=pointer]:
+            - /url: /collections/skin-republic
+        - listitem [ref=e389]:
+          - link "SKIN1004" [ref=e390] [cursor=pointer]:
+            - /url: /collections/skin1004
+        - listitem [ref=e391]:
+          - link "Skinfood" [ref=e392] [cursor=pointer]:
+            - /url: /collections/skinfood
+        - listitem [ref=e393]:
+          - link "SNP" [ref=e394] [cursor=pointer]:
+            - /url: /collections/snp
+        - listitem [ref=e395]:
+          - link "Sollalla" [ref=e396] [cursor=pointer]:
+            - /url: /collections/sollalla
+        - listitem [ref=e397]:
+          - link "Some By Mi" [ref=e398] [cursor=pointer]:
+            - /url: /collections/some-by-mi
+        - listitem [ref=e399]:
+          - link "Studio17" [ref=e400] [cursor=pointer]:
+            - /url: /collections/studio17
+        - listitem [ref=e401]:
+          - link "Sulwhasoo" [ref=e402] [cursor=pointer]:
+            - /url: /collections/sulwhasoo
+        - listitem [ref=e403]:
+          - link "Sungboon Editor" [ref=e404] [cursor=pointer]:
+            - /url: /collections/sungboon-editor
+        - listitem [ref=e405]:
+          - link "Thank you Farmer" [ref=e406] [cursor=pointer]:
+            - /url: /collections/thank-you-farmer
+        - listitem [ref=e407]:
+          - link "The Face Shop" [ref=e408] [cursor=pointer]:
+            - /url: /collections/the-face-shop
+        - listitem [ref=e409]:
+          - link "The History of Whoo" [ref=e410] [cursor=pointer]:
+            - /url: /collections/the-history-of-whoo
+        - listitem [ref=e411]:
+          - link "THEKSHOP" [ref=e412] [cursor=pointer]:
+            - /url: /collections/thekshop
+        - listitem [ref=e413]:
+          - link "TIAM" [ref=e414] [cursor=pointer]:
+            - /url: /collections/tiam
+        - listitem [ref=e415]:
+          - link "Tirtir" [ref=e416] [cursor=pointer]:
+            - /url: /collections/tirtir
+        - listitem [ref=e417]:
+          - link "TOCOBO" [ref=e418] [cursor=pointer]:
+            - /url: /collections/tocobo
+        - listitem [ref=e419]:
+          - link "Tony Moly" [ref=e420] [cursor=pointer]:
+            - /url: /collections/tony-moly
+        - listitem [ref=e421]:
+          - link "Too Cool For School" [ref=e422] [cursor=pointer]:
+            - /url: /collections/too-cool-for-school
+        - listitem [ref=e423]:
+          - link "Torriden" [ref=e424] [cursor=pointer]:
+            - /url: /collections/torriden
+        - listitem [ref=e425]:
+          - link "Troubless" [ref=e426] [cursor=pointer]:
+            - /url: /collections/troubless
+        - listitem [ref=e427]:
+          - link "True Island" [ref=e428] [cursor=pointer]:
+            - /url: /collections/true-island
+        - listitem [ref=e429]:
+          - link "Unleashia" [ref=e430] [cursor=pointer]:
+            - /url: /collections/unleashia
+        - listitem [ref=e431]:
+          - link "UNOVE" [ref=e432] [cursor=pointer]:
+            - /url: /collections/unove
+        - listitem [ref=e433]:
+          - link "Varihope" [ref=e434] [cursor=pointer]:
+            - /url: /collections/varihope
+        - listitem [ref=e435]:
+          - link "Vegreen" [ref=e436] [cursor=pointer]:
+            - /url: /collections/vegreen
+        - listitem [ref=e437]:
+          - link "veware" [ref=e438] [cursor=pointer]:
+            - /url: /collections/veware
+        - listitem [ref=e439]:
+          - link "ViveLab" [ref=e440] [cursor=pointer]:
+            - /url: /collections/vivelab
+        - listitem [ref=e441]:
+          - link "VT" [ref=e442] [cursor=pointer]:
+            - /url: /collections/vt
+  - list [ref=e447]:
+    - listitem [ref=e448]:
+      - link "About Us" [ref=e449] [cursor=pointer]:
+        - /url: /pages/about-us
+    - listitem [ref=e450]:
+      - link "Shipping Info" [ref=e451] [cursor=pointer]:
+        - /url: /pages/shipping-info
+    - listitem [ref=e452]:
+      - link "Return / Refund Policy" [ref=e453] [cursor=pointer]:
+        - /url: /policies/refund-policy
+    - listitem [ref=e454]:
+      - link "Not For Sale Items Disclaimer" [ref=e455] [cursor=pointer]:
+        - /url: /pages/not-for-sale-items-disclaimer
+    - listitem [ref=e456]:
+      - link "Contact Us" [ref=e457] [cursor=pointer]:
+        - /url: /pages/contact-us
+    - listitem [ref=e458]:
+      - link "Personalized High-Tech Korean Skin & Hair Analysis Service" [ref=e459] [cursor=pointer]:
+        - /url: https://thekshop.ca/pages/personalized-high-tech-korean-skin-hair-analysis-service
+    - listitem [ref=e460]:
+      - link "Our Stores" [ref=e461] [cursor=pointer]:
+        - /url: /pages/our-stores
+    - listitem [ref=e462]:
+      - link "AS SEEN IN" [ref=e463] [cursor=pointer]:
+        - /url: /pages/as-seen-in
+    - listitem [ref=e464]:
+      - link "CAREERS" [ref=e465] [cursor=pointer]:
+        - /url: /pages/careers
+    - listitem [ref=e466]:
+      - link "Ingredient Lab" [ref=e467] [cursor=pointer]:
+        - /url: https://thekshop.ca/blogs/ingredient-lab
+    - listitem [ref=e468]:
+      - link "THEKBLOG" [ref=e469] [cursor=pointer]:
+        - /url: https://thekshop.ca/blogs/thekblog
+    - listitem [ref=e470]:
+      - link "THEKSHOP GLOBAL" [ref=e471] [cursor=pointer]:
+        - /url: /pages/looking-for-international-shipping-discover-thekshop-global
+  - contentinfo [ref=e472]:
+    - generic [ref=e475]:
+      - generic [ref=e477]:
+        - heading "Join our email list" [level=2] [ref=e479]
+        - paragraph [ref=e481]: Get exclusive deals and early access to new products.
+        - button [ref=e485] [cursor=pointer]:
+          - generic [ref=e490]:
+            - text: Follow on
+            - img "Shop" [ref=e491]
+        - paragraph [ref=e494]: THEKSHOP is an authorized Canadian retailer of Korean skincare and K-beauty products, based in Montreal, Quebec. We carry authentic products from trusted brands like Beauty of Joseon, SKIN1004, medicube, Kundal, and many more.All products are sourced directly from brand official distributors to ensure authenticity and quality.
+      - generic [ref=e497]:
+        - generic [ref=e498]: Email
+        - textbox "Email" [ref=e499]:
+          - /placeholder: Email address
+        - button "Sign up" [ref=e500] [cursor=pointer]
+  - generic [ref=e504]:
+    - generic [ref=e506]:
+      - text: © 2026
+      - link "thekshop.ca" [ref=e507] [cursor=pointer]:
+        - /url: /
+    - button "Terms and Policies" [ref=e509] [cursor=pointer]
+    - generic [ref=e510]:
+      - link "Facebook" [ref=e512] [cursor=pointer]:
+        - /url: https://www.facebook.com/thekshop.ca
+      - link "Instagram" [ref=e516] [cursor=pointer]:
+        - /url: https://www.instagram.com/thekshop.ca/
+      - link "Tiktok" [ref=e520] [cursor=pointer]:
+        - /url: https://www.tiktok.com/@thekshop.ca

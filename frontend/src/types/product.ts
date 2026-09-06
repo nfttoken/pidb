@@ -15,6 +15,8 @@ export type ProductListResponse = {
   limit: number;
 };
 
+export type PriceSuggestionStatus = "pending" | "reviewing" | "approved" | "blocked";
+
 import type { Brand, Ingredient, ProductType, Taxonomy } from "./catalog";
 
 export type Sku = {
@@ -26,6 +28,12 @@ export type Sku = {
   variant_name_zh: string | null;
   net_quantity: number | null;
   quantity_unit: string | null;
+  suggested_price: number | null;
+  suggested_price_currency: string;
+  suggested_price_status: PriceSuggestionStatus;
+  suggested_price_note: string | null;
+  suggested_price_reviewed_at: string | null;
+  suggested_price_reviewed_by: string | null;
   status: string;
 };
 
@@ -123,6 +131,9 @@ export type ProductCreatePayload = {
     variant_name_zh?: string;
     net_quantity?: number;
     quantity_unit?: string;
+    suggested_price?: number;
+    suggested_price_currency?: string;
+    suggested_price_note?: string;
   }>;
   skin_type_ids: string[];
   skin_concern_ids: string[];

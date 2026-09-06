@@ -73,6 +73,8 @@ async def list_products(
     search: str | None,
     product_status: str | None,
     compliance_status: str | None = None,
+    brand_id: uuid.UUID | None = None,
+    product_type_id: uuid.UUID | None = None,
 ) -> tuple[list[tuple[Product, str, str]], int]:
     query = select(Product, Brand.name, ProductType.name_en).join(Brand).join(ProductType)
     count_query = select(func.count(Product.id))
@@ -87,6 +89,12 @@ async def list_products(
     if product_status:
         query = query.where(Product.status == product_status)
         count_query = count_query.where(Product.status == product_status)
+    if brand_id:
+        query = query.where(Product.brand_id == brand_id)
+        count_query = count_query.where(Product.brand_id == brand_id)
+    if product_type_id:
+        query = query.where(Product.product_type_id == product_type_id)
+        count_query = count_query.where(Product.product_type_id == product_type_id)
     if compliance_status:
         compliance_statuses = [value.strip() for value in compliance_status.split(",") if value.strip()]
         compliance_filter = or_(
@@ -142,7 +150,7 @@ async def create_product(db: AsyncSession, payload: ProductCreate) -> Product:
         product_type=product_type,
         skin_types=skin_types,
         skin_concerns=skin_concerns,
-        skus=[ProductSku(**sku.model_dump()) for sku in payload.skus],
+        skus=[ProductSku(**sku.model_dump(suggested_price_currency=sku.suggested_price_currency.upper())) for sku in payload.skus],
         ingredients=[
             ProductIngredient(
                 ingredient=ingredient,
@@ -181,9 +189,23 @@ async def update_product(db: AsyncSession, product: Product, payload: ProductUpd
 
     if "skus" in values:
         await _validate_skus(db, payload.skus or [], exclude_product_id=product.id)
+        previous_skus = {sku.sku: sku for sku in product.skus}
         await db.execute(delete(ProductSku).where(ProductSku.product_id == product.id))
         await db.flush()
-        product.skus = [ProductSku(**sku.model_dump()) for sku in payload.skus or []]
+        product.skus = []
+        for sku in payload.skus or []:
+            currency = sku.suggested_price_currency.upper()
+            values_for_sku = sku.model_dump(suggested_price_currency=currency)
+            previous = previous_skus.get(sku.sku)
+            same_price = previous and previous.suggested_price == sku.suggested_price and previous.suggested_price_currency == currency
+            if same_price:
+                values_for_sku.update(
+                    suggested_price_status=previous.suggested_price_status,
+                    suggested_price_note=previous.suggested_price_note,
+                    suggested_price_reviewed_at=previous.suggested_price_reviewed_at,
+                    suggested_price_reviewed_by=previous.suggested_price_reviewed_by,
+                )
+            product.skus.append(ProductSku(**values_for_sku))
 
     if "skin_type_ids" in values:
         skin_types = await _get_references(db, SkinType, payload.skin_type_ids or [])

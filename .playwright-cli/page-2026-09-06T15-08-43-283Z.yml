@@ -1,0 +1,473 @@
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Find a Store" [ref=e10] [cursor=pointer]:
+            - /url: /pages/store-locator
+        - listitem [ref=e11]:
+          - link "Contact Us" [ref=e12] [cursor=pointer]:
+            - /url: /pages/contact-us
+      - generic [ref=e15]:
+        - generic [ref=e16]: Flash Sale Ends In
+        - generic [ref=e18]:
+          - generic [ref=e19]: "00 :"
+          - generic [ref=e21]: "12 :"
+          - generic [ref=e23]: "51 :"
+          - generic [ref=e25]: "19"
+        - link "Shop" [ref=e27] [cursor=pointer]:
+          - /url: /collections/bundles
+      - generic [ref=e29]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Facebook" [ref=e32] [cursor=pointer]:
+              - /url: https://www.facebook.com/KiokiiandInc/
+          - listitem [ref=e36]:
+            - link "Instagram" [ref=e37] [cursor=pointer]:
+              - /url: https://www.instagram.com/kiokii.official
+          - listitem [ref=e41]:
+            - link "TikTok" [ref=e42] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@kiokii.official
+          - listitem [ref=e46]:
+            - link "Pinterest" [ref=e47] [cursor=pointer]:
+              - /url: https://ca.pinterest.com/KiokiiOfficial/
+        - generic [ref=e51]:
+          - generic [ref=e54]:
+            - heading "Language" [level=2] [ref=e55]
+            - button "English" [ref=e56] [cursor=pointer]
+          - generic [ref=e61]:
+            - heading "Country/region" [level=2] [ref=e62]
+            - button "Canada (CAD $)" [ref=e63] [cursor=pointer]
+    - generic:
+      - banner:
+        - generic [ref=e67]:
+          - link [ref=e69] [cursor=pointer]:
+            - /url: /
+            - img "Kiokii and..." [ref=e70]
+          - search [ref=e74]:
+            - generic [ref=e75]:
+              - combobox "Search" [ref=e76]
+              - generic [ref=e77]: Search
+              - button "Clear search term" [ref=e78] [cursor=pointer]:
+                - generic [ref=e79]: Clear
+              - button "Search" [ref=e80] [cursor=pointer]
+          - generic [ref=e85]:
+            - link "Account" [ref=e86] [cursor=pointer]:
+              - /url: "#k-hub"
+            - link "Wishlist" [ref=e90] [cursor=pointer]:
+              - /url: /pages/wishlist
+            - link "Cart" [ref=e94] [cursor=pointer]:
+              - /url: /cart
+        - navigation "Primary" [ref=e101]:
+          - list [ref=e102]:
+            - listitem [ref=e103]:
+              - link "Special Offers" [ref=e104] [cursor=pointer]:
+                - /url: https://kiokii.com/collections
+            - listitem [ref=e112]:
+              - group [ref=e113]:
+                - generic "Trending" [ref=e114] [cursor=pointer]
+            - listitem [ref=e119]:
+              - group [ref=e120]:
+                - generic "Skincare" [ref=e121] [cursor=pointer]
+            - listitem [ref=e126]:
+              - group [ref=e127]:
+                - generic "Makeup" [ref=e128] [cursor=pointer]
+            - listitem [ref=e133]:
+              - group [ref=e134]:
+                - generic "Body & Hair" [ref=e135] [cursor=pointer]
+            - listitem [ref=e140]:
+              - group [ref=e141]:
+                - generic "Brands" [ref=e142] [cursor=pointer]
+            - listitem [ref=e147]:
+              - group [ref=e148]:
+                - generic "Explore" [ref=e149] [cursor=pointer]
+            - listitem [ref=e154]:
+              - link "Rewards" [ref=e155] [cursor=pointer]:
+                - /url: /pages/rewards
+    - link [ref=e162] [cursor=pointer]:
+      - /url: /policies/shipping-policy
+      - paragraph [ref=e163]: Canada Free shipping over $75 CAD
+    - main [ref=e164]:
+      - navigation "breadcrumbs" [ref=e167]:
+        - link "Home" [ref=e168] [cursor=pointer]:
+          - /url: /
+        - link "Collection" [ref=e170] [cursor=pointer]:
+          - /url: /collections/all
+        - generic [ref=e172]: Wash-Off Masks
+      - generic [ref=e179]:
+        - link [ref=e182] [cursor=pointer]:
+          - /url: /collections/clearance
+          - img "Clearance" [ref=e185]
+          - generic:
+            - heading "Clearance" [level=3]
+        - link [ref=e188] [cursor=pointer]:
+          - /url: /collections/bundles
+          - img "Dr.Althea 345 Relief Cream 50ml + Vitamin C Boosting Serum 30ml by Dr. Althea – Bundle" [ref=e191]
+          - generic:
+            - heading "Skincare Bundles" [level=3]
+        - link [ref=e194] [cursor=pointer]:
+          - /url: /collections/sun-care
+          - img "ROUND LAB Birch Juice Moisturizing Mild Up Sunscreen 50ml by Round Lab – Sunscreen" [ref=e197]
+          - generic:
+            - heading "Sunscreen" [level=3]
+        - link [ref=e200] [cursor=pointer]:
+          - /url: /collections/exosomes
+          - img "Medicube PDRN Pink Exosome Shot Serum 2000 30ml by Medicube – Serum & Ampoule" [ref=e203]
+          - generic:
+            - heading "Exosome" [level=3]
+        - link [ref=e206] [cursor=pointer]:
+          - /url: /collections/matcha-skincare
+          - img "TIRTIR Matcha Calming Cream 50ml by TIRTIR – Lotion & Cream" [ref=e209]
+          - generic:
+            - heading "Matcha Skincare" [level=3]
+        - link [ref=e212] [cursor=pointer]:
+          - /url: /collections/nad
+          - img "numbuzin No.9+ NAD+ Bio Lifting-sil Essence 50ml by numbuzin – Toner & Essence" [ref=e215]
+          - generic:
+            - heading "NAD+" [level=3]
+        - link [ref=e218] [cursor=pointer]:
+          - /url: /collections/cooling-skincare
+          - img "Cooling Skincare - Kiokii and..." [ref=e221]
+          - generic:
+            - heading "Cooling Skincare" [level=3]
+        - link [ref=e224] [cursor=pointer]:
+          - /url: /collections/reedle
+          - img "Reedle" [ref=e227]
+          - generic:
+            - heading "Reedle" [level=3]
+        - link [ref=e230] [cursor=pointer]:
+          - /url: /collections/dryness-dehydration
+          - img "Dr. Melaxin Cemenrete Cyano Pink Spicule Cream 50ml by Dr.Melaxin – Lotion & Cream" [ref=e233]
+          - generic:
+            - heading "Dry Skin" [level=3]
+        - link [ref=e236] [cursor=pointer]:
+          - /url: /collections/oily-skin-picks
+          - img "ilso Super Melting Sebum Softener 150ml by ilso – Toner & Essence" [ref=e239]
+          - generic:
+            - heading "Oily Skin" [level=3]
+        - link [ref=e242] [cursor=pointer]:
+          - /url: /collections/sensitive-skin
+          - img "COSRX Advanced Snail 96 Mucin Power Essence 100ml by COSRX – Toner & Essence" [ref=e245]
+          - generic:
+            - heading "Sensitive Skin" [level=3]
+        - link [ref=e248] [cursor=pointer]:
+          - /url: /collections/youth-boosters
+          - img "JM Solution H9 Hyaluronic Ampoule Moisturizing Mask by JM Solution – Sheet Mask" [ref=e251]
+          - generic:
+            - heading "Youth Boosters" [level=3]
+        - link [ref=e254] [cursor=pointer]:
+          - /url: /collections/barrier-first
+          - img "ROUND LAB Birch Juice Hand Cream 30ml by Round Lab – Hand Cream" [ref=e257]
+          - generic:
+            - heading "Barrier-first" [level=3]
+      - heading "Collection:" [level=1] [ref=e263]
+      - generic [ref=e265]:
+        - generic [ref=e267]:
+          - generic [ref=e268]:
+            - generic [ref=e269]:
+              - text: Compare (
+              - generic [ref=e270]: "0"
+              - generic [ref=e271]: /3
+              - text: )
+            - generic [ref=e272]:
+              - button "Compare" [disabled] [ref=e273]
+              - button "Clear all" [ref=e275] [cursor=pointer]
+          - list [ref=e277]:
+            - listitem [ref=e278]
+            - listitem [ref=e279]
+            - listitem [ref=e280]
+        - generic [ref=e283]:
+          - generic [ref=e285]:
+            - generic [ref=e286]:
+              - status [ref=e288]: 39 products
+              - button "Filter" [ref=e291] [cursor=pointer]
+            - generic [ref=e295]:
+              - generic [ref=e296]:
+                - checkbox "Compare:" [ref=e297] [cursor=pointer]
+                - generic [ref=e298] [cursor=pointer]: "Compare:"
+              - generic [ref=e301]:
+                - generic [ref=e302]: "Sort by:"
+                - combobox "Sort by:" [ref=e304] [cursor=pointer]:
+                  - option "Featured" [selected]
+                  - option "Most relevant"
+                  - option "Best selling"
+                  - option "Alphabetically, A-Z"
+                  - option "Alphabetically, Z-A"
+                  - option "Price, low to high"
+                  - option "Price, high to low"
+                  - option "Date, old to new"
+                  - option "Date, new to old"
+              - generic [ref=e305]:
+                - generic [ref=e306]: "View as:"
+                - button "View as grid" [ref=e307] [cursor=pointer]
+                - button "View as list" [ref=e311] [cursor=pointer]
+          - generic [ref=e316]:
+            - generic [ref=e317]:
+              - generic [ref=e320]:
+                - generic [ref=e321]:
+                  - link "VT Reedle Shot EX Cica Modeling Pack" [ref=e322] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/vt-reedle-shot-ex-cica-modeling-pack
+                    - img "VT Cosmetics Reedle Shot EX Cica Modeling Pack by VT Cosmetics – Modeling Mask" [ref=e325]
+                  - generic [ref=e326]:
+                    - generic [ref=e327]: 3 For 25% OFF
+                    - generic [ref=e328]: Spicules
+                  - button "Add to cart" [ref=e330] [cursor=pointer]
+                - generic [ref=e333]:
+                  - paragraph [ref=e334]:
+                    - link "Type:Modeling Mask" [ref=e335] [cursor=pointer]:
+                      - /url: /collections/types?q=Modeling%20Mask
+                      - text: Modeling Mask
+                  - heading [level=3] [ref=e336]:
+                    - link "VT Reedle Shot EX Cica Modeling Pack" [ref=e337] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/vt-reedle-shot-ex-cica-modeling-pack
+                  - generic [ref=e339]:
+                    - generic [ref=e340]: Regular price
+                    - text: $6.99 CAD
+              - generic [ref=e343]:
+                - generic [ref=e344]:
+                  - link "VT Reedle Shot EX Collagen Modeling Pack" [ref=e345] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/vt-reedle-shot-ex-collagen-modeling-pack
+                    - img "VT Cosmetics Reedle Shot EX Collagen Modeling Pack by VT Cosmetics – Modeling Mask" [ref=e348]
+                  - generic [ref=e349]:
+                    - generic [ref=e350]: 3 For 25% OFF
+                    - generic [ref=e351]: Spicules
+                  - button "Add to cart" [ref=e353] [cursor=pointer]
+                - generic [ref=e356]:
+                  - paragraph [ref=e357]:
+                    - link "Type:Modeling Mask" [ref=e358] [cursor=pointer]:
+                      - /url: /collections/types?q=Modeling%20Mask
+                      - text: Modeling Mask
+                  - heading [level=3] [ref=e359]:
+                    - link "VT Reedle Shot EX Collagen Modeling Pack" [ref=e360] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/vt-reedle-shot-ex-collagen-modeling-pack
+                  - generic [ref=e362]:
+                    - generic [ref=e363]: Regular price
+                    - text: $6.99 CAD
+              - generic [ref=e366]:
+                - generic [ref=e367]:
+                  - link "VT Reedle Shot EX Hyaluronic Modeling Pack 1 pc" [ref=e368] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/vt-reedle-shot-ex-hyaluronic-modeling-pack-1-pc
+                    - img "VT Cosmetics Reedle Shot EX Hyaluronic Modeling Pack 1 pc by VT Cosmetics – Modeling Mask" [ref=e371]
+                  - generic [ref=e372]:
+                    - generic [ref=e373]: 3 For 25% OFF
+                    - generic [ref=e374]: Spicules
+                  - button "Add to cart" [ref=e376] [cursor=pointer]
+                - generic [ref=e379]:
+                  - paragraph [ref=e380]:
+                    - link "Type:Modeling Mask" [ref=e381] [cursor=pointer]:
+                      - /url: /collections/types?q=Modeling%20Mask
+                      - text: Modeling Mask
+                  - heading [level=3] [ref=e382]:
+                    - link "VT Reedle Shot EX Hyaluronic Modeling Pack 1 pc" [ref=e383] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/vt-reedle-shot-ex-hyaluronic-modeling-pack-1-pc
+                  - generic [ref=e385]:
+                    - generic [ref=e386]: Regular price
+                    - text: $6.99 CAD
+              - generic [ref=e389]:
+                - generic [ref=e390]:
+                  - link "VT Reedle Shot EX Vitamin Modeling Pack 1pc" [ref=e391] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/vt-reedle-shot-ex-vitamin-modeling-pack-1pc
+                    - img "VT Cosmetics Reedle Shot EX Vitamin Modeling Pack 1pc by VT Cosmetics – Modeling Mask" [ref=e394]
+                  - generic [ref=e395]:
+                    - generic [ref=e396]: 3 For 25% OFF
+                    - generic [ref=e397]: Spicules
+                  - button "Add to cart" [ref=e399] [cursor=pointer]
+                - generic [ref=e402]:
+                  - paragraph [ref=e403]:
+                    - link "Type:Modeling Mask" [ref=e404] [cursor=pointer]:
+                      - /url: /collections/types?q=Modeling%20Mask
+                      - text: Modeling Mask
+                  - heading [level=3] [ref=e405]:
+                    - link "VT Reedle Shot EX Vitamin Modeling Pack 1pc" [ref=e406] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/vt-reedle-shot-ex-vitamin-modeling-pack-1pc
+                  - generic [ref=e408]:
+                    - generic [ref=e409]: Regular price
+                    - text: $6.99 CAD
+              - generic [ref=e412]:
+                - generic [ref=e413]:
+                  - link "Medicube Zero Pore Blackhead Mud Mask 100g" [ref=e414] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/medicube-zero-pore-blackhead-mud-mask-100g
+                    - img "Medicube Zero Pore Blackhead Mud Mask 100g by Medicube – Wash - Off Mask" [ref=e417]
+                  - generic [ref=e418]:
+                    - generic [ref=e419]: Best Sellers
+                    - generic [ref=e420]: PDRN
+                  - button "Add to cart" [ref=e422] [cursor=pointer]
+                - generic [ref=e425]:
+                  - paragraph [ref=e426]:
+                    - link "Type:Wash-Off Mask" [ref=e427] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e428]:
+                    - link "Medicube Zero Pore Blackhead Mud Mask 100g" [ref=e429] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/medicube-zero-pore-blackhead-mud-mask-100g
+                  - generic [ref=e431]:
+                    - generic [ref=e432]: Regular price
+                    - text: $29.99 CAD
+              - generic [ref=e435]:
+                - generic [ref=e436]:
+                  - link "AXIS-Y New Skin Resolution Gel Mask 100ml" [ref=e437] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/new-skin-resolution-gel-mask-100-ml
+                    - img "AXIS - Y New Skin Resolution Gel Mask 100ml by AXIS - Y – Wash - Off Mask" [ref=e440]
+                  - button "Add to cart" [ref=e442] [cursor=pointer]
+                - generic [ref=e445]:
+                  - paragraph [ref=e446]:
+                    - link "Type:Wash-Off Mask" [ref=e447] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e448]:
+                    - link "AXIS-Y New Skin Resolution Gel Mask 100ml" [ref=e449] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/new-skin-resolution-gel-mask-100-ml
+                  - generic [ref=e451]:
+                    - generic [ref=e452]: Regular price
+                    - text: $25.99 CAD
+              - generic [ref=e455]:
+                - generic [ref=e456]:
+                  - link "Bioré Charcoal Whipped Purifying Detox Mask 110g" [ref=e457] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/biore-charcoal-whipped-purifying-detox-mask
+                    - img "Bioré Charcoal Whipped Purifying Detox Mask 110g by Biore – Wash - Off Mask" [ref=e460]
+                  - generic [ref=e461]:
+                    - generic [ref=e462]: GWP
+                    - generic [ref=e463]: New
+                  - button "Add to cart" [ref=e465] [cursor=pointer]
+                - generic [ref=e468]:
+                  - paragraph [ref=e469]:
+                    - link "Type:Wash-Off Mask" [ref=e470] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e471]:
+                    - link "Bioré Charcoal Whipped Purifying Detox Mask 110g" [ref=e472] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/biore-charcoal-whipped-purifying-detox-mask
+                  - generic [ref=e474]:
+                    - generic [ref=e475]: Regular price
+                    - text: $12.99 CAD
+              - link "Long Weekend Sale - 15% OFF bundles" [ref=e477] [cursor=pointer]:
+                - /url: /collections/bundles
+                - img "Kiokii and..." [ref=e483]
+              - generic [ref=e488]:
+                - generic [ref=e489]:
+                  - link "MEDIHEAL Derma Modeling Pack 28g - Collagen" [ref=e490] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/mediheal-derma-modeling-pack-28g-collagen
+                    - img "MEDIHEAL Derma Modeling Pack 28g - Collagen by Kiokii and... – Wash - Off Mask" [ref=e493]
+                  - generic [ref=e494]: New
+                  - button "Add to cart" [ref=e497] [cursor=pointer]
+                - generic [ref=e500]:
+                  - paragraph [ref=e501]:
+                    - link "Type:Wash-Off Mask" [ref=e502] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e503]:
+                    - link "MEDIHEAL Derma Modeling Pack 28g - Collagen" [ref=e504] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/mediheal-derma-modeling-pack-28g-collagen
+                  - generic [ref=e506]:
+                    - generic [ref=e507]: Regular price
+                    - text: $6.99 CAD
+              - generic [ref=e510]:
+                - generic [ref=e511]:
+                  - link "Mediheal Derma Modeling Pack Madecassoside Special Set" [ref=e512] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/mediheal-derma-modeling-pack-madecassoside-special-set
+                    - img "Mediheal Derma Modeling Pack Madecassoside Special Set by Mediheal – Modeling Mask" [ref=e515]
+                  - generic [ref=e516]:
+                    - generic [aria-hidden] [ref=e517]: Sold out
+                    - generic [ref=e518]: New
+                  - button "Add to cart" [disabled] [ref=e520]:
+                    - generic [ref=e521]: Sold out
+                - generic [ref=e523]:
+                  - paragraph [ref=e524]:
+                    - link "Type:Modeling Mask" [ref=e525] [cursor=pointer]:
+                      - /url: /collections/types?q=Modeling%20Mask
+                      - text: Modeling Mask
+                  - heading [level=3] [ref=e526]:
+                    - link "Mediheal Derma Modeling Pack Madecassoside Special Set" [ref=e527] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/mediheal-derma-modeling-pack-madecassoside-special-set
+                  - generic [ref=e529]:
+                    - generic [ref=e530]: Regular price
+                    - text: $40.00 CAD
+              - generic [ref=e533]:
+                - generic [ref=e534]:
+                  - link "AXIS-Y Mugwort Pore Clarifying Wash Off Pack 50ml" [ref=e535] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks/products/axisy-mugwort-pore-clarifying-wash-off-pack-50ml
+                    - img "AXIS-Y Mugwort Pore Clarifying Wash Off Pack 50ml by AXIS-Y – Wash-Off Mask" [ref=e538]
+                  - generic [ref=e539]: New
+                  - button "Add to cart" [ref=e542] [cursor=pointer]
+                - generic [ref=e545]:
+                  - paragraph [ref=e546]:
+                    - link "Type:Wash-Off Mask" [ref=e547] [cursor=pointer]:
+                      - /url: /collections/types?q=Wash-Off%20Mask
+                      - text: Wash-Off Mask
+                  - heading [level=3] [ref=e548]:
+                    - link "AXIS-Y Mugwort Pore Clarifying Wash Off Pack 50ml" [ref=e549] [cursor=pointer]:
+                      - /url: /collections/wash-off-masks/products/axisy-mugwort-pore-clarifying-wash-off-pack-50ml
+                  - generic [ref=e551]:
+                    - generic [ref=e552]: Regular price
+                    - text: $9.99 CAD
+              - link "2 Best Sellers, 15% OFF" [ref=e554] [cursor=pointer]:
+                - /url: https://kiokii.com/collections/1-1-value-sets-12-off-on-bestsellers
+                - img "Kiokii and..." [ref=e559]
+              - link "Selected Skincare Buy 3 For 25% OFF" [ref=e563] [cursor=pointer]:
+                - /url: https://kiokii.com/collections/skin-school-2-0-buy-3-get-25-off
+                - img "Kiokii and..." [ref=e568]
+            - navigation "Pagination" [ref=e571]:
+              - list [ref=e572]:
+                - listitem [ref=e573]:
+                  - link "Prev" [ref=e574] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks?page=1
+                - listitem [ref=e578]:
+                  - link "Page 1" [ref=e579] [cursor=pointer]:
+                    - /url: /collections/wash-off-masks?page=1
+                    - text: "1"
+                - listitem [ref=e580]:
+                  - link "Page 2" [disabled] [ref=e581]: "2"
+      - generic [ref=e584]:
+        - heading [level=2] [ref=e587]
+        - generic [ref=e590]:
+          - group "1 / 9" [ref=e591]:
+            - link "Best Sellers" [ref=e593] [cursor=pointer]:
+              - /url: /collections/best-sellers
+          - group "2 / 9" [ref=e596]:
+            - link "New Arrivals" [ref=e598] [cursor=pointer]:
+              - /url: /collections/new-arrivals
+          - group "3 / 9" [ref=e601]:
+            - link "Sun Care" [ref=e603] [cursor=pointer]:
+              - /url: /collections/sun-care
+          - group "4 / 9" [ref=e606]:
+            - link "All Brands" [ref=e608] [cursor=pointer]:
+              - /url: /pages/brands
+          - group "5 / 9" [ref=e611]:
+            - link "Clearance" [ref=e613] [cursor=pointer]:
+              - /url: /collections/clearance
+          - group "6 / 9" [ref=e616]:
+            - link "Our Stores" [ref=e618] [cursor=pointer]:
+              - /url: /pages/store-locator
+          - group "7 / 9" [ref=e621]:
+            - link "Kiokii Rewards" [ref=e623] [cursor=pointer]:
+              - /url: /pages/rewards
+          - group "8 / 9" [ref=e626]:
+            - link "Medicube" [ref=e628] [cursor=pointer]:
+              - /url: /collections/medicube
+          - group "9 / 9" [ref=e631]:
+            - link "Celimax" [ref=e633] [cursor=pointer]:
+              - /url: /collections/celimax
+  - button "Chat" [ref=e641] [cursor=pointer]
+  - generic [ref=e650]:
+    - generic [ref=e652]:
+      - heading "Cart • 0" [level=3] [ref=e653]
+      - button "Close cart" [ref=e654] [cursor=pointer]
+    - generic [ref=e657]:
+      - heading "Your cart is empty" [level=3] [ref=e659]
+      - generic [ref=e661]:
+        - heading "Add your favourite items to your cart." [level=3] [ref=e662]
+        - link "Shop Now" [ref=e664] [cursor=pointer]:
+          - /url: /
+  - region "Cookie consent" [active]:
+    - dialog "We respect your privacy" [ref=e665]:
+      - generic [ref=e666]:
+        - heading "We respect your privacy" [level=2] [ref=e668]
+        - generic [ref=e672]:
+          - text: This website uses cookies to ensure you get the best experience.
+          - link "Learn more" [ref=e674] [cursor=pointer]:
+            - /url: /policies/privacy-policy
+        - generic [ref=e676]:
+          - button "Accept" [ref=e677] [cursor=pointer]
+          - button "Decline" [ref=e678] [cursor=pointer]

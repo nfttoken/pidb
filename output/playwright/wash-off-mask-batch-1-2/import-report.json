@@ -1,0 +1,574 @@
+{
+  "source_pages": [
+    "https://kiokii.com/collections/wash-off-masks",
+    "https://kiokii.com/collections/wash-off-masks?page=2"
+  ],
+  "discovered": 39,
+  "extracted": 39,
+  "processed": 39,
+  "created": 39,
+  "skipped_existing_products": 0,
+  "hosted_images": 161,
+  "reused_hosted_images": 0,
+  "attached_images": 139,
+  "image_failures": [
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/beauty-of-joseon-red-bean-refreshing-pore-mask-140ml-beauty-of-joseon-kiokii-and-7810674.jpg?v=1784945717",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788707710490_q718wx.jpg"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/beauty-of-joseon-red-bean-refreshing-pore-mask-140ml-beauty-of-joseon-kiokii-and-4826779.jpg?v=1784945716",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788707727532_s2lshm.jpg"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/ground-rice-and-honey-glow-mask-150mlbeauty-of-joseonkiokii-and-222236.webp?v=1771617985",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788707765076_zzku57.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/im-from-rice-mask-110gim-from-627978.jpg?v=1771616931",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788707878885_2e0nmy.jpg"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/rice-mask-120gskinfoodkiokii-and-151007.webp?v=1771617851",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788707989481_6ty245.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/im-from-ginseng-mask-120gim-from-476403.jpg?v=1771616942",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708020184_zo722x.jpg"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/im-from-ginseng-mask-120gim-from-451279.jpg?v=1771616942",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708028757_2dx5r9.jpg"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/im-from-mugwort-mask-110gim-from-141419.jpg?v=1771616947",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708095290_rv8kxo.jpg"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/tunemakers-skin-conditioning-mask-70gtunemakerskiokii-and-8113843.png?v=1756479649",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708158940_70f3a0.png"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/torhop-saunan-heating-salt-facial-mask-90gtorhopkiokii-and-2817577.webp?v=1754547735",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708283145_e1sb95.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/products/lindsay-charcoal-modeling-masklindsay-744734.webp?v=1771617777",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708386040_ge8kyo.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-vitamin-mediheal-kiokii-and-6000152.webp?v=1776515828",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708406302_lxihgn.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-vitamin-mediheal-kiokii-and-5848696.webp?v=1776515829",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708414901_opnka8.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-hyaluronate-moisture-mediheal-kiokii-and-8383148.webp?v=1776515830",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708465593_ogfsvl.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-teatree-calming-mediheal-kiokii-and-8646672.webp?v=1776515830",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708514721_y5cvf6.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-teatree-calming-mediheal-kiokii-and-9098097.webp?v=1776515830",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708520278_8akfjm.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-madecassoside-blemish-mediheal-kiokii-and-9279069.webp?v=1776515830",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708566935_n9eba1.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/vt-reedle-shot-ex-collagen-modeling-packvt-cosmeticskiokii-and-458645.webp?v=1771618596",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708598282_w62gqt.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/vt-reedle-shot-ex-hyaluronic-modeling-pack-1-pcvt-cosmeticskiokii-and-239644.webp?v=1771618596",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708602273_zlhv05.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/medicube-zero-pore-blackhead-mud-mask-100gmedicubekiokii-and-4833613.webp?v=1762394755",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708618011_lv8lgr.webp"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/medicube-zero-pore-blackhead-mud-mask-100gmedicubekiokii-and-2730390.png?v=1762394756",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708628602_jbs8da.png"
+    },
+    {
+      "source_url": "https://kiokii.com/cdn/shop/files/mediheal-derma-modeling-pack-28g-collagen-kiokii-and-kiokii-and-5556755.webp?v=1777487118",
+      "error": "Image host URL failed GET validation: https://img.erc721.eu.org/file/telegram_1788708713856_5zsaup.webp"
+    }
+  ],
+  "products": [
+    {
+      "id": "d8a04689-b4b0-4a62-ab2f-055ad6110c91",
+      "product_code": "MASK-BEAUTY-OF-JOSEON-AED34294",
+      "product_name_en": "Beauty of Joseon Red Bean Refreshing Pore Mask 140ml",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 2,
+      "claim_count": 5,
+      "ingredient_link_count": 2,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "3c037c7d-fd39-4b33-9d3e-0ca5c1c8bf27",
+      "product_code": "MASK-BEAUTY-OF-JOSEON-2CEB1B5B",
+      "product_name_en": "Beauty of Joseon Ground Rice and Honey Glow Mask 150ml",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 5,
+      "claim_count": 5,
+      "ingredient_link_count": 3,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "17ea9d57-3c01-4297-80b5-20b0dfcbe6e0",
+      "product_code": "MASK-SKIN1004-0033205C",
+      "product_name_en": "SKIN1004 Madagascar Centella Poremizing Quick Clay Stick Mask 27g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 3,
+      "claim_count": 5,
+      "ingredient_link_count": 2,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "19cdcb2f-9dcb-4799-abd0-0912a8dca9d9",
+      "product_code": "MASK-AXIS-Y-27D2FEA5",
+      "product_name_en": "AXIS-Y Mugwort Pore Clarifying Wash Off Pack 100ml",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 1,
+      "claim_count": 4,
+      "ingredient_link_count": 5,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "8f4dffe6-dcb1-4bfd-8d00-be8e7153597e",
+      "product_code": "MASK-I-M-FROM-3DF68E96",
+      "product_name_en": "Im From Rice Mask 110g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 9,
+      "claim_count": 4,
+      "ingredient_link_count": 3,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "725ab242-e651-4868-80c4-37747b55bb4a",
+      "product_code": "MASK-SKINFOOD-36D9A817",
+      "product_name_en": "Skinfood Egg White Pore Mask 120g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 8,
+      "claim_count": 5,
+      "ingredient_link_count": 1,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "db15d67c-904c-4580-b7bc-37b6e896cf14",
+      "product_code": "MASK-SKINFOOD-0983C8A0",
+      "product_name_en": "Skinfood Rice Mask 120g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 7,
+      "claim_count": 3,
+      "ingredient_link_count": 0,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "eb431bc9-8634-4c98-a875-54c449903efd",
+      "product_code": "MASK-I-M-FROM-CB9A49ED",
+      "product_name_en": "Im From Ginseng Mask 120g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 4,
+      "claim_count": 5,
+      "ingredient_link_count": 1,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "a2cf2ea5-4198-43c5-be48-155405a6566c",
+      "product_code": "MASK-GOODAL-E639FA0A",
+      "product_name_en": "Goodal Green Tangerine Vita C Wash Off Mask 110g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 5,
+      "claim_count": 5,
+      "ingredient_link_count": 5,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "bab76c3f-b344-4096-b63d-70f256ce0ab0",
+      "product_code": "MASK-I-M-FROM-5E349DC5",
+      "product_name_en": "Im From Mugwort Mask 110g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 7,
+      "claim_count": 4,
+      "ingredient_link_count": 3,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "cbe4190e-5faa-430f-93c8-7fd16d01f02a",
+      "product_code": "MASK-AXIS-Y-C7854111",
+      "product_name_en": "AXIS-Y Mask Now Glow Later Duo Set",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 1,
+      "claim_count": 3,
+      "ingredient_link_count": 9,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "74b38f0b-08d5-40a1-8062-42d07701deb8",
+      "product_code": "MASK-TUNEMAKERS-0E44F65F",
+      "product_name_en": "TUNEMAKERS undiluted solution clay mask 100g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 4,
+      "claim_count": 4,
+      "ingredient_link_count": 3,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "ed358a61-a332-40e0-aa12-05208519b778",
+      "product_code": "MASK-SKINFOOD-609A9408",
+      "product_name_en": "Skinfood Black Sugar Mask 120g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 3,
+      "claim_count": 0,
+      "ingredient_link_count": 1,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "d5b66b86-00bc-4160-b2ba-82b28fa12d06",
+      "product_code": "MASK-TUNEMAKERS-325A1E71",
+      "product_name_en": "Tunemakers Skin Conditioning Mask 70g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 2,
+      "claim_count": 4,
+      "ingredient_link_count": 0,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "f0a87693-2aa4-474a-bf83-29169fd54d27",
+      "product_code": "MASK-I-M-FROM-8D2A4326",
+      "product_name_en": "Im From Fig Scrub Mask 120g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 6,
+      "claim_count": 5,
+      "ingredient_link_count": 0,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "d187597d-4ce0-4148-9e7a-61e611fd1ce4",
+      "product_code": "MASK-BCL-73B75ACD",
+      "product_name_en": "BCL Tsururi Peel Off Mask Dirt Catch Charcoal 55g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 2,
+      "claim_count": 3,
+      "ingredient_link_count": 0,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "aa2cce2b-42c8-479f-87eb-99a3d862dae4",
+      "product_code": "MASK-TORRIDEN-B4349D0A",
+      "product_name_en": "Torriden Dive In Modeling Pack 30g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 7,
+      "claim_count": 5,
+      "ingredient_link_count": 4,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "5cee8358-3336-456e-a563-24070634ad7f",
+      "product_code": "MASK-ISNTREE-49068D5F",
+      "product_name_en": "Isntree Gim PDRN Deep Sleep Mask 80ml",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 5,
+      "claim_count": 4,
+      "ingredient_link_count": 4,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "105f89ae-1800-4866-9969-475db429466e",
+      "product_code": "MASK-TORHOP-BEA8E568",
+      "product_name_en": "Torhop Saunan Heating Salt Facial Mask 90g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 8,
+      "claim_count": 4,
+      "ingredient_link_count": 6,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "9521d13a-d655-4d69-a3e7-783f77a1ec1a",
+      "product_code": "MASK-MEDIHEAL-A8F01A91",
+      "product_name_en": "MEDIHEAL Hyaluron Hydrating Sleeping Mask 20ml",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 2,
+      "claim_count": 4,
+      "ingredient_link_count": 5,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "3ad25e4a-953e-43ac-a066-abbc231cd6eb",
+      "product_code": "MASK-LINDSAY-5EC01F42",
+      "product_name_en": "Lindsay Collagen Modeling Mask",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 2,
+      "claim_count": 11,
+      "ingredient_link_count": 0,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "ec6012fa-2afc-42c1-b553-cbb7fe801069",
+      "product_code": "MASK-LINDSAY-581CD100",
+      "product_name_en": "Lindsay Vitamin Modeling Mask",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 2,
+      "claim_count": 11,
+      "ingredient_link_count": 0,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "33bbe560-dce9-44ce-915c-1c234f7c1171",
+      "product_code": "MASK-LINDSAY-9858C40C",
+      "product_name_en": "Lindsay Calendula Modeling Mask",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 2,
+      "claim_count": 11,
+      "ingredient_link_count": 0,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "301b2a47-7c9d-4404-abcd-97baafb647ff",
+      "product_code": "MASK-LINDSAY-C3BE206A",
+      "product_name_en": "Lindsay Cool Tea Tree Modeling Mask",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 2,
+      "claim_count": 11,
+      "ingredient_link_count": 2,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "5c2c6d89-5a8f-4c55-96a7-2c37e89d1f8d",
+      "product_code": "MASK-LINDSAY-32A437F5",
+      "product_name_en": "Lindsay Charcoal Modeling Mask",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 1,
+      "claim_count": 11,
+      "ingredient_link_count": 0,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "e4635d5a-aaa0-432a-a4d6-bec106d88578",
+      "product_code": "MASK-MEDIHEAL-39CB9394",
+      "product_name_en": "MEDIHEAL Derma Modeling Pack 28g - Vitamin",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 2,
+      "claim_count": 3,
+      "ingredient_link_count": 4,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "f02b4afd-0dc9-4af2-bce2-7b6938ab722d",
+      "product_code": "MASK-MEDIHEAL-0727CE55",
+      "product_name_en": "MEDIHEAL Derma Modeling Pack 28g - Hyaluronate Moisture",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 5,
+      "claim_count": 3,
+      "ingredient_link_count": 4,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "fda0674d-7ef3-4570-93ee-bad025f7ed02",
+      "product_code": "MASK-MEDIHEAL-487A8717",
+      "product_name_en": "MEDIHEAL Derma Modeling Pack 28g - Teatree Calming",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 4,
+      "claim_count": 3,
+      "ingredient_link_count": 4,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "5c685475-48d3-4878-8aef-a668a4686e63",
+      "product_code": "MASK-MEDIHEAL-92AB970F",
+      "product_name_en": "MEDIHEAL Derma Modeling Pack 28g - Madecassoside Blemish",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 5,
+      "claim_count": 3,
+      "ingredient_link_count": 4,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "2036c61d-ad29-4b3a-aaf6-3b808cb3b3d5",
+      "product_code": "MASK-VT-COSMETICS-F143C1F3",
+      "product_name_en": "VT Reedle Shot EX Cica Modeling Pack",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 1,
+      "claim_count": 3,
+      "ingredient_link_count": 5,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "c4b92a0c-2902-4738-bdef-16887d16a814",
+      "product_code": "MASK-VT-COSMETICS-B7DF61B4",
+      "product_name_en": "VT Reedle Shot EX Collagen Modeling Pack",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 0,
+      "claim_count": 4,
+      "ingredient_link_count": 0,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "cd376953-eeeb-4490-9a09-508017862bdd",
+      "product_code": "MASK-VT-COSMETICS-04CB0043",
+      "product_name_en": "VT Reedle Shot EX Hyaluronic Modeling Pack 1 pc",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 0,
+      "claim_count": 4,
+      "ingredient_link_count": 3,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "9ff951a3-6404-4754-82df-03b60941460f",
+      "product_code": "MASK-VT-COSMETICS-5346BBD9",
+      "product_name_en": "VT Reedle Shot EX Vitamin Modeling Pack 1pc",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 1,
+      "claim_count": 4,
+      "ingredient_link_count": 1,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "91c1eb7c-caf1-4d26-9ade-c00c61a84aed",
+      "product_code": "MASK-MEDICUBE-A51DAF25",
+      "product_name_en": "Medicube Zero Pore Blackhead Mud Mask 100g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 6,
+      "claim_count": 5,
+      "ingredient_link_count": 6,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "06154fa4-42a9-4c93-82f8-89a7d15821f9",
+      "product_code": "MASK-AXIS-Y-F6C3A609",
+      "product_name_en": "AXIS-Y New Skin Resolution Gel Mask 100ml",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 1,
+      "claim_count": 4,
+      "ingredient_link_count": 8,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "0473dd0f-abe4-4e7c-b200-8aa27c4b9897",
+      "product_code": "MASK-BIORE-81DAF8B2",
+      "product_name_en": "Bioré Charcoal Whipped Purifying Detox Mask 110g",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 3,
+      "claim_count": 4,
+      "ingredient_link_count": 2,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "8d6f8052-d05a-4d2a-ba31-e844c7987fb6",
+      "product_code": "MASK-MEDIHEAL-E16D9744",
+      "product_name_en": "MEDIHEAL Derma Modeling Pack 28g - Collagen",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 3,
+      "claim_count": 4,
+      "ingredient_link_count": 5,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "633837c7-f961-4c8e-92b0-f68b569b3d80",
+      "product_code": "MASK-MEDIHEAL-0AE602B6",
+      "product_name_en": "Mediheal Derma Modeling Pack Madecassoside Special Set",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 4,
+      "claim_count": 3,
+      "ingredient_link_count": 9,
+      "literal_escape_fields": []
+    },
+    {
+      "id": "edcfd0f5-1bf4-4e07-ac4f-849d8b63fc14",
+      "product_code": "MASK-AXIS-Y-8585BEA6",
+      "product_name_en": "AXIS-Y Mugwort Pore Clarifying Wash Off Pack 50ml",
+      "status": "imported",
+      "compliance_status": "pending",
+      "sku_count": 1,
+      "image_count": 4,
+      "claim_count": 4,
+      "ingredient_link_count": 5,
+      "literal_escape_fields": []
+    }
+  ]
+}

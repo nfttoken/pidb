@@ -1,0 +1,27 @@
+{
+  "source_pages": [
+    "https://kiokii.com/collections/wash-off-masks",
+    "https://kiokii.com/collections/wash-off-masks?page=2"
+  ],
+  "discovered": 39,
+  "extracted": 39,
+  "created": 39,
+  "skipped_existing_products": 0,
+  "image_retry_failed": 0,
+  "active_images": 161,
+  "unique_active_image_urls": 161,
+  "unreachable_images": 0,
+  "missing_translations": [],
+  "literal_escape_fields": [],
+  "image_mismatches": [],
+  "lifecycle_failures": [],
+  "missing_core_fields": [],
+  "duplicate_skus": [],
+  "translation_providers": [
+    "DeepL API"
+  ],
+  "chinese_description_products": 39,
+  "chinese_how_to_use_products": 39,
+  "chinese_warning_products": 25,
+  "chinese_claims": 187
+}
