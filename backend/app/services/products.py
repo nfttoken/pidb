@@ -142,6 +142,12 @@ async def create_product(db: AsyncSession, payload: ProductCreate) -> Product:
 
     await _validate_skus(db, payload.skus)
 
+    sku_rows = []
+    for sku in payload.skus:
+        sku_values = sku.model_dump()
+        sku_values["suggested_price_currency"] = sku.suggested_price_currency.upper()
+        sku_rows.append(ProductSku(**sku_values))
+
     product = Product(
         **payload.model_dump(
             exclude={"skus", "skin_type_ids", "skin_concern_ids", "ingredient_ids", "ingredients", "claims"}
@@ -150,7 +156,7 @@ async def create_product(db: AsyncSession, payload: ProductCreate) -> Product:
         product_type=product_type,
         skin_types=skin_types,
         skin_concerns=skin_concerns,
-        skus=[ProductSku(**sku.model_dump(suggested_price_currency=sku.suggested_price_currency.upper())) for sku in payload.skus],
+        skus=sku_rows,
         ingredients=[
             ProductIngredient(
                 ingredient=ingredient,
@@ -195,7 +201,8 @@ async def update_product(db: AsyncSession, product: Product, payload: ProductUpd
         product.skus = []
         for sku in payload.skus or []:
             currency = sku.suggested_price_currency.upper()
-            values_for_sku = sku.model_dump(suggested_price_currency=currency)
+            values_for_sku = sku.model_dump()
+            values_for_sku["suggested_price_currency"] = currency
             previous = previous_skus.get(sku.sku)
             same_price = previous and previous.suggested_price == sku.suggested_price and previous.suggested_price_currency == currency
             if same_price:
